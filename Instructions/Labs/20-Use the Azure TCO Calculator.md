@@ -110,7 +110,7 @@ In this task, we will review cost saving recommendations and download a report.
     ![](../images/lab20-image8.png)
 
 
-1. To save or print a PDF copy of the report, click **Download**.
+1. To save or print a PDF copy of the report, click **Download** and click on **Print**. Provide relevent name to save the file. 
 
    ![](../images/lab20-image9.png)
 
