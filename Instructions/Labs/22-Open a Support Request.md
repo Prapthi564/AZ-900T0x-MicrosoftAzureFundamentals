@@ -107,4 +107,4 @@ In this lab, you have completed:
   
 - https://learn.microsoft.com/en-us/services-hub/unified/support/open-support-requests
   
-## You have successfully completed this lab.
+## Congratulations you have successfully completed this lab.
