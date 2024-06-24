@@ -127,4 +127,4 @@ In this lab, you have completed:
 
 - https://bluexp.netapp.com/blog/azure-cvo-blg-how-to-reduce-your-cloud-bill-with-the-azure-tco-calculator
 
-## You have successfully completed this lab.
+## You have successfully completed this lab. Proceed with the next lab.
