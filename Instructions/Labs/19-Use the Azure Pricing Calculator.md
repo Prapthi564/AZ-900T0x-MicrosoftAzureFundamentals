@@ -139,4 +139,4 @@ In this lab, you have completed:
 
 - https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/pricing-calculator
   
-## You have successfully completed this lab.
+## You have successfully completed this lab. Proceed with the next lab.
