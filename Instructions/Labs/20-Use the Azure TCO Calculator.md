@@ -110,7 +110,7 @@ In this task, we will review cost saving recommendations and download a report.
     ![](../images/lab20-image8.png)
 
 
-1. To save or print a PDF copy of the report, click **Download**.
+1. To save or print a PDF copy of the report, click **Download** and click on **Print**. Provide relevent name to save the file. 
 
    ![](../images/lab20-image9.png)
 
@@ -127,4 +127,4 @@ In this lab, you have completed:
 
 - https://bluexp.netapp.com/blog/azure-cvo-blg-how-to-reduce-your-cloud-bill-with-the-azure-tco-calculator
 
-## You have successfully completed this lab.
+## Congratulation you have successfully completed this lab. Proceed with the next lab. 

@@ -46,7 +46,6 @@ In this lab, you will complete the following tasks:
 
 1. From the top of the page select **Create a support request** then specift the following
 
-    ![](../images/lab04-image16.png)
    
     | Setting | Value|
     |----|--------|
@@ -107,4 +106,4 @@ In this lab, you have completed:
   
 - https://learn.microsoft.com/en-us/services-hub/unified/support/open-support-requests
   
-## You have successfully completed this lab.
+## Congratulations you have successfully completed this lab.

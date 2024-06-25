@@ -42,9 +42,9 @@ In this lab, you will complete the following tasks:
 
    ![screenshot of the downloading the word file.](../images/l21a.png) 
 
-1. Then again Type/Search for **Azure Active Directory B2C** service  and click on the Application Gateway search result now notice the **Monthly uptime percentages** and **Service Credits**.
+1. Then again Type/Search for **Azure Active Directory B2C** service, now notice the **Monthly uptime percentages** and **Service Credits**.
 
-1. Type/Search for **Application Gateway** SLA uptime value, and click on the Application Gateway search result now notice the **Monthly uptime percentages** and **Service Credits**.
+1. Type/Search for **Application Gateway** and click on the Application Gateway search result now notice the **Monthly uptime percentages** and **Service Credits**.
 
 1. The Azure SQL database uses Premium tiers but is not configured for Zone Redundant Deployments. Locate the **Azure SQL Database** and notice the **Monthly uptime percentages** and **Service Credits**.
 
@@ -68,4 +68,4 @@ In this lab, you have completed:
 
 - https://learn.microsoft.com/en-us/azure/well-architected/reliability/metrics
 
-## You have successfully completed this lab.
+## Congratulation you have successfully completed this lab. Proceed with the next lab. 

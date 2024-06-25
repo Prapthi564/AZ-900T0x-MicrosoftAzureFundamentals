@@ -122,9 +122,11 @@ In this task, we will review the results of the Azure Pricing Calculator.
 
     ![Screenshot of an example Azure pricing calculator estimate in Microsoft excel.](../images/l19ex1.png)
    
-1. Open the downloaded Cost Estimation Sheet.
+1. Open the downloaded Cost Estimation Sheet in Supported Application. (Read-Only)
 
    ![Screenshot of an example Azure pricing calculator estimate in Microsoft excel.](../images/l19po.png)
+
+   >**Note**: There will be no supported application installed on the machine. this step shows us a way, how to store the cost estimates and how it can be viewed later. 
    
     >**Congratulations!** You downloaded an estimate from the Azure Pricing Calculator.
 
@@ -139,4 +141,4 @@ In this lab, you have completed:
 
 - https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/pricing-calculator
   
-## You have successfully completed this lab.
+## Congratulation you have successfully completed this lab. Proceed with the next lab. 
