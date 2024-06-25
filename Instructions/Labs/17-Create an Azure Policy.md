@@ -89,13 +89,14 @@ In this task, we will test the Allowed location policy.
      ![](../images/lab04-image20.png)
     
    **Note**: You will receive the error message under the Region setting stating that Policy enforcement and Value does not meet requirements on resource, including the **Allowed locations** policy name.
-      
+
+   <validation step="83fa70c3-eb07-44ed-a342-adf0100189ab"/>
+  
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
    > - Hit the Validate button for the corresponding task.
    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-<validation step="710e5a5f-229a-4391-b232-ebf723930b9a"/>
 
 ### Task 3: Delete the policy assignment
 
