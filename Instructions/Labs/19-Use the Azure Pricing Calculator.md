@@ -141,4 +141,4 @@ In this lab, you have completed:
 
 - https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/pricing-calculator
   
-## Congratulation you have successfully completed this lab. Proceed with the next lab. 
+## You have successfully completed this lab. Proceed with the next lab.
