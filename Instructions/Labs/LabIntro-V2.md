@@ -75,7 +75,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 5. If prompted to stay signed in, you can click "No."
  
-6. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **No** to skip the tour.
+6. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Cancel** to skip the tour.
  
 7. Click **Next** from the bottom right corner to embark on your Lab journey!
  
