@@ -85,8 +85,7 @@ In this task, we will create two virtual machines in the virtual network.
 
 1. Click **Next : Disks >** to switch to the **Disks** tab and in the **OS Disk type** select **Standard HDD** from the dropdown and leave everything else as default and click **Next : Networking >**. 
 
-   ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/hdd.png)
-
+    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/hdd.png)
 
 1. In **Networking** tab, make sure the virtual machine is placed in the vnet1 virtual network. Review the default settings, but do not make any other changes. 
 
