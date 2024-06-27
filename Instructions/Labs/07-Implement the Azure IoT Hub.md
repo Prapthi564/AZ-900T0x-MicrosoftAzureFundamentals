@@ -93,7 +93,6 @@ In this task, we will test our device using the Raspberry Pi Simulator.
 
     ![](../images/lab7-image8.png)
 
-
 1. In the code area, right side, locate the line with 'const connectionString ='. Replace **[Your IoT hub device connection string]**  with the connection string you copied from the Azure portal. Note that the connection sting includes the **DeviceId** and **SharedAccessKey** entries.
 
 	![](../images/lab7-image9.png)
