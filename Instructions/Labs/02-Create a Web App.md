@@ -60,10 +60,9 @@ In this task, you will create an Azure App Service Web App.
     | Sample | **NGINX (3)** |
     |||
 
-   ![](../images/review+create.png)
+    ![](../images/review+create.png)
 
-
-   >**Note:** This is same container that was used in the Container Instances walkthrough to display a hello world message.
+    >**Note:** This is same container that was used in the Container Instances walkthrough to display a hello world message.
 
 1. Once validation is passed click **Create**.
 
