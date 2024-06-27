@@ -107,7 +107,7 @@ We will delete the policy assignment to ensure we are not blocked on any future 
 
     ![](../images/lab17-image1.png)
 
-1.  Select **Allowed locations** policy.
+1. Select **Allowed locations** policy.
 
      ![](../images/lab17-image9.png)
     
@@ -117,7 +117,7 @@ We will delete the policy assignment to ensure we are not blocked on any future 
 
 1. On the Allowed location page,  Click **Delete Assignment** in the top menu.
 
-    ![](../images/lab04-image21.png)
+     ![](../images/lab04-image21.png)
   
 1. If Prompted confirm you wish to delete the policy assignment in the **Delete assignment** dialogue by clicking **Yes**
 
