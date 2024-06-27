@@ -38,14 +38,14 @@ In this task, we will estimate cost of a sample infrastructure by using the Azur
 1. Modify the default VM configuration.
 
     | Region | Operating system | Type |
-    |------|----------------|----|
+    |--------|------------------|----|
     | North Europe | Windows | (OS only) |
-    | | |
+   
 
     | Tier | Instance |
-    |----|--------|
+    |------|----------|
     | Standard | A2: 2 Core(s), 3.5 GB RAM, 135 GB Temporary storage |
-    | | |
+    
 
    ![Screenshot of the vm configuration area within the Azure pricing calculator estimate webpage. The highlighted examples of user inputted vm configuration property values indicate how to specify a vm configuration within an Azure pricing calculator estimate.](../images/l19b.png)
 
