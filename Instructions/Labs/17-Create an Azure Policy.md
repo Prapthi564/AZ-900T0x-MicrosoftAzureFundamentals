@@ -40,7 +40,6 @@ In this task, we will configure the allowed location policy and assign it to our
 
     ![](../images/lab17-image4.png)
 
-
 1. On the **Assign Policy** page, select the **Scope** by clicking the **ellipsis (1)**. Ensure your **subscription (2)** is selected. Notice you can **optionally choose the resource group (3)**. Leave the defaults and click **Select (4)**. 
 
     ![](../images/lab17-image5.png)
