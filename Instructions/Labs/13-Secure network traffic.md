@@ -167,7 +167,7 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
     | Name | **DenyInternet** |
    
     >**Note**: Once outbound rule is created please make sure to check Destination port ranges should be as **\*** if values are reverted kindly change it to **\*** and 
-     click on **Save**
+     click on **Save**.
 
 1. Return to your RDP session. 
 
