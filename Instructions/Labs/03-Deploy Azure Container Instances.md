@@ -21,60 +21,47 @@ In this lab, you will complete the following tasks:
 
 ### Task 1: Create a container instance
 
-In this task, we will create a new container instance for the web application. 
+In this task, we will create a new container instance for the web application.
 
-1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Container instances (1)**, and then select **Container instances (2)** under services.
+1. From the Azure portal, open the **Azure Cloud Shell** by clicking on the icon in the top right of the Azure Portal.
 
-   ![](../images/lab3-image1.png)
+    ![Screenshot of Azure Portal Azure Cloud Shell icon.](./images/az-900-19.png)
+
+1. The first time you open the Cloud Shell, you may be prompted to choose the type of shell you want to use (*Bash* or *PowerShell*). If so, select **Powershell**.
+
+    ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](./images/az-900-20.png)
    
-1. On **Container instances** blade, click **+ Create**. 
+1. On the Getting started, select **No storage account required (1)** and select your **Subscription (2)** under storage account subscription. Click on **Apply (3)**.
 
-1. On the **basics** tab. Provide the following basic details for creating a new container instance then click **Next : Networking >**.
+    ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](./images/az-900-21.png)
 
-	| Setting| Value|
-	|----|----|
-	| Subscription | **Choose your subscription (1)** |
-	| Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/> (2)** |
-	| Container name| **mycontainer (3)**|
-	| Region | **<inject key="Region" enableCopy="false"/> (4)** |
-	| Image source| **Other registry (5)**|
-	| Image type| **Public (6)**|
-	| Image| **mcr.microsoft.com/azuredocs/aci-helloworld (7)**|
-	| OS type| **Linux (8)** |
-	| Size| ***Leave at the default* (9)**|
+1. In the upper-left menu of the Cloud Shell pane, make sure you are using **Powershell**. If not selected select **Switch to Powershell**. In **Switch to Powershell in Cloud Shell** pop-up select **Confirm**.
 
-     ![](../images/lab04-image3.png)
-   
-     ![](../images/lab04-image(4).png)
-	
-1. On **Networking** tab . Specify the following and leave all other settings at their default values and click **Review + create (2)**.
+1. In the Powershell session, within the Cloud Shell pane, run the following command. 
 
-    | Setting| Value|
-    |--|--|
-    | DNS name label| **mycontainerdns<inject key="DeploymentID" enableCopy="false" /> (1)** |
-    |||
+    ```cli
+    az container create --resource-group AZ-900-<YourDeploymentID> --name mycontainer --image mcr.microsoft.com/azuredocs/aci-helloworld --cpu 1 --memory 1.5 --dns-name-label mycontainerdns<YourDeploymentID> --ports 80
+    ```
 
-    ![](../images/lab3-image2.png)
-   
-	>**Note**: Your container will be publicly reachable at dns-name-label.region.azurecontainer.io. If you receive a **DNS name label not available** error message following the deployment.
+    >**Note:** Replace < YourDeploymentID> with the Deployment ID provided in the Lab VM's **Environment** tab.
 
-1. Click **Create** to create the container instance. 
+1. While you wait you may be interested in viewing the [sample code behind this simple application](https://github.com/Azure-Samples/aci-helloworld). Browse the \app folder.
 
-1. Monitor the deployment page and the **Notifications** page. 
+1. You will see the resource created in the powershell window.
 
-1. While you wait you may be interested in viewing the [sample code behind this simple application](https://github.com/Azure-Samples/aci-helloworld). Browse the \app folder. 
+    ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](./images/az-900-17.png)
 
 ### Task 2: Verify deployment of the container instance
 
 In this task, we verify that the container instance is running by ensuring that the welcome page displays.
 
-1. After the deployment is complete, click the **Go to resource** button.
+1. After the deployment is complete, navigate to **AZ-900-<inject key="DeploymentID" enableCopy="false" />** resource group and select **mycontainer** container instance.
 
-   ![](../images/lab3-image3.png)
+   ![](./images/az-900-18.png)
 
 1. On the **Overview** blade of **mycontainer**, ensure your container **Status** is **Running**.
 
-    ![](../images/lab04-image5.png)
+    ![](../images/lab3-image6.png)
 
 1. Locate and copy the **Fully Qualified Domain Name (FQDN)**.
 
@@ -84,10 +71,10 @@ In this task, we verify that the container instance is running by ensuring that 
 
    >**Note**: It might take 3 - 5 minutes to load the page.
  
-    ![](../images/lab3-image5.png)
+   ![](../images/lab3-image5.png)
 	
    >**Note**: You could also use the container IP address in your browser.
-
+   
 <validation step="3b652738-7603-45ae-97c0-83e81a66c66e" />
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:

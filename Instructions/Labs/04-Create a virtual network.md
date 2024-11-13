@@ -1,4 +1,4 @@
-# Lab 04 - Create a virtual network
+# Lab 04 - Create a Virtual network
 
 ## Lab overview
 
@@ -39,7 +39,7 @@ In this task, we will create a virtual network.
       | Name    | **vnet1 (3)** |
       | Location | **(US) East US (4)** |
 
-      ![](../images/lab04-image6.png)
+      ![](./images/az-900-27.png)
    
 1. On the **Create virtual network** blade, click **Next** twice to go to the IP Addresses tab and delete precreated IP address and click on **Add IPV4 address** to create a new address space.
 
@@ -47,19 +47,21 @@ In this task, we will create a virtual network.
     | --- | --- |
     | Address space |**10.1.0.0/16**|
  
- 1. Click on **+ Add a subnet** and ensure if the following address is reflecting (Delete if any subnet exists already with the name default) if you have made any changed then click on **Add**.
+ 1. Click on **+ Add a subnet** and ensure if the following address is reflecting (Delete if any subnet exists already with the name default) if you have made any changed then click on **Add (4)**.
   
     | Setting | Value | 
     | --- | --- |
-    | Name |**default**|
-    | Starting address | **10.1.0.0**|
-    | Size | **/24**
+    | Name |**default (1)**|
+    | Starting address | **10.1.0.0 (2)**|
+    | Size | **/24 (3)**
   
-    ![Screenshot of the "IP Addresses" step of Create virtual network blade with the default fields.](../images/vnetnow.png)
+    ![Screenshot of the "IP Addresses" step of Create virtual network blade with the default fields.](./images/az-900-25.png)
 
     >**Note:** If you want to learn more about IPV4 address go through the following link:[IPV4](https://www.internold.com/lesson/fundamentals-of-ipv4-addressing-and-routing-detailed/)
 
 1. Click the **Review + create** button. Ensure the validation passes.
+
+   ![](./images/az-900-26.png)
 
 1. Click the **Create** button to deploy the virtual network. 
     
@@ -67,27 +69,38 @@ In this task, we will create a virtual network.
 
 In this task, we will create two virtual machines in the virtual network. 
 
-1. From the **Search resources, services, and docs(G+/)** blade, search for **Virtual machines** and then click **+ Create** and choose **Azure virtual machine**.
+1. On Azure Portal page, in Search resources, services, and docs (G+/) box at the top of the portal, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under services.
 
-1. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
+   ![](../images/lab1-image1.png) 
+
+1. On the **Virtual machines** blade, click **+ Create (1)** and choose **Azure virtual machine (2)**.
+
+    ![](../images/lab1-image2.png) 
+
+1. On the **Basics** tab, fill in the following information (leave the defaults for everything else) then click on **Next: Disks (11)**
 
    | Setting | Value | 
    | --- | --- |
-   | Subscription | **Use default supplied**  |
-   | Resource group |  **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** |
-   | Virtual machine name | **vm1**|
-   | Region | **(US) East US** |
-   | Image | **Windows Server 2019 Datacenter - x64 Gen2** |
-   | Username| **azureuser** |
-   | Password| **Pa$$w0rd1234** |
-   | Public inbound ports| Select **Allow selected ports**  |
-   | Selected inbound ports| **RDP (3389)** |
+   | Subscription | **Use default supplied (1)**  |
+   | Resource group |  **AZ-900-<inject key="DeploymentID" enableCopy="false"/> (2)** |
+   | Virtual machine name | **vm1 (3)**|
+   | Region | **(US) East US (4)** |
+   | Image | **Windows Server 2019 Datacenter - x64 Gen2 (5)** |
+   | Username| **azureuser (6)** |
+   | Password| **Pa$$w0rd1234 (7)** |
+   | Confirm password| **Pa$$w0rd1234 (8)** |   
+   | Public inbound ports| Select **Allow selected ports (9)**  |
+   | Selected inbound ports| **RDP (3389) (10)** |
+
+   ![](./images/az-900-28.png)    
+
+   ![](./images/az-900-29.png)       
 
 1. Click **Next : Disks >** to switch to the **Disks** tab and in the **OS Disk type** select **Standard HDD** from the dropdown and leave everything else as default and click **Next : Networking >**. 
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/hdd.png)
 
-1. In **Networking** tab, make sure the virtual machine is placed in the vnet1 virtual network. Review the default settings, but do not make any other changes. 
+1. In **Networking** tab, make sure the virtual machine is placed in the **vnet1** virtual network. Review the default settings, but do not make any other changes. 
 
    | Setting | Value | 
    | --- | --- |
@@ -114,11 +127,20 @@ In this task, we will create two virtual machines in the virtual network.
 
 In this task, we will try to test whether the virtual machines can communicate (ping) each other. 
 
-1. From the **All resources** blade, search for **vm1**, open its **Overview** blade, and make sure its **Status** is **Running**. You may need to **Refresh** the page.
+1. Naviage to three horizontal line from the top left cornner **(1)**, then select **All resources**.
 
-1. On the virtual machine **Overview** blade, click the **Connect** button and choose the **Connect** from the dropdown.
+    ![](./images/az-900-30.png) 
 
-    ![](../images/lab04-image8.png)
+1. On the **All resources** blade, search for **vm1** and select it.
+
+    ![](./images/az-900-31.png) 
+
+
+ 1. Open its **Overview** blade, and make sure its **Status** is **Running**. You may need to **Refresh** the page.    
+
+1. On the virtual machine **Overview** blade, click the **Connect (1)** drop-down and choose the **Connect (2)** from the dropdown.
+
+    ![](./images/az-900-36.png) 
    
     >**Note**: The following directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store and on a Linux computer you can use an open source RDP client.
 
@@ -130,17 +152,39 @@ In this task, we will try to test whether the virtual machines can communicate (
 
 1. Open the downloaded RDP file and click **Connect** when prompted. 
 
-1. In the **Windows Security** window, type the username **azureuser** and password **Pa$$w0rd1234** and then click **OK**.
+    ![Screenshot of the virtual machine properties with the Connect button highlighted. ](./images/az-900-37.png)
+
+1. In the **Windows Security** window, select **More choices (1)** and then **Use a different account (1)**. Provide the username as `azureuser` **(3)** and the password `Pa$$w0rd1234` **(4)**. Click **OK (5)** to connect.
+
+    ![Screenshot of the Windows security dialogue with use a different account selected and the username azure user entered and a password.](./images/az-900-38.png)
 
 1. You may receive a certificate warning during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully. Close the Windows Server and Dashboard windows that pop up. You should see a Blue Windows background. You are now in your virtual machine.
 
    >**Note:** Repeat step 1 to 6 for **vm2**.
 
-1. In **both** newly created virtual machines(vm1,vm2), connect via RDP and **disable both the public and private firewall** by opening the Start menu > Settings > Network & Internet > Windows Firewall.
+1. In *both* newly created virtual machines(`vm1,vm2`), connect via RDP and **disable both the public and private firewall**. Follow the steps below to complete the task
 
    ![image](../images/vnet01.png)
 
-1. Open up a PowerShell command prompt on the virtual machine(vm1), by clicking the **Start** button, typing **PowerShell**, right clicking **Windows PowerShell** in the right-click menu, and clicking **Run as administrator**
+   - Click on **Start menu (1)** then select **Settings (2)**.   
+
+     ![image](./images/az-900-32.png)   
+   
+   - Select **Network & Internet**.
+
+     ![image](./images/az-900-33.png)    
+
+   - Navigate to **Windows Firewall**.   
+
+     ![image](./images/az-900-34.png) 
+
+   - Then **disable both the public and private firewall**.
+
+     ![image](../images/vnet01.png)   
+
+1. Open up a PowerShell command prompt on the Virtual machine(vm1), by clicking the **Start** button, type **PowerShell (1)**, right click on **Windows PowerShell (2)** then select **Run as administrator (3)**
+
+   ![](./images/az-900-35.png) 
 
 1. Try to ping vm2 (make sure vm2 is running). 
     ```

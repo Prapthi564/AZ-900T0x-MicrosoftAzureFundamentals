@@ -30,7 +30,7 @@ To get a better understanding of your lab resources and credentials, navigate to
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-  ![Use the Split Window Feature](../images/spl.png)
+  ![Use the Split Window Feature](../images/spll.png)
  
 ## Managing Your Virtual Machine
  
@@ -73,7 +73,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
 4. If you get a pop-up stating **Action Required** click on **Ask Later**.
 
-5. If prompted to stay signed in, you can click "No."
+5. If prompted to **stay signed in**, you can click **No**.
  
 6. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Cancel** to skip the tour.
  
