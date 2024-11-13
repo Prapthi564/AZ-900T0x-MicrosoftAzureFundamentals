@@ -25,11 +25,11 @@ In this task, you will create an Azure App Service Web App.
 
 1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **App Service (1)**, and then select **App Services (2)** under services.
 
-   ![](../images/lab2-image1.png) 
+   ![](../images/az-900-11.png) 
 
 1. On **App Services** blade, click **+ Create (1)** then from dropdown select **+ Web App (2)**.
 
-   ![](../images/lab2-image2.png) 
+   ![](../images/az-900-12.png) 
 
 1. On the **Basics** tab of the **Create Web App** blade, specify the following and click **Next : Database > (9)**.
  
@@ -45,9 +45,9 @@ In this task, you will create an Azure App Service Web App.
     | Pricing Plan | **Premium V3 POV3 (8)** |
     |||
 
-    ![](../images/webapp.png)
+    ![](../images/az-900-15.png)
 
-    ![](../images/webapp1.png)
+    ![](../images/az-900-16.png)
 
 1. On the **Database** tab, leave everything as default, click on **Next: Container >**.
 
@@ -55,12 +55,12 @@ In this task, you will create an Azure App Service Web App.
 
     | Setting | Value |
     | -- | -- |
-    | Image Source | **Quickstart (1)** |
+    | Image Source | **Docker Hub or other registries (1)** |
     | Options | **Single container (2)** |
-    | Sample | **NGINX (3)** |
+    | Image and tag | **nginx (3)** |
     |||
 
-    ![](../images/review+create.png)
+    ![](./images/az-900-39.png)
 
     >**Note:** This is same container that was used in the Container Instances walkthrough to display a hello world message.
 
@@ -78,11 +78,13 @@ In this task, we will test the web app.
 
      ![](../images/lab2-image6.png)
 
-1. Copy the URL and paste it into a new browser tab to observe the "Welcome to nginx" page.
+1. Copy the URL and paste it into a new browser tab to observe the **Welcome to nginx** page.
 
     ![](images/labnew-02-5.png)
 
-1. Switch back to the **Overview** blade of your web app and select **Monitoring** tab note that it includes several charts. If you repeat step 4 a few times, you should be able to see corresponding telemetry being displayed in the charts. This includes number of requests and average response time.
+1. Switch back to the **Overview (1)** blade of your web app and select **Monitoring (2)** tab note that it includes several charts. If you repeat step 4 a few times, you should be able to see corresponding telemetry being displayed in the charts. This includes number of requests and average response time.
+
+    ![](images/az-900-40.png)
 
 <validation step="4d77e5af-2938-4f15-8e4f-d313fef1f4a3" />
 

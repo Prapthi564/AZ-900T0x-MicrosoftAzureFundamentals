@@ -22,15 +22,30 @@ In this lab, you will complete the following tasks:
 
 ### Prerequisites
 
-1. In the **Lab-VM**, launch **Notepad** by searching for it in the Start menu, then input a random text within the Notepad application.
+1. In the **Lab-VM**, search for **Notepad (1)** in the Start menu then launch **Notepad (2)**. Then input a random text within the Notepad application.
 
-1. Next, access the menu bar at the top and select File > Save as. Navigate to the Desktop directory, name the file as **Test**, and save the file to the desktop.
+   ![](../images/az-900-54.png) 
+
+
+1. Next, access the menu bar at the top and select **File (1)> Save as (2)**.
+
+   ![](../images/az-900-55.png) 
+
+1. Navigate to the **Desktop (1)** directory, name the file as **Test (2)** and **Save (3)** the file to the desktop.
+
+   ![](./images/az-900-59.png) 
 
 ### Task 1: Create a storage account
 
 In this task, we will create a new storage account. 
 
-1. On the Azure portal, from the **Azure services** blade, search for and select **Storage accounts**, and then click **+ Create**. 
+1. On the Azure portal, from the **Azure services** blade, search for **Storage accounts (1)** and select **Storage accounts (2)**.
+
+   ![](./images/az-900-44.png) 
+
+1. Click **+ Create**. 
+
+   ![](./images/az-900-45.png) 
 
 1. On the **Basics** tab of the **Create storage account** blade, fill in the following information.Leave the defaults for everything else, then click on **Next (7)**.
 
@@ -45,9 +60,9 @@ In this task, we will create a new storage account.
     
       ![Screenshot of the newly created storage account in the Azure portal .](../images/5-1.png)
 
-1. On the **Advanced (7)** tab of the **Create a storage account**, choose **Hot** for **Access tier** setting under **Blob storage**.
+1. On the **Advanced (7)** tab of the **Create a storage account**, choose **Hot (1)** for **Access tier** setting under **Blob storage** then click on **Review + create (2)**.
 
-1. Click **Review + create** to review your storage account settings and allow Azure to validate the configuration. 
+   ![](./images/az-900-46.png) 
 
 1. Once validated, click **Create**. Wait for the **Deployment Succeeded** notification.
 
@@ -61,40 +76,58 @@ In this task, we will create a new storage account.
 
 In this task, we will create a Blob container and upload a blob file. 
 
-1. Click on the **storageaccount<inject key="DeploymentID" enableCopy="false" />** (newly created storage account), from the left navigation pane under **Data storage** section, click **Containers**.
+1. Click on the **storageaccount<inject key="DeploymentID" enableCopy="false" />** (newly created storage account).
 
-1. Click **+ Container** and complete the information. Use the Information icons to learn more. When done click **Create**.
+   ![](../images/storageaccount.png) 
+
+1. From the left navigation pane under **Data storage** section, click **Containers (1)**. Click **+ Container (2)** and complete the information. Use the Information icons to learn more. When done click **Create (5)**.
 
    | Setting | Value |
    | ---- | ---- |
-   | Name | **container1**|
-   | Anonymous access level| **Private (no anonymous access)** |
-    
-    ![Screenshot of the newly created blob container in the storage account in the Azure portal.](../images/containers.png)
+   | Name | **container1 (3)**|
+   | Anonymous access level| **Private (no anonymous access) (4)** |
 
-1. Click the **container1** container, and then click **Upload**.
+   ![](./images/az-900-47.png)    
+  
+1. Click the **container1** container.
 
-1. Browse to a file **Test.txt** that you created in a previous task, located on the desktop, then select the file and select **Open**.
+   ![](./images/az-900-48.png) 
+
+1. Click on **Upload**.
+
+   ![](./images/az-900-49.png) 
+
+1. Click on **Browse to a file (1)** then select **Test.txt (3)** that you created in a previous task, located on the **desktop (2)**. Then select the file and click **Open (4)**.
+
+   ![](./images/az-900-50.png) 
   
 1. Click the **Advanced** arrow, leave the default values but review the available options, and then click **Upload**.
 
+   ![](./images/az-900-51.png) 
+
     >**Note:** You can upload as many blobs as you like in this way. New blobs will be listed within the container.
 
-1. Once the file is uploaded, right-click on the file and notice the options including View/edit, Download, Properties, and Delete. 
+1. Once the file is uploaded, right-click on the file and notice the options including **View/edit, Download, Properties, and Delete**. 
+
+   ![](./images/az-900-52.png) 
 
    >**Note:** In the event that the access level for the storage account is configured as public, accessing the contents of the storage account can be done through a URL. To gain a deeper understanding of Storage Account access levels, please go through the following link:[Access Levels](https://learn.microsoft.com/en-us/azure/storage/blobs/anonymous-read-access-configure?tabs=portal)
 
-1. As you have time, from the storage accounts blade, review the options for Files, Tables, and Queues.
+1. As you have time, from the storage accounts blade, review the options for **Files, Tables, and Queues**.
+
+   ![](./images/az-900-53.png) 
 
 ### Task 3: Monitor the storage account
 
 1. If needed, return to the **storageaccount<inject key="DeploymentID" enableCopy="false" />** blade and from the left-navigation menu, click on the **Diagnose and solve problems**. 
 
+   ![](./images/az-900-57.png) 
+
 1. Explore some of the most common storage problems. Notice there are multiple troubleshooter.
 
-1. On the storage account blade, from the left navigation menu, scroll down to the **Monitoring** section and click **Insights**. Notice there is information on Failures, Performance, Availability, and Capacity.
+1. On the storage account blade, from the left navigation menu, scroll down to the **Monitoring (1)** section and click **Insights (2)**. Notice there is information on *Failures, Performance, Availability, and Capacity*.
 
-    ![Screenshot of the storage account Insights page.](../images/AZ-9000503.png)
+    ![Screenshot of the storage account Insights page.](./images/az-900-58.png)
 
     >**Note:** In your Lab-Vm information will be different.
 

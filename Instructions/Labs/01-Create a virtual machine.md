@@ -1,4 +1,4 @@
-# Lab 01 - Create a virtual machine in the portal
+# Lab 01 - Create a Virtual machine in the portal
 
 ## Lab overview
 
@@ -22,7 +22,7 @@ In this lab, you will complete the following tasks:
 
 **Note**: Take time during this walk-through to click and read the Informational icons.
 
-### Task 1: Create the virtual machine
+### Task 1: Create the Virtual machine
 
 In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual machine. 
 
@@ -34,7 +34,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
 
     ![](../images/lab1-image2.png) 
 
-1. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
+1. On the **Basics** tab, fill in the following information (leave the defaults for everything else) then click on **Next: Disks (12)**
 
     | Settings | Values |
     |  -- | -- |
@@ -46,13 +46,14 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | Size | **Standard_D2s_v3** (6)|
     | Administrator account username | **azureuser** (7)|
     | Administrator account password | **Pa$$w0rd1234** (8)|
-    | Inbound port rules  | **Allow selected ports** (9)|
-    | Select inbound ports | **RDP (3389)** and **HTTP (80)** (10)|
+    | Confirm password | **Pa$$w0rd1234** (9) |
+    | Public Inbound ports  | **Allow selected ports** (10)|
+    | Select inbound ports | **RDP (3389)** and **HTTP (80)** (11)|
     |||
    
-    ![](../images/l1vm.png)
+    ![](../images/az-900-1.png)
    
-    ![](../images/VM2.png)
+    ![](../images/az-900-2.png)
 
 1. Click **Next : Disks >** to switch to the **Disks** tab and in the **OS Disk type** select **Standard HDD** from the dropdown and leave everything else as default and click **Next : Networking >**. 
 
@@ -63,6 +64,8 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | Settings | Values |
     | -- | -- |
     | Select inbound ports | **HTTP (80), RDP (3389)**|
+
+    ![](../images/az-900-3.png)    
    
     >**Note:** - Verify that both port 80 and 3389 are selected
 
@@ -73,16 +76,20 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | Settings | Values |
     | -- | -- |
     | Boot diagnostics | **Disable**|
+
+    ![](../images/az-900-4.png)        
   
 1. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.
 
 1. Once Validation is passed click the **Create** button. It can take anywhere from five to seven minutes to deploy the virtual machine.
 
+   ![](../images/az-900-5.png) 
+
 1. You will receive updates on the deployment page and via the **Notifications** area (the bell icon in the top menu).
 
    >**Note**: Here is the reference link for virtual machine https://azure.microsoft.com/en-in/resources/cloud-computing-dictionary/what-is-a-virtual-machine/
 
-### Task 2: Connect to the virtual machine
+### Task 2: Connect to the Virtual machine
 
 In this task, we will connect to our new virtual machine using RDP. 
 
@@ -104,11 +111,11 @@ In this task, we will connect to our new virtual machine using RDP.
 
 1. **Open** the downloaded RDP file and click **Connect** when prompted. 
 
-    ![Screenshot of the virtual machine properties with the Connect button highlighted. ](../images/0102.png)
+    ![Screenshot of the virtual machine properties with the Connect button highlighted. ](./images/az-900-37.png)
 
-1. In the **Windows Security** window, select **More choices** and then **Use a different account**. Provide the username (.\azureuser) and the password (Pa$$w0rd1234). Click **OK** to connect.
+1. In the **Windows Security** window, select **More choices (1)** and then **Use a different account (1)**. Provide the username as `.\azureuser` **(3)** and the password `Pa$$w0rd1234` **(4)**. Click **OK (5)** to connect.
 
-    ![Screenshot of the Windows security dialogue with use a different account selected and the username azure user entered and a password.](../images/0103.png)
+    ![Screenshot of the Windows security dialogue with use a different account selected and the username azure user entered and a password.](../images/az-900-6.png)
 
 1. You may receive a certificate warning during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully.
 
@@ -126,19 +133,21 @@ In this task, install the Web Server role on the server and host a basic website
     
     ![server manager](../images/network.png)
 
-1. Within the **Add Roles and Features Wizard** dialog box, click on **Next >**.
+1. Within the **Before you begin** page, click on **Next >**.
 
 1. Ensure **Role-based or feature-based installation** is selected. Click **Next >**.
 
-1. Ensure **Select a server from the server pool** is selected, and that your VM appears in the list below. Click on **Next >**.
+1. Ensure **Select a server from the server pool (1)** is selected, and that your VM appears **(2)** in the list below. Click on **Next > (3)**.
 
-1. In the Server roles list, scroll to near bottom of the list and check **Web Server (IIS)**. Click on **Add Features**.
+   ![](../images/az-900-7.png) 
 
-    ![server pool](../images/az900-t3_s5.png)
+1. In the Server roles list, scroll to near bottom of the list and select **Web Server (IIS) (1)**. Click on **Add Features (2)**.
 
-1. Click on **Next >** until you reach the **Confirm installation selections** page and make sure **Restart the destination server automatically if required** is checked. Then click on **Install**.
+    ![server pool](../images/az-900-8.png)
 
-    ![Restart the destination check box](../images/az900-t3_s7.png)
+1. Click on **Next >** until you reach the **Confirm installation selections** page and make sure **Restart the destination server automatically if required (1)** is checked. Then click on **Install (2)**.
+
+    ![Restart the destination check box](../images/az-900-9.png)
 
     >**Note:** If a pop-up appears warning about the automatic server restart, select **Yes**.
 
@@ -146,9 +155,9 @@ In this task, install the Web Server role on the server and host a basic website
 
     ![](../images/az900-t3_s9.png)
 
-1. In the Internet Information Services (IIS) Manager window, locate your server’s Default Web Site in the Connections tree.
+1. In the Internet Information Services (IIS) Manager window, locate your server’s **Default Web Site** in the Connections tree.
 
-    ![](../images/az900-t3_s10.png)
+    ![](../images/az-900-10.png)
 
 1. Now, click on **Basic Settings** in the **Actions** menu. In the new pop-up dialog box, locate the **Physical Path** and click **Ok**. This is where you'll put your website html file.
 
@@ -156,7 +165,7 @@ In this task, install the Web Server role on the server and host a basic website
 
    >**Note:** Keep a note of the path as it will be required in the preceding steps.
 
-1. Go to the Physical Path location specified in the Basic Settings. Copy and paste **iisstart.html** file in the same location. Rename the new file to **Default.html**. RIght click on Default.html file click on **Open With > Notepad** and paste the below code into the same file and save the file.
+1. Go to the Physical Path location specified in the Basic Settings. Navigate to the `File explore` from the botton then Copy and paste **iisstart.html** file in the same location. Rename the new file to **Default**. RIght click on Default.html file click on **Open With > Notepad** and delete the existing content then paste the below code into the same file and save the file.
 
     ```
     <html>
@@ -168,13 +177,13 @@ In this task, install the Web Server role on the server and host a basic website
     ```
     ![](../images/root.png)
 
-1. Now back in the Azure portal, navigate back to the Overview blade of myVM and use the Copy to clipboard button to copy the public IP address of myVm.
+1. Now back in the Azure portal, navigate back to the Overview blade of myVM and use the Copy to clipboard button to copy the **public IP address** of myVm.
 
-    ![](../images/az900-t3_vm_pip.png)
+    ![](../images/az-900-13.png)
 
 1. Open a new browser tab, paste the public IP address into the URL text box, and press the Enter key to browse to it. The custom created basic website shows up.
 
-    ![](../images/az900-t3_last.png)
+    ![](../images/az-900-14.png)
 
 <validation step="657b4747-1449-4a5c-886e-0d3096a834ba" />
 
