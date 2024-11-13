@@ -70,7 +70,7 @@ In this task, we will create a new storage account.
 
 1. From the Home page, search for and select **Storage accounts** and ensure your new storage account is listed.
 
-    ![Screenshot of the newly created storage account in the Azure portal .](../images/storageaccount.png)
+    ![Screenshot of the newly created storage account in the Azure portal .](./images/az-900-60.png)
 
 ### Task 2: Work with blob storage
 
@@ -78,7 +78,7 @@ In this task, we will create a Blob container and upload a blob file.
 
 1. Click on the **storageaccount<inject key="DeploymentID" enableCopy="false" />** (newly created storage account).
 
-   ![](../images/storageaccount.png) 
+   ![](./images/az-900-60.png) 
 
 1. From the left navigation pane under **Data storage** section, click **Containers (1)**. Click **+ Container (2)** and complete the information. Use the Information icons to learn more. When done click **Create (5)**.
 

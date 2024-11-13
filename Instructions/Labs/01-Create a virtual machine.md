@@ -113,13 +113,13 @@ In this task, we will connect to our new virtual machine using RDP.
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted. ](./images/az-900-37.png)
 
-1. In the **Windows Security** window, select **More choices (1)** and then **Use a different account (1)**. Provide the username as `.\azureuser` **(3)** and the password `Pa$$w0rd1234` **(4)**. Click **OK (5)** to connect.
+1. In the **Windows Security** window, select **More choices (1)** and then choose **Use a different account (2)**. Provide the username as `.\azureuser` **(3)** and the password `Pa$$w0rd1234` **(4)**. Then click **OK (5)** to connect.
 
     ![Screenshot of the Windows security dialogue with use a different account selected and the username azure user entered and a password.](../images/az-900-6.png)
 
 1. You may receive a certificate warning during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully.
 
-    ![Screenshot of the Certificate warning dialogue informing the user of an untrusted certificate, with the Yes button highlighted. ](../images/0104.png)
+    ![Screenshot of the Certificate warning dialogue informing the user of an untrusted certificate, with the Yes button highlighted. ](./images/az-900-61.png)
 
 ### Task 3: Host a Basic Website on your New Azure Cloud VM
 

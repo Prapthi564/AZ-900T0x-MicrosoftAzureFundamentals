@@ -127,7 +127,7 @@ In this task, we will create two virtual machines in the virtual network.
 
 In this task, we will try to test whether the virtual machines can communicate (ping) each other. 
 
-1. Naviage to three horizontal line from the top left cornner **(1)**, then select **All resources**.
+1. Naviage to three horizontal line from the top left cornner **(1)**, then select **All resources (2)**.
 
     ![](./images/az-900-30.png) 
 
@@ -154,17 +154,17 @@ In this task, we will try to test whether the virtual machines can communicate (
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted. ](./images/az-900-37.png)
 
-1. In the **Windows Security** window, select **More choices (1)** and then **Use a different account (1)**. Provide the username as `azureuser` **(3)** and the password `Pa$$w0rd1234` **(4)**. Click **OK (5)** to connect.
+1. In the **Windows Security** window, select **More choices (1)** and then choose **Use a different account (2)**. Provide the username as `azureuser` **(3)** and the password `Pa$$w0rd1234` **(4)**. Then click **OK (5)** to connect.
 
     ![Screenshot of the Windows security dialogue with use a different account selected and the username azure user entered and a password.](./images/az-900-38.png)
 
 1. You may receive a certificate warning during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully. Close the Windows Server and Dashboard windows that pop up. You should see a Blue Windows background. You are now in your virtual machine.
 
+   ![](./images/az-900-61.png) 
+
    >**Note:** Repeat step 1 to 6 for **vm2**.
 
-1. In *both* newly created virtual machines(`vm1,vm2`), connect via RDP and **disable both the public and private firewall**. Follow the steps below to complete the task
-
-   ![image](../images/vnet01.png)
+1. In *both* newly created virtual machines(`vm1,vm2`), connect via RDP and **disable both the public and private firewall**. Follow the steps below to complete the task.
 
    - Click on **Start menu (1)** then select **Settings (2)**.   
 
@@ -182,7 +182,7 @@ In this task, we will try to test whether the virtual machines can communicate (
 
      ![image](../images/vnet01.png)   
 
-1. Open up a PowerShell command prompt on the Virtual machine(vm1), by clicking the **Start** button, type **PowerShell (1)**, right click on **Windows PowerShell (2)** then select **Run as administrator (3)**
+1. Open up a PowerShell command prompt on the Virtual machine(**vm1**), by clicking the **Start** button, type **PowerShell (1)**, right click on **Windows PowerShell (2)** then select **Run as administrator (3)**
 
    ![](./images/az-900-35.png) 
 
