@@ -46,7 +46,7 @@ In this lab, you will complete the following tasks:
 
    ![](../images/lab04-image16.png)
 
-1. From the top of the page select **Create a support request** then specift the following
+1. From the top of the page select **Create a support request** then specify the following
 
    
     | Setting | Value|

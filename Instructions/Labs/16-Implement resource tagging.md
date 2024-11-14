@@ -25,7 +25,7 @@ In this lab, you will complete the following tasks:
 
 In this task, we will configure the **Require a tag on resources** policy and assign it to our subscription. 
 
-1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Policy (1)**, and then **select Policy(2)** under services.
+1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Policy (1)**, and then select **Policy(2)** under services.
 
     ![](../images/lab17-image1.png)
 
@@ -67,7 +67,7 @@ In this task, we will create storage accounts to test the required tagging.
     
 1. Click **Review + create**. 
 
-    **Note:** We are testing to see what happens when the tag is not supplied. 
+    > **Note:** We are testing to see what happens when the tag is not supplied. 
 
 1. You will receive a Validation failed message. On the **Tags** tab note the error message stating that the Require a tag and its value on resources. 
 
@@ -113,7 +113,7 @@ In this task, we will remove the **Require a tag and its value on resources** po
 
 1. In the **Require a tag and its value on resources** policy entry scroll to the right and click on the elipsis button and selet**Delete Assignment**.
 
-   ![Screenshot of the All Resources filter with Company selected.](../images/lb16.2b.png)
+    ![](../images/lb16.2b.png)
 
 1. Confirm you wish to delete the policy assignment in the **Delete assignment** dialogue by clicking **Yes**
 
