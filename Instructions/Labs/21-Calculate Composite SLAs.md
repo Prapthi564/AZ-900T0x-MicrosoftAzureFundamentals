@@ -34,9 +34,9 @@ In this lab, you will complete the following tasks:
 
    ![screenshot of the SLA UI.](../images/AZ-900-year.png)
 
-1. It will re-direct you to the word file, download the file, and do press **CTRL + F** in your keyboard.
+1. It will re-direct you to the downloaded word file, click on **Open file** to open the downloaded the file, and do press **CTRL + F** in your keyboard.
 
-   ![screenshot of the downloading the word file.](../images/AZ-900-download.png)
+   ![](../images/openfile.png)
 
 1. Type/Search for **App Service**, and click on App Service search result. Notice the **Monthly uptime percentages** and **Service Credits**.
 
