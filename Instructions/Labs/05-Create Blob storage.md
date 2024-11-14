@@ -26,7 +26,6 @@ In this lab, you will complete the following tasks:
 
    ![](../images/az-900-54.png) 
 
-
 1. Next, access the menu bar at the top and select **File (1)> Save as (2)**.
 
    ![](../images/az-900-55.png) 
@@ -109,7 +108,7 @@ In this task, we will create a Blob container and upload a blob file.
 
 1. Once the file is uploaded, right-click on the file and notice the options including **View/edit, Download, Properties, and Delete**. 
 
-   ![](./images/az-900-52.png) 
+   ![](./images/az-900-62.png) 
 
    >**Note:** In the event that the access level for the storage account is configured as public, accessing the contents of the storage account can be done through a URL. To gain a deeper understanding of Storage Account access levels, please go through the following link:[Access Levels](https://learn.microsoft.com/en-us/azure/storage/blobs/anonymous-read-access-configure?tabs=portal)
 
