@@ -145,7 +145,7 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
 
     ![Screenshot of the error message that the virtual machine connection has failed.](../images/1201.png)
 
-1. From the **Search resources, services, and docs** blade, search for and select **Network security groups**. Select **myNSGSecure (attached to network interface: simplewinvm<inject key="Deployment-id" enableCopy="false"/>)**. Network security group deny all inbound traffic except traffic within the virtual network and load balancer probes.
+1. From the **Search resources, services, and docs** blade, search for and select **Network security groups**. Select **myNSGSecure (attached to network interface: simplewinvm<inject key="Deployment-id" enableCopy="false"/>)**. This Network security group deny all inbound traffic except traffic within the virtual network and load balancer probes.
 
 1. From the left navigation pane, under **Settings** select **Inbound security rules**.
 
