@@ -123,6 +123,7 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
     | Source | **Any**|
     | Source port ranges | **\*** |
     | Destination | **Any** |
+    | Service | **Custom** |
     | Destination port ranges | **3389** |
     | Protocol | **TCP** |
     | Action | **Allow** |
@@ -171,7 +172,13 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
 1. Return to your RDP session. 
 
+   >**Note** : If a security alert pop-up appears, select Yes to proceed.
+
+     ![](../images/security.png)
+
 1. Browse to **https://www.bing.com**. The page should not display. You may need to work through additional IE enhanced security pop-ups. 
+
+    ![](../images/bing.png)
 
 <validation step="662ed628-33c0-4e87-95b4-6fe81af2bb9a" />
 
