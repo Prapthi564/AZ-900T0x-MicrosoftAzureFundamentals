@@ -77,7 +77,7 @@ In this task, we will test if the resource lock protects a storage account in th
   
 1. On the **Storage accounts** blade, click **+ Create**. 
 
-1. On the **Basics** tab of the **Create storage account** blade, fill in the following information. Leave the defaults for everything else and click on **Review (7)**.
+1. On the **Basics** tab of the **Create storage account** blade, fill in the following information. Leave the defaults for everything else and click on **Review + create (7)**.
 
     | Setting | Value |
     | --- | --- |
@@ -125,7 +125,7 @@ In this task, we will remove the resource lock and test.
 
    **Note** : **Wait for 10 minutes before heading to the Validation Step**
 
-   <validation step="ad4f80cc-e446-4cec-abb6-071609ac684c"/>
+   <validation step="ad4f80cc-e446-4cec-abb6-071609ac684c" />
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
