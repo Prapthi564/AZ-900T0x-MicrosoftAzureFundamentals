@@ -25,17 +25,23 @@ In this lab, you will complete the following tasks:
 
 In this task, we will configure the **Require a tag on resources** policy and assign it to our subscription. 
 
-1. On the Azure portal, from the **Search resources, services, and docs** blade, search for and select **Policy**.
+1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Policy (1)**, and then **select Policy(2)** under services.
 
-1. In **Authoring** section, click **Assignments**, and then click **Assign Policy** from the top of the page.
+    ![](../images/lab17-image1.png)
 
-1. Notice the **Scope** for our policy will be subscription wide. 
+1. In **Authoring (1)** section, click **Assignments (2)**, and then click **Assign Policy (3)** from the top of the page.
 
-1. Select the **Policy definition** ellipsis button (end of the textbox on the right). In **Available definition**, Search/Select **Require a tag and its value on resources** definition, then click **Add**.
+   ![](../Labs/images/policy.png)
+
+1. On Basics tab Notice the **Scope (1)** for our policy will be subscription wide. 
+
+1. Select the Policy definition **ellipsis button (2)** (end of the textbox on the right). In **Available definition**, Search/Select **Require a tag and its value on resources** definition, then click **Add**.
+
+    ![](../images/az-900-t1-s4-5.png)
 
    ![Add tags.](../images/lba16.3c.png)
 
-1. On the **Assign policy** blade, click **Next** twice to switch to **Parameters** tab, type in **Company** (1) for the Tag name and **Contoso** (2) for the Tag Value. Click **Review + create** (3), and then subsequently click on **Create**.
+1. On the **Assign policy** blade, click **Next**  to switch to **Parameters** tab, type in **Company (1)** for the Tag name and **Contoso (2)** for the Tag Value. Click **Review + create (3)**, and then subsequently click on **Create**.
 
     ![Add tags.](../images/lab16.png)
 
@@ -57,13 +63,13 @@ In this task, we will create storage accounts to test the required tagging.
     | Subscription | **Use your subscription** |
     | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>**  |
     | Storage account name | **blobdemo<inject key="DeploymentID" enableCopy="false"/>** |
-    | Location | **<inject key="Region" enableCopy="false"/>** |
+    | Region | **<inject key="Region" enableCopy="false"/>** |
     
-1. Click **Review**. 
+1. Click **Review + create**. 
 
     **Note:** We are testing to see what happens when the tag is not supplied. 
 
-1. You will receive a Validation failed message. On the **Tags** tab note the error message stating that the resource was disallowed by Policy. 
+1. You will receive a Validation failed message. On the **Tags** tab note the error message stating that the Require a tag and its value on resources. 
 
     ![](../images/lab04-image18.png)
 
@@ -74,6 +80,8 @@ In this task, we will create storage accounts to test the required tagging.
     | Name | **Company** (may not be in the drop-down list) |
     | Value| **Contoso** (may not be in the drop-down list) |
     | | |
+
+   ![](../images/tagsstrogage.png)
 
 1. Click **Review + Create** and verify that the validation was successful. Click **Create** to deploy the storage account. 
 
@@ -103,7 +111,7 @@ In this task, we will remove the **Require a tag and its value on resources** po
 
 1. In the portal, from the **Search resources, services, and docs** blade, search for and select **Policy**.
 
-1. In the **Require a tag and its value on resources** policy entry scroll o the right and click on the elipsis button and selet**Delete Assignment**.
+1. In the **Require a tag and its value on resources** policy entry scroll to the right and click on the elipsis button and selet**Delete Assignment**.
 
    ![Screenshot of the All Resources filter with Company selected.](../images/lb16.2b.png)
 

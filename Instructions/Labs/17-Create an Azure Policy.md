@@ -46,14 +46,14 @@ In this task, we will configure the allowed location policy and assign it to our
 
     **Note**: A scope determines what resources or grouping of resources the policy assignment applies to. In our case we could assign this policy to a specific resource group, however, we chose to assign the policy at the subscription level. Be aware that resources can be excluded based on the scope configuration. Exclusions are optional.
 
-1. Select the **Policy definition** ellipsis **(1)** button. In the **Search** box type **Allowed locations (2)** and click on the **Allowed locations (3)** definition, then click **Add**.
+1. Select the **Policy definition** ellipsis  button. In the **Search** box type **Allowed locations (1)** and click on the **Allowed locations (2)** definition, then click **Add (3)**.
 
     ![](../images/lab17-image(6).png)
   
-    **Note**: This **Allowed Locations** policy definition will specify a location into which all resources must be deployed. If a different location is chosen, deployment will not be allowed. For more information view the [Azure Policy Samples](https://docs.microsoft.com/en-us/azure/governance/policy/samples/index) page.
+     **Note**: This **Allowed Locations** policy definition will specify a location into which all resources must be deployed. If a different location is chosen, deployment will not be allowed. For more information view the [Azure Policy Samples](https://docs.microsoft.com/en-us/azure/governance/policy/samples/index) page.
 
 
-1.  In the **Assign policy** pane, switch to the **Parameters** tab, click on the arrow at the end of the **Allowed locations** box, and from the subsequent list choose **Japan West (1)**. Leave all other values as they are and click **Review + create (2)**.
+1.  In the **Assign policy** pane, switch to the **Parameters** tab, click on the **arrow (1)** at the end of the **Allowed locations** box, and from the subsequent list choose **Japan West (2)**. Leave all other values as they are and click **Review + create (3)**.
 
       ![](../images/lab17-image12.png)
     
@@ -89,7 +89,7 @@ In this task, we will test the Allowed location policy.
     
    **Note**: You will receive the error message under the Region setting stating that Policy enforcement and Value does not meet requirements on resource, including the **Allowed locations** policy name.
 
-   <validation step="83fa70c3-eb07-44ed-a342-adf0100189ab"/>
+   <validation step="83fa70c3-eb07-44ed-a342-adf0100189ab" />
   
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
@@ -105,7 +105,7 @@ We will delete the policy assignment to ensure we are not blocked on any future 
 
 1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Policy (1)**, and then select **Policy(2)** under services.
 
-    ![](../images/lab17-image1.png)
+     ![](../images/lab17-image1.png)
 
 1. Select **Allowed locations** policy.
 
