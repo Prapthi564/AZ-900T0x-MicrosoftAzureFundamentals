@@ -102,7 +102,7 @@ In this task, we will estimate cost of a sample infrastructure by using the Azur
     | 50 GB |
     | | |
 
-    | Zone 1: North America, Europe |
+    | Outbound Data Transfer |
     | ----------------------------- |
     | 50 GB |
     | | |
