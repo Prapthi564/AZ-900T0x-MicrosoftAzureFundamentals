@@ -25,23 +25,33 @@ In this task, we will configure Cloud Shell.
 
 1. From the Azure portal, open the **Azure Cloud Shell** by clicking on the icon in the top right of the Azure Portal.
 
+    >**Note:** If you have already used it before, you can proceed to Task 2.
+
     ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/AZ-900-1001.png)
 
-1. The first time you open the Cloud Shell, you may be prompted to choose the type of shell you want to use (*Bash* or *PowerShell*). If so, select **Powershell**.
+1. If you're launching Cloud Shell for the first time, you may be prompted to choose the type of shell you want to use (*Bash* or *PowerShell*). If so, select **Powershell**.
 
-1. On the Getting started, select **Mount storage account** and select your subscription under storage account subscription. Click on **Apply**.
+    ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](./images/az-900-20.png)
 
-1. On the Mount storage account tab, select **I want to create a storage account**. Click on **Next**.
+1. On the Getting started, select **Mount storage account (1)** and select your subscription **(2)** under storage account subscription. Click on **Apply (3)**.
 
-1. On the create storage account tab, provide the details and select **Create**
+   ![](./images/az-900-105.png)
+
+1. On the Mount storage account tab, select **I want to create a storage account (1)** and then click on **Next (2)**.
+
+   ![](./images/az-900-106.png)
+
+1. On the create storage account tab, provide the details and select **Create (6)**
 
     | Settings | Values |
     |  -- | -- |
-    | Subscription | **Existing subscription**|
-    | Storage account name | **blob<inject key="DeploymentID" enableCopy="false"/>**|
-    | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** |
-    | Location | **(US) East US**|
-    | File share | **none**|
+    | Subscription | **Existing subscription (1)**|
+    | Storage account name | **blob<inject key="DeploymentID" enableCopy="false"/> (2)**|
+    | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/> (3)** |
+    | Location | **(US) East US (4)**|
+    | File share | **none (5)**|
+
+    ![](./images/az-900-107.png)    
 
 ### Task 2: Create a virtual machine
 
@@ -60,8 +70,9 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
     ```
     Get-AzResourceGroup | Format-Table
     ```
+    ![](./images/az-900-108.png)    
 
-1. Create a virtual machine. When prompted provide the user as **azureuser** and the password: **Pa$$w0rd1234**. <br>This will be configured as the local Administrator account on that virtual machines. Ensure that you include the tick (`) characters at the end of each line except for the last one (there should not be any tick characters if you type entire command on a single line).
+1. Create a virtual machine. When prompted provide the user as `azureuser` and the password: `Pa$$w0rd1234`. <br>This will be configured as the local Administrator account on that virtual machines. Ensure that you include the tick (`) characters at the end of each line except for the last one (there should not be any tick characters if you type entire command on a single line).
 
     ```
      New-AzVm `
@@ -75,13 +86,16 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
     -SecurityGroupName "myNSGPS" `
     -PublicIpAddressName "myPublicIpPS"
     ```
+
+    ![](./images/az-900-96.png)    
+
     >**Note**: Wait for VM to deploy before closing PowerShell
 
 1. Close the PowerShell session Cloud Shell pane.
 
 1. In the Azure portal, search for **Virtual machines** and verify the **myVMPS** is running. This may take a few minutes.
 
-    ![Screenshot of the virtual machines page with myVMPS in a running state.](../images/myvmps.png)
+    ![Screenshot of the virtual machines page with myVMPS in a running state.](./images/az-900-97.png)
 
 1. Access the new virtual machine and review the Overview and Networking settings to verify your information was correctly deployed.
 
@@ -107,6 +121,7 @@ In this task, we will practice executing PowerShell commands from the Cloud Shel
     ```
     Get-AzVM -name myVMPS -status | Format-Table -autosize
     ```
+    ![](./images/az-900-98.png)    
 
 1. Stop the virtual machine. When prompted confirm (Yes) to the action.
     ```
@@ -114,11 +129,14 @@ In this task, we will practice executing PowerShell commands from the Cloud Shel
     ```
 1. For **This cmdlet will stop the specified virtual machine. Do you want to continue?** enter **Y**.
 
+   ![](./images/az-900-99.png)
+
 1. Verify your virtual machine state. The PowerState should now be **deallocated**. You can also verify the virtual machine status in the portal.
 
     ```
     Get-AzVM -name myVMPS -status | Format-Table -autosize
     ```
+    ![](./images/az-900-100.png)    
 
 ### Task 4: Review Azure Advisor Recommendations
 
@@ -126,25 +144,29 @@ In this task, we will practice executing PowerShell commands from the Cloud Shel
 
 In this task, we will review Azure Advisor recommendations for our virtual machine.
 
-1. From the **Search resources,services and Docs** blade, search for and select **Advisor**.
+1. From the **Search resources,services and Docs** blade, search for **Advisor (1)** and select **Advisor (2)** from the services.
 
-1. On the **Advisor** blade, select **Overview**. Notice recommendations are grouped by Reliability, Security, Performance, and Cost.
+   ![](./images/az-900-101.png)
 
-    ![Screenshot of the Advisor Overview page. ](../images/l10.2.png)
+1. On the **Advisor** blade, select **Overview**. Notice recommendations are grouped by **Reliability, Security, Performance and Cost**.
+
+    ![Screenshot of the Advisor Overview page. ](./images/az-900-102.png)
 
     >**Note:** Depending on your resources, your recommendations will be different and you might get the notification "You are following all of our performance recommendations".
 
-1. Select **All recommendations** from the left navigation pane and take time to view each recommendation and suggested actions.
+1. Select **All recommendations** under **Recommendations** from the left navigation pane and take time to view each recommendation and suggested actions.
 
     >**Note:** Depending on your resources, your recommendations will be different and you might get the notification "You are following all of our performance recommendations".
 
     ![Screenshot of the Advisor All recommendations page. ](../images/l10.3.png)
 
-1. Notice that from the **Security** option in the left navigation pane, you can download the recommendations as a CSV or PDF file.
+1. Notice that from the **Security** option under **Recommendations** in the left navigation pane, you can download the recommendations as a **CSV or PDF file**.
 
-    ![Screenshot of the Advisor All recommendations page. ](../images/l10.1.png)
+    ![Screenshot of the Advisor All recommendations page. ](./images/az-900-103.png)
 
 1. Notice that from the **Alerts** in the left navigation pane, you can create alerts.
+
+   ![](./images/az-900-104.png)
 
 ### Review
 In this lab, you have completed:

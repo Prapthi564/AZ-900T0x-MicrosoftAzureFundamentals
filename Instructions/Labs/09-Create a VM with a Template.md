@@ -25,7 +25,9 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 1. Browse through the many different types of templates that are available. Are there any templates that are of interest to you?.
 
-1. Search and Select the **Deploy a simple Windows VM with tags**.
+1. Search for **Deploy a simple Windows VM with tags (1)** in the search bar then click **Search (2)** and then select it from the results **(3)**.
+
+    ![](./images/az-900-87.png)
 
     >**Note**: The **Deploy to Azure** button enables you to deploy the template via the Azure portal. During such deployment, you will be prompted only for a small set of configuration parameters. 
 
@@ -35,17 +37,21 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 1. If prompted, sign in to the Azure with the **Username:** <inject key="AzureAdUserEmail"></inject> and **Password:** <inject key="AzureAdUserPassword"></inject>.
 
-1. Click **Edit template**. The Resource Manager template format uses the JSON format. In the template go to line number **35** and change the default value of the OS version to **2019-datacenter-gensecond**
+1. Click **Edit template**. 
+
+    ![](./images/az-900-88.png)
+
+1. The Resource Manager template format uses the JSON format. In the template go to line number **35** and change the default value of the OS version to `2019-datacenter-gensecond`
 
    ![](../images/l9os.png)
    
-1. Next, go to line number **110** change the VM name to **myVMTemplate**, and save the changes made to the template file by clicking on **Save**.
+1. Next, go to line number **110** change the VM name to `myVMTemplate` **(1)** and save the changes made to the template file by clicking on **Save (2)**.
 
-   ![](../images/l9vm.png)
+   ![](./images/az-900-89.png)
 
 3. To review the parameters and variables click on **Edit parameters file**, review the contents and  click on **Save**.
   
-1. Now configure the parameters required by the template. Leave the defaults for everything else. 
+1. Now configure the parameters required by the template. Leave the defaults for everything else and then click **Review + create (9)**.
 
     | Setting| Value|
     |----|----|
@@ -59,10 +65,8 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     | VM Size | **Standard_D2s_v5** (8)|
     |||
    
-    ![](../images/lab9-image1.png)
+    ![](./images/az-900-90.png)
 
-1. Click **Review + create**.
- 
 1. Click the **Create**.
 
 1. Monitor your deployment, wait until your deployment is completed.
@@ -71,13 +75,15 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 In this task, we will verify the virtual machine is deployed correctly. 
 
-1. From the **Search resources, services, and docs** blade, search for and select **Virtual machines**.
+1. On Azure Portal page, in Search resources, services, and docs (G+/) box at the top of the portal, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under services.
+
+   ![](../images/lab1-image1.png) 
 
 1. Ensure that your new virtual machine, **myVMTemplate**, is listed among these virtual machines.
 
-    ![Screenshot of the virtual machines page. The new VM is shown and running.](../images/myvmtemplate.png)
+    ![Screenshot of the virtual machines page. The new VM is shown and running.](./images/az-900-91.png)
 
-1. Select **myVMTemplate** virtual machine and on the **Overview** pane scroll down to view monitoring data.
+1. Select **myVMTemplate** virtual machine and on the **Overview** pane scroll down to **monitoring** tab to view monitoring data.
 
     ![Screenshot of the virtual machines page. The new VM is shown and running.](../images/myvmtemplate1.png)
 
@@ -87,15 +93,19 @@ In this task, we will verify the virtual machine is deployed correctly.
 
     ![Screenshot of the virtual machine monitoring charts.](../images/0903.png)
 
-1. Click on any chart. Note that you can **Add metrics** and change the chart type.
+1. Click on any chart. Note that you can **Add metrics (1)** and change the **chart type (2)**.
+
+    ![](./images/az-900-92.png)
 
 1. Return to the **Overview** blade.
 
 1. Click on the **Activity log** from the left navigation pane. Activity logs record such events as the creation or modification of resources. 
 
+    ![](./images/az-900-93.png)
+
 1. Click **Add filter**, and experiment with searching for different event types and operations. 
 
-   ![Screenshot of the Add filters page with Event type selected.](../images/l9.4.png)
+   ![Screenshot of the Add filters page with Event type selected.](./images/az-900-94.png)
 
 <validation step="acb8db6a-300c-4a38-a149-41c7ba96055c" />
 

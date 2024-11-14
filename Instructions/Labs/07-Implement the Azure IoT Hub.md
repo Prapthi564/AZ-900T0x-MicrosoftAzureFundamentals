@@ -34,9 +34,9 @@ In this lab, you will complete the following tasks:
 
 In this task, we will create an IoT hub. 
 
-1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **IoT Hub (1)**, and then select **IoT Hub (2)** under services.
+1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **IoT Hub (1)** and then select **IoT Hub (2)** under services.
 
-   ![](../images/lab7-image1.png)
+   ![](./images/az-900-77.png)
   
 1. On the **Iot Hub** blade, click **+ Create**.
 
@@ -51,9 +51,11 @@ In this task, we will create an IoT hub.
     | Tier | **Standard (most popular) (5)** |
     |||
 
-    ![](../images/lab7-image2.png)
+    ![](./images/az-900-78.png)
   
 1. Click the **Create** button on **Review + create** tab to begin creating your new Azure IoT Hub instance.
+
+   ![](./images/az-900-79.png)
 
 1. Wait until the Azure IoT Hub instance is deployed. 
 
@@ -61,11 +63,11 @@ In this task, we will create an IoT hub.
 
 In this task, we will add an IoT device to the IoT hub. 
 
-1. When the deployment has completed, click **Go to resource** from the deployment blade. Alternatively, from the **All services** blade, search for and select **IoT Hub** and locate your new IoT Hub instance
+1. When the deployment has completed, click **Go to resource** from the deployment blade. 
 
 	![](../images/lab7-image3.png)
 
-1. To add a new IoT device, scroll down to the **Device management** section and click **Devices (1)**. Then, click **+ Add Device (2)**.
+1. To add a new IoT device, scroll down to the **Device management** section then select **Devices (1)**. Then click **+ Add Device (2)**.
 
 	![](../images/lab7-image4.png)
 
@@ -79,7 +81,7 @@ In this task, we will add an IoT device to the IoT hub.
 
    ![](../images/lab7-image6.png)
 
-1. Select **<inject key="DeploymentID" enableCopy="false" />** and copy the **Primary Connection String** value. You will use this key in the next task to authenticate a connection to the Raspberry Pi simulator.
+1. Select **<inject key="DeploymentID" enableCopy="false" />** and copy the **Primary Connection String** value then paste it in any text editor like Notepad. You will use this key in the next task to authenticate a connection to the Raspberry Pi simulator.
 
 	![](../images/lab7-image7.png)
 
@@ -111,7 +113,7 @@ In this task, we will test our device using the Raspberry Pi Simulator.
 
 1. Switch the IoT Hub **Overview** blade and scroll down to the **IoT Hub Usage** information notice the chart and you can select change **Show data for last** to see the data based on days.
 
-   ![](../images/lab7-image11.png)
+   ![](./images/az-900-80.png)
 
 <validation step="c3f78c30-0c67-4b92-b8e7-9cf3c9df79a7" />
 

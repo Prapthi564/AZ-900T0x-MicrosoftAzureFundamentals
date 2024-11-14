@@ -25,11 +25,13 @@ In this lab, you will complete the following tasks:
 
 ### Task 1: Create an Azure Key Vault
 
-1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Key vaults (1)**, and then select **Key vaults (2)** under services.
+1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Key vaults (1)** and then select **Key vaults (2)** under services.
 
-   ![](../images/lab12-image1.png)
+   ![](./images/az-900-115.png)
   
 1. On **Key vaults** blade, select **+ Create**.
+
+   ![](./images/az-900-116.png)
 
 1. On the **Basics tab** specify the following to configure the key vault and click on **Review + create (6)**.
 
@@ -42,7 +44,7 @@ In this lab, you will complete the following tasks:
     | Pricing tier | **Standard (5)** |
     | | |
 
-    ![](../images/lab12-image2.png)
+    ![](./images/az-900-117.png)
    
 1. Click **Create**. 
 
@@ -50,11 +52,13 @@ In this lab, you will complete the following tasks:
 
    ![](../images/lab12-image3.png)
 
-1. Click on the key vault **Overview** tab and take note of the **Vault URI**. Applications that use your vault through the REST API will need this URI.
+1. Click on the key vault **Overview (1)** tab and take note of the **Vault URI (2)**. Applications that use your vault through the REST API will need this URI.
 
-1. Take a moment to browse through some of the other key vault options. Under **Objects** review **Keys**, **Secrets**, **Certificates**.
+   ![](./images/az-900-122.png)
 
-    ![](../images/lab12-image4.png)
+1. Take a moment to browse through some of the other key vault options. Under **Objects** review **Keys**, **Secrets** and **Certificates**.
+
+   ![](./images/az-900-119.png)
    
    >**Note**: Your Azure account is the only one authorized to perform operations on this new vault.
    
@@ -62,7 +66,7 @@ In this lab, you will complete the following tasks:
         
 In this task, we will add a password to the key vault. 
 
-1. Under **Objects** click **Secrets (1)**, then click **+ Generate/Import (2)**.
+1. Under **Objects**, click on **Secrets (1)** and then click **+ Generate/Import (2)**.
 
    ![](../images/lab12-image5.png)
    
@@ -72,7 +76,7 @@ In this task, we will add a password to the key vault.
     | --- | --- |
     | Upload options | **Manual (1)** |
     | Name | **ExamplePassword (2)** |
-    | Value | **hVFkk96 (3)** |
+    | Secret value | **hVFkk96 (3)** |
     | | |
 
     ![](../images/lab12-image6.png)
@@ -81,7 +85,7 @@ In this task, we will add a password to the key vault.
 
 1. Once **ExamplePassword** secret is listed notice it has a status of **Enabled**.
 
-    ![](../images/lab12-image7.png)
+   ![](./images/az-900-120.png)
 
 1. Select the **ExamplePassword** secret and click the current version.
 
@@ -91,7 +95,9 @@ In this task, we will add a password to the key vault.
 
    ![](../images/lab12-image10.png)
    
-1. Click the button **Show Secret Value**, under **Settings** to display the password you specified earlier.
+1. Click the button **Show Secret Value** under **Settings** to display the password you specified earlier.
+
+   ![](./images/az-900-121.png)
 
    ![](../images/lab12-image11.png)
    
