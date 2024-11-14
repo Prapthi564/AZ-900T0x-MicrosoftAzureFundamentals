@@ -22,7 +22,9 @@ In this lab, you will complete the following tasks:
 
 ### Task 1: View available support plan options and a technical support request
 
-1. On the Azure portal, in the  **Search resources,services and docs** blade, search for and select **Help + support**, then select **Support plans** from the left navigation pane.
+1. On the Azure portal, in the  **Search resources,services and docs** blade, search for and select **Help + support**, then select **Support plans** from the left navigation pane under Support.
+
+   ![](../images/suuport.png)
 
 1. Take a few minutes to review the different support plans. Notice what is included in the **Basic** plan. (Need to refresh the page.)
 
@@ -36,11 +38,11 @@ In this lab, you will complete the following tasks:
 
      ![](../images/lab04-image14.png)
    
-1. Next select **Subscription** and any **Virtual machine**.
+1. Next select **Subscription** and any **Virtual machine** and click on **Next**.
 
     ![](../images/lab04-image15.png)
 
-1. Select **None of the above** and select **Problem type** : **VM performance** then **Problem subtype : Disk Caching.**
+1. Select **None of the above** and select **Problem type** : **VM performance** then **Problem subtype : Disk Caching.** and click on **Next**.
 
    ![](../images/lab04-image16.png)
 
