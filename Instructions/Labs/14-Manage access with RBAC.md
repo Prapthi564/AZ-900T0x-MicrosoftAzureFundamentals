@@ -81,11 +81,10 @@ In this task, we will view the activity log to verify the role assignment, and t
    <validation step="d5b66b53-22d2-4a55-bff0-7415cf18338d" />
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
-   > - Hit the Validate button for the corresponding task.
-   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you receive a success message, you can proceed to the next task.
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
- <validation step="402a4212-b323-460b-bc90-58ed9e48c878"/>
+
 
 ### Review
 
