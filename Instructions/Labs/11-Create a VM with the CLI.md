@@ -113,7 +113,7 @@ In this task, we will review Azure Advisor recommendations.
 
 1. On the **Advisor** blade, select **Overview**. Notice recommendations are grouped by **Reliability, Security, Performance and Cost**.
 
-    ![Screenshot of the Advisor Overview page. ](../images/l10.2.png)
+    ![Screenshot of the Advisor Overview page. ](./images/az-900-102.png)
 
     >**Note:** Depending on your resources, your recommendations will be different and you might get the notification "You are following all of our performance recommendations".
 
@@ -121,7 +121,7 @@ In this task, we will review Azure Advisor recommendations.
 
     >**Note:** Depending on your resources, your recommendations will be different and you might get the notification "You are following all of our performance recommendations".
 
-    ![Screenshot of the Advisor All recommendations page. ](./images/az-900-102.png)
+    ![Screenshot of the Advisor All recommendations page. ](../images/l10.3.png)
 
 1. Notice that from the **Security** option under **Recommendations** in the left navigation pane, you can download the recommendations as a **CSV or PDF file**.
 
