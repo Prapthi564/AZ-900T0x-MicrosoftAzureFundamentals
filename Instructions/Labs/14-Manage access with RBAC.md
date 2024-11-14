@@ -70,7 +70,6 @@ In this task, we will view the activity log to verify the role assignment, and t
 
 1. On the **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** resource group blade, click **Activity log**.
 
-
 1. In search bar search for **Create role assignment**.
 
 1. Verify the Activity log shows your role assignment. (With your User Id). 
