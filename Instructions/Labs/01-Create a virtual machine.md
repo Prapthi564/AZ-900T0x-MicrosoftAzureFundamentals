@@ -1,5 +1,7 @@
 # Lab 01 - Create a Virtual machine in the portal
 
+### Estimated timing: 30 minutes
+
 ## Lab overview
 
 An Azure Virtual Machine (VM) is a computing resource provided by Microsoft Azure. It allows users to create and use virtualized computing instances in the cloud. Azure Virtual Machines enable users to run applications, host websites, and perform various computing tasks without needing to purchase and maintain physical hardware.
@@ -8,13 +10,11 @@ In this walkthrough, we will create a virtual machine in the Azure portal, conne
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+In this lab, You will be able to complete the following tasks:
 
 + Task 1: Create the virtual machine
 + Task 2: Connect to the virtual machine
 + Task 3: Host a Basic Website on your New Cloud VM
-
-## Estimated timing: 30 minutes
 
 ## Architecture diagram
 
