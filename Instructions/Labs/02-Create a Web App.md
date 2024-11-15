@@ -1,21 +1,20 @@
 # Lab 02 - Create a Web App
 
+### Estimated timing: 20 minutes
+
 ## Lab overview
 
-Azure App Service is a fully managed web application hosting platform. This platform as a service (PaaS) offered by Azure. 
-Azure App Service is actually a collection of four services, all of which are built to help you host and run web applications. The four services (Web Apps, Mobile Apps, API Apps, and Logic Apps) look different, but in the end they all operate in very similar ways. Web Apps are the most commonly used of the four services, and this is the service that we will be using in this lab.
+Azure App Service is a fully managed web application hosting platform. This platform as a service (PaaS) is offered by Azure. 
+Azure App Service is actually a collection of four services, all of which are built to help you host and run web applications. The four services (Web Apps, Mobile Apps, API Apps, and Logic Apps) look different, but in the end, they all operate in very similar ways. Web Apps are the most commonly used of the four services, and this is the service that we will be using in this lab.
 
 In this walkthrough, we will create a new web app that runs a Docker container. 
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
-
+In this lab, You will be able to complete the following tasks:
 + Task 1: Create a Web App
 + Task 2: Test the Web App
-
-## Estimated timing: 20 minutes
-
+  
 ## Architecture diagram
 
 ![](../images/az900lab02.PNG) 
@@ -23,7 +22,7 @@ In this lab, you will complete the following tasks:
 ### Task 1: Create a Web App
 In this task, you will create an Azure App Service Web App.
 
-1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **App Service (1)**, and then select **App Services (2)** under services.
+1. On the Azure Portal page, in the Search resources, services, and docs (G+/) box at the top of the portal, enter **App Service (1)**, and then select **App Services (2)** under services.
 
    ![](../images/az-900-11.png) 
 
@@ -70,7 +69,7 @@ In this task, you will create an Azure App Service Web App.
 
 In this task, we will test the web app.
 
-1. Wait for the Web App to deploy. Once deployemnt got success click **Go to resource**.
+1. Wait for the Web App to deploy. Once deployment gets success click **Go to resource**.
 
    ![](../images/lab2-image5.png)
 
