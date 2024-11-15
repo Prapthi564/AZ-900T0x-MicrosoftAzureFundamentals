@@ -1,5 +1,7 @@
 # Lab 06 - Create a SQL database
 
+### Estimated timing: 20 minutes
+
 ## Lab overview
 
 A SQL database is a collection of tables that stores a specific set of structured data using a relational model. It is designed to efficiently organize and retrieve data using a language called Structured Query Language (SQL).
@@ -8,12 +10,10 @@ In this walkthrough, we will create a SQL database in Azure and then query the d
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+In this lab, You will be able to complete the following tasks:
 
 + Task 1: Create the database
 + Task 2: Test the database
-
-## Estimated timing: 20 minutes
 
 ## Architecture diagram
 
