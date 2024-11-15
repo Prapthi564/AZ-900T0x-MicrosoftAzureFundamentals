@@ -75,13 +75,16 @@ In this task, we verify that the container instance is running by ensuring that 
 	
    >**Note**: You could also use the container IP address in your browser.
    
-<validation step="3b652738-7603-45ae-97c0-83e81a66c66e" />
-
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-    
+
+<validation step="3b652738-7603-45ae-97c0-83e81a66c66e" />
+
+## Summary
+In this exercise, we created a container instance and verified its successful deployment. We explored the process of provisioning a container in the cloud, ensuring that it was deployed correctly and functioned as intended. Throughout the exercise, we gained valuable experience in managing containerized applications and validating their deployment in a cloud environment.
+
 ### Review
 In this lab, you have completed:
 - Created a container instance
