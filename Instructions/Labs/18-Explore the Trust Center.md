@@ -93,7 +93,10 @@ In this task you will visit the Trust Center and navigate to Microsoft’s six, 
 
    ![](../images/sc-900lab11-T1-3.png)
 
-### Review
+## Summary
+In this exercise, we accessed Microsoft Compliance Offerings to explore the available compliance resources and standards. We also accessed the Service Trust Portal (STP) to review security and compliance details related to Microsoft services. Throughout the exercise, we gained valuable insight into managing compliance and security requirements in a cloud environment.
+
+## Review
 In this lab, you have completed:
 - Access Microsoft Compliance Offerings
 - Access the Service Trust Portal (STP)
