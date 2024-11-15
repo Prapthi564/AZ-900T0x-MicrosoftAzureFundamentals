@@ -130,7 +130,10 @@ In this task, we will review the results of the Azure Pricing Calculator.
    
     >**Congratulations!** You downloaded an estimate from the Azure Pricing Calculator.
 
-### Review
+## Summary
+In this exercise, we configured the Azure Pricing Calculator to estimate costs for selected resources and services. We then reviewed the pricing estimate to understand the potential costs based on the configurations. Throughout the exercise, we gained practical experience in using the Pricing Calculator to forecast cloud service costs and optimize budgeting.
+
+## Review
 In this lab, you have completed:
 - Configure the pricing calculator
 - Review the pricing estimate
