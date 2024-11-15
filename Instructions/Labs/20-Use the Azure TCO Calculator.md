@@ -1,5 +1,7 @@
 # Lab 20 - Use the Azure TCO Calculator
 
+### Estimated timing: 10 minutes
+
 ### Lab overview
 
 The Azure Total Cost of Ownership (TCO) Calculator is a tool provided by Microsoft Azure that helps organizations assess the cost savings and benefits of migrating their workloads to the Azure cloud platform compared to on-premises infrastructure.
@@ -8,12 +10,10 @@ In this walkthrough, you will use the Total Cost of Ownership (TCO) Calculator t
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+In this lab, You will be able to complete the following tasks:
 
 + Task 1: Configure the TCO calculator
 + Task 2: Review the results and save a copy
-
-## Estimated timing: 10 minutes
 
 ## Architecture diagram
 
