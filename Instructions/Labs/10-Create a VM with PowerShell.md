@@ -99,12 +99,12 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
 
 1. Access the new virtual machine and review the Overview and Networking settings to verify your information was correctly deployed.
 
-<validation step="bd6b6ab3-0b26-40e3-bddc-74cd861e563c" />
-
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+<validation step="bd6b6ab3-0b26-40e3-bddc-74cd861e563c" />
 
 >**Note**: You can try validating the task after 3-5 minutes, if validations are failing.
 
@@ -167,6 +167,9 @@ In this task, we will review Azure Advisor recommendations for our virtual machi
 1. Notice that from the **Alerts** in the left navigation pane, you can create alerts.
 
    ![](./images/az-900-104.png)
+
+### Summary
+In this exercise, we configured the Cloud Shell and created a virtual machine. We then executed commands within the Cloud Shell to manage resources and reviewed Azure Advisor recommendations to optimize the virtual machine setup. Throughout the exercise, we gained hands-on experience with Cloud Shell for managing Azure resources and leveraging Azure Advisor for best practice recommendations.
 
 ### Review
 In this lab, you have completed:
