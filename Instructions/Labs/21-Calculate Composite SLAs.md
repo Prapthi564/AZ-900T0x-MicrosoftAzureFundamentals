@@ -58,8 +58,10 @@ In this lab, you will complete the following tasks:
 
     - This is the SLA-based expected availability of our application with the current services and architecture.
 
+## Summary 
+In this lab, you determined the individual SLA uptime values for Azure services and calculated a composite SLA to estimate the overall availability of an application. This exercise provided insight into how combined service reliabilities impact total application uptime.
 
-### Review
+## Review
 In this lab, you have completed:
 - Determine the SLA uptime percentage values for our application
 - Calculate the Application Composite SLA percentage uptime
