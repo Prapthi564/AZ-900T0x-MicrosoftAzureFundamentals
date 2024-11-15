@@ -1,5 +1,7 @@
 # Lab 16 - Implement resource tagging
 
+### Estimated timing: 30 minutes
+
 ## Lab overview
 
 Resource tagging in Azure involves assigning metadata to Azure resources using key-value pairs called tags. These tags can provide additional information about resources, such as environment, department, cost center, owner, or any other relevant attributes. Azure resource tagging offers several benefits, including improved resource management, cost tracking, access control, and automation. 
@@ -8,14 +10,12 @@ In this walkthrough, we will create a policy assignment that requires tagging, c
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+In this lab, You will be able to complete the following tasks:
 
 + Task 1: Create a Policy assignment
 + Task 2: Create a storage account to test the required tagging
 + Task 3: View all resources with a specific tag
 + Task 4: Delete the policy assignment
-
-## Estimated timing: 30 minutes
 
 ## Architecture diagram
 
