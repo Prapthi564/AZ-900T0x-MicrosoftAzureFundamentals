@@ -1,5 +1,7 @@
 # Lab 15 - Manage resource locks
 
+### Estimated timing: 15 minutes
+
 ## Lab overview
 
 To protect your Azure resources from accidental deletions or modifications, you can use management locks. These locks allow you to enforce restrictions at different levels: subscription, resource group, or individual resource.
@@ -12,14 +14,12 @@ In this walkthrough,  we will verify the existing resource group, add a lock to 
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+In this lab, You will be able to complete the following tasks:
 
 + Task 1: Verify the existing resource group
 + Task 2: Add a Lock to the resource group and test deletion
 + Task 3: Test deleting a member of the resource group
 + Task 4: Remove the resource lock
-
-## Estimated timing: 15 minutes
 
 ## Architecture diagram
 
