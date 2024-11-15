@@ -1,5 +1,7 @@
 # Lab 12 - Implement Azure Key Vault
 
+### Estimated timing: 10 minutes
+
 ## Lab overview
 
 Azure Key Vault is a cloud service for securely storing and accessing secrets. A secret is anything that you want to tightly control access to, such as API keys, passwords, certificates, or cryptographic keys. 
@@ -12,12 +14,10 @@ In this walkthrough, we will create an Azure Key vault and then create a passwor
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+In this lab, You will be able to complete the following tasks:
 
 + Task 1: Create an Azure Key Vault
 + Task 2: Add a secret to the Key Vault
-
-## Estimated timing: 10 minutes
 
 ## Architecture diagram
 
