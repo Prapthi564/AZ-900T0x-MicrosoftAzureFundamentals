@@ -1,5 +1,7 @@
 # Lab 17 - Create an Azure Policy
 
+### Estimated timing: 20 minutes
+
 ## Lab overview
 
 Azure Policy is a service in Microsoft Azure that allows you to create, assign, and manage policies to enforce compliance with your organization's standards and governance requirements across Azure resources. It helps you ensure that your Azure environment stays compliant with regulations, follows internal policies, and meets security and operational standards.
@@ -8,13 +10,11 @@ In this walkthrough, we will create an Azure Policy to restrict the deployment o
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+In this lab, You will be able to complete the following tasks:
 
 + Task 1: Create a Policy assignment
 + Task 2: Test Allowed location policy
 + Task 3: Delete the policy assignment
-
-## Estimated timing: 20 minutes
 
 ## Architecture diagram
 
