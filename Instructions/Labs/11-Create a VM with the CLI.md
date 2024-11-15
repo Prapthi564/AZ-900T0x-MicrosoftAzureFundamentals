@@ -1,18 +1,18 @@
 # Lab 11 - Create a VM with the CLI
 
+### Estimated timing: 15 minutes
+
 ## Lab overview
 
 In this walkthrough, we will configure the Cloud Shell, use Azure CLI to create a virtual machine, and review Azure Advisor recommendations.
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+In this lab, You will be able to complete the following tasks:
 
 + Task 1: Use CLI to create a virtual machine
 + Task 2: Execute commmands in the Cloud Shell
 + Task 3: Review Azure Advisor Recommendations
-
-## Estimated timing: 15 minutes
 
 ## Architecture diagram
 
