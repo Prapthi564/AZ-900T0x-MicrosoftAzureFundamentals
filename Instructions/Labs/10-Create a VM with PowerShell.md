@@ -168,10 +168,10 @@ In this task, we will review Azure Advisor recommendations for our virtual machi
 
    ![](./images/az-900-104.png)
 
-### Summary
+## Summary
 In this exercise, we configured the Cloud Shell and created a virtual machine. We then executed commands within the Cloud Shell to manage resources and reviewed Azure Advisor recommendations to optimize the virtual machine setup. Throughout the exercise, we gained hands-on experience with Cloud Shell for managing Azure resources and leveraging Azure Advisor for best practice recommendations.
 
-### Review
+## Review
 In this lab, you have completed:
 - Configured the Cloud Shell
 - Created a virtual machine
