@@ -131,22 +131,24 @@ In this task, we will review Azure Advisor recommendations.
 
    ![](./images/az-900-104.png)
 
-<validation step="8f9add24-dede-42e6-97b7-e058d986c0a4" />
-
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-     
-### Review
+<validation step="8f9add24-dede-42e6-97b7-e058d986c0a4" />
+
+## Summary
+In this exercise, we configured the Cloud Shell and used the CLI to create a virtual machine. We executed various commands within the Cloud Shell to manage the virtual machine and other resources. Additionally, we reviewed Azure Advisor recommendations to ensure best practices and optimize the configuration. Throughout the exercise, we gained practical experience with Cloud Shell, Azure CLI, and leveraging Azure Advisor for resource optimization.
+ 
+## Review
 In this lab, you have completed:
 - Configured the Cloud Shell
 - Used CLI to create a virtual machine
 - Executed commands in the Cloud Shell
 - Reviewed Azure Advisor Recommendations
 
- ## Reference link
+## Reference link
 
 - https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cli
    
