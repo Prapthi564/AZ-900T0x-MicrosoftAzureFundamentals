@@ -29,7 +29,7 @@ In this lab, you will complete the following tasks:
 
     **Note:** The ISO 27001 Information Security Management Standards page is typical of the type of compliance information we provide.
 
-### Task 2: Access the Service Trust Portal (STP) (Read only)
+### Task 2: Access the Service Trust Portal (STP)
 
 1. In a new tab in edge browser, access the [Service Trust Portal](https://servicetrust.microsoft.com/) page.
 
