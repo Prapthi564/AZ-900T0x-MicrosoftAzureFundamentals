@@ -1,20 +1,18 @@
 # Lab 22 - Open a Support Request
 
+### Estimated timing: 30 minutes
+
 ## Lab overview
-
-
 Opening a support request in Azure allows users to seek assistance from Microsoft Azure support professionals for troubleshooting issues, seeking guidance, or resolving technical problems related to Azure services and resources.
 
 In this walkthrough, we will view available support plan options and then practice creating and monitoring a new support request.
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+In this lab, You will be able to complete the following tasks:
 
 + Task 1: View available support plan options and a technical support request
 + Task 2: Create a billing support request
-  
-## Estimated timing: 30 minutes
 
 ## Architecture diagram
 
