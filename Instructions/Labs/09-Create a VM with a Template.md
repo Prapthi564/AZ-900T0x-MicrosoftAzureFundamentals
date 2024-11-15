@@ -1,17 +1,17 @@
 # Lab 09 - Create a VM with a Template
 
+### Estimated timing: 15 minutes
+
 ## Lab overview
 
 In this walkthrough, we will deploy a virtual machine with a QuickStart template and examine monitoring capabilities.
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+In this lab, You will be able to complete the following tasks:
 
 + Task 1: Explore the gallery and locate a template
 + Task 2: Verify and monitor your virtual machine deployment
-
-## Estimated timing: 15 minutes
 
 ## Architecture diagram
 
