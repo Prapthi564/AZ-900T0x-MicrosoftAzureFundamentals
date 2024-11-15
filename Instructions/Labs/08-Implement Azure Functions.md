@@ -103,7 +103,7 @@ In this task, we will use the Webhook + API function to display a message when t
 ## Summary
 In this exercise, we created a Function app and developed an HTTP-triggered function. We then tested the function to ensure it was triggered correctly and performed as expected. Throughout the exercise, we gained hands-on experience in setting up serverless applications and testing HTTP-triggered functions in a cloud environment.
 
-### Review
+## Review
 In this lab, you have completed:
 - Created a Function app
 - Created a HTTP triggered function and test
