@@ -67,24 +67,19 @@ The architecture integrates various Azure services to manage and deploy resource
 
 The architecture for this lab involves the following key components:
 
-1. **Virtual Machines (VMs)**: These are created and configured in several labs.
-
-2. **Web Apps**: Tasks for creating and testing web apps.
-
-3. **Storage Accounts**: Tasks for creating and working with storage accounts and blob storage.
-
-4. **IoT Devices**: Tasks related to creating IoT devices and testing them using simulators.
-
-5. **Resource Groups**: Used for organizing resources and configuring various permissions.
-6. **Azure Key Vault**: Configured for secret management.
-7. **Role-Based Access Control (RBAC)**: Assigning roles and permissions to users.
-8. **Security Groups**: Configuring inbound and outbound security rules for network security.
-9. **Azure CLI**: Used to create resources and execute commands.
-10. **Azure Policies**: Assigning and testing policies like allowed locations and resource tags.
-11. **Pricing Calculators**: Configuring cost estimations using the pricing calculator and TCO calculator.
-12. **Microsoft Compliance Offerings**: Accessing compliance offerings and reviewing privacy policies.
-13. **Support Plans**: Managing support plans and creating technical support requests.
-
+- **Virtual Machines (VMs)**: These are created and configured in several labs.
+- **Web Apps**: Tasks for creating and testing web apps.
+- **Storage Accounts**: Tasks for creating and working with storage accounts and blob storage.
+- **IoT Devices**: Tasks related to creating IoT devices and testing them using simulators.
+- **Resource Groups**: Used for organizing resources and configuring various permissions.
+- **Azure Key Vault**: Configured for secret management.
+- **Role-Based Access Control (RBAC)**: Assigning roles and permissions to users.
+- **Security Groups**: Configuring inbound and outbound security rules for network security.
+- **Azure CLI**: Used to create resources and execute commands.
+- **Azure Policies**: Assigning and testing policies like allowed locations and resource tags.
+- **Pricing Calculators**: Configuring cost estimations using the pricing calculator and TCO calculator.
+- **Microsoft Compliance Offerings**: Accessing compliance offerings and reviewing privacy policies.
+- **Support Plans**: Managing support plans and creating technical support requests.
 
 ## Getting Started with the Lab
  
