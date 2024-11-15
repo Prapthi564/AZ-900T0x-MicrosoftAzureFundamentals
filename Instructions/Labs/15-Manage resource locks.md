@@ -121,18 +121,19 @@ In this task, we will remove the resource lock and test.
 
      ![](../images/lab15-image12.png)
 
-   Congratulations! You created a resource group, added a lock to the resource group and tested deletion, tested deleting a resource in the resource group and removed the resource lock. 
-
    **Note** : **Wait for 10 minutes before heading to the Validation Step**
 
-   <validation step="ad4f80cc-e446-4cec-abb6-071609ac684c" />
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - If you receive a success message, you can proceed to the next task.
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+<validation step="ad4f80cc-e446-4cec-abb6-071609ac684c" />
 
-### Review
+## Summary
+In this exercise, we verified the existing resource group and added a lock to prevent its accidental deletion. We tested the deletion of the resource group and a member within it, ensuring that the lock functioned as intended. Finally, we removed the resource lock to restore full management capabilities. Throughout the exercise, we gained experience in using resource locks to protect critical resources in a cloud environment.
+
+## Review
 In this lab, you have completed:
 - Verify the existing resource group
 - Add a Lock to the resource group and test deletion
