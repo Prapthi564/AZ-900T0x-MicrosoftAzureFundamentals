@@ -1,5 +1,7 @@
 # AZ-900: Microsoft Azure Fundamentals
 
+### Overall Estimated Duration: 8 hours
+
 ## Overview
  
 The AZ-900: Microsoft Azure Fundamentals lab is an introductory, hands-on workshop designed to provide participants with a foundational understanding of Azure cloud services. In this lab, attendees will explore core Azure concepts, including cloud computing principles, Azure architecture, and essential services like compute, storage, and networking. The lab covers various Azure solutions, such as virtual machines, Azure Blob Storage, and virtual networks, while demonstrating their use in real-world scenarios. Participants will also learn about Azure security features, cost management, and governance tools, gaining insight into Azure’s compliance standards. By the end of the lab, participants will have practical knowledge of the essential components of Azure and the confidence to support cloud-based decision-making and infrastructure in an enterprise environment.
