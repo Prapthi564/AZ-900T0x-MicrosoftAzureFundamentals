@@ -85,7 +85,7 @@ In this task, we verify that the container instance is running by ensuring that 
 ## Summary
 In this exercise, we created a container instance and verified its successful deployment. We explored the process of provisioning a container in the cloud, ensuring that it was deployed correctly and functioned as intended. Throughout the exercise, we gained valuable experience in managing containerized applications and validating their deployment in a cloud environment.
 
-### Review
+## Review
 In this lab, you have completed:
 - Created a container instance
 - Verified deployment of the container instance
