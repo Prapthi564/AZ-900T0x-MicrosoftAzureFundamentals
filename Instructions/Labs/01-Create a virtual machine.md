@@ -167,6 +167,8 @@ In this task, install the Web Server role on the server and host a basic website
 
 1. Go to the Physical Path location specified in the Basic Settings. Navigate to the `File explore` from the botton then Copy and paste **iisstart.html** file in the same location. Rename the new file to **Default**. RIght click on Default.html file click on **Open With > Notepad** and delete the existing content then paste the below code into the same file and save the file.
 
+   >**Note**: If you have trouble copying iisstart.html, select the iisstart.html and use Ctrl + C to copy and Ctrl + V to paste it.
+
     ```
     <html>
     <body>
