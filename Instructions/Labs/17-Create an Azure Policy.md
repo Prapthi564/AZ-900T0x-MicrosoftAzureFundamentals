@@ -44,7 +44,9 @@ In this task, we will configure the allowed location policy and assign it to our
 
     ![](../images/lab17-image5.png)
 
-    **Note**: A scope determines what resources or grouping of resources the policy assignment applies to. In our case we could assign this policy to a specific resource group, however, we chose to assign the policy at the subscription level. Be aware that resources can be excluded based on the scope configuration. Exclusions are optional.
+    **Note**: A scope determines what resources or grouping of resources the policy assignment applies to. In our case we could assign this policy to a specific resource 
+    group, however, we chose to assign the policy at the subscription level. Be aware that resources can be excluded based on the scope configuration. Exclusions are 
+    optional.
 
 1. Select the **Policy definition** ellipsis  button. In the **Search** box type **Allowed locations (1)** and click on the **Allowed locations (2)** definition, then click **Add (3)**.
 
