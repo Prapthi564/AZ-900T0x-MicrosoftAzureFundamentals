@@ -147,7 +147,7 @@ In this task, we will configure the SQL server and run a SQL query.
 ## Summary
 In this exercise, we created a database and tested its functionality to ensure it was set up correctly. We explored the process of database creation, followed by verifying its performance and accessibility. Throughout the exercise, we gained hands-on experience in setting up and testing databases in the cloud environment.
 
-### Review
+## Review
 In this lab, you have completed:
 - Created the database
 - Tested the database
