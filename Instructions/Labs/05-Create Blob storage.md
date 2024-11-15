@@ -1,20 +1,20 @@
 # Lab 05 - Create blob storage
 
+### Estimated timing: 15 minutes
+
 ## Lab overview
 
-Storage account is a resource that acts as a container that groups all the data services from Azure storage (Azure blobs, Azure files, Azure Queues, and Azure Tables). This helps us manage all of them as a group.
+storage account is a resource that acts as a container that groups all the data services from Azure storage (Azure blobs, Azure files, Azure Queues, and Azure Tables). This helps us manage all of them as a group.
 
-In this walkthrough, we will create a storage account, then work with blob storage files.
+In this walkthrough, we will create a storage account, and then work with blob storage files.
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+In this lab, You will be able to complete the following tasks:
 
 + Task 1: Create a storage account
 + Task 2: Work with blob storage
 + Task 3: Monitor the storage account
-
-## Estimated timing: 15 minutes
 
 ## Architecture diagram
 
