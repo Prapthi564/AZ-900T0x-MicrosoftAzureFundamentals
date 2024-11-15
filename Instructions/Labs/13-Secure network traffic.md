@@ -225,21 +225,24 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
     ![](../images/bing.png)
 
-<validation step="662ed628-33c0-4e87-95b4-6fe81af2bb9a" />
-
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-### Review
+<validation step="662ed628-33c0-4e87-95b4-6fe81af2bb9a" />
+
+## Summary
+In this exercise, we created a virtual machine and a network security group (NSG). We then configured an inbound security port rule to allow RDP access to the virtual machine and an outbound security port rule to deny Internet access. Throughout the exercise, we gained hands-on experience in managing network security and controlling access to resources in a cloud environment.
+
+## Review
 In this lab, you have completed:
 - Created a virtual machine
 - Created a network security group
 - Configured an inbound security port rule to allow RDP
 - Configure an outbound security port rule to deny Internet access
 
-### Reference Links
+## Reference Links
 - https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview
 - https://learn.microsoft.com/en-us/azure/virtual-network/network-security-group-how-it-works
   
