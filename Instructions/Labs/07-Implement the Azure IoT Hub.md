@@ -1,5 +1,7 @@
 # Lab 07 - Implement an Azure IoT Hub
 
+### Estimated timing: 20 minutes
+
 ## Lab overview
 
 The Internet of Things (IoT) is a network of physical devices that connect to and exchange data with other devices and services over the Internet or other network. Azure IoT Hub is a managed service hosted in the cloud that acts as a central message hub for communication between an IoT application and its attached devices.
@@ -18,13 +20,11 @@ In this walkthrough, we will configure a new Azure IoT Hub in Azure Portal, and 
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+In this lab, You will be able to complete the following tasks:
 
 + Task 1: Create an IoT hub
 + Task 2: Add an IoT device
 + Task 3: Test the device using the Raspberry Pi Simulator
-
-## Estimated timing: 20 minutes
 
 ## Architecture diagram
 
