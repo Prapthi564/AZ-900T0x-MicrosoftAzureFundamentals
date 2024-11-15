@@ -1,5 +1,7 @@
 # Lab 04 - Create a Virtual network
 
+### Estimated timing: 20 minutes
+
 ## Lab overview
 
 Azure Virtual Network (VNet) is a service offered by Microsoft Azure that allows you to create private, isolated networks in the Azure cloud. It enables you to securely connect Azure resources, such as virtual machines (VMs), to each other, to on-premises networks, and to the internet.
@@ -8,13 +10,11 @@ In this walkthrough, we will create a virtual network, deploy two virtual machin
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+In this lab, You will be able to complete the following tasks:
 
 + Task 1: Create a virtual network
 + Task 2: Create two virtual machines
 + Task 3: Test the connection
-
-## Estimated timing: 20 minutes
 
 ## Architecture diagram
 
