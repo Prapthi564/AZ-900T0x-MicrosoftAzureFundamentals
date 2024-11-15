@@ -1,5 +1,7 @@
 # Lab 08 - Implement Azure Functions
 
+### Estimated timing: 15 minutes
+
 ## Lab overview
 
 Azure Functions is a serverless solution that allows you to write less code, maintain less infrastructure, and save on costs. Instead of worrying about deploying and maintaining servers, the cloud infrastructure provides all the up-to-date resources needed to keep your applications running.
@@ -8,12 +10,10 @@ In this walkthrough, we will create a Function App to display a Hello message wh
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+In this lab, You will be able to complete the following tasks:
 
 + Task 1: Create a Function app
 + Task 2: Create a HTTP triggered function and test
-
-## Estimated timing: 15 minutes
 
 ## Architecture diagram
 
