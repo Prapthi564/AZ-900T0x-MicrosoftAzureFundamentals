@@ -1,5 +1,7 @@
 # Lab 19 - Use the Pricing Calculator
 
+### Estimated timing: 10 minutes
+
 ## Lab overview
 
 The Pricing Calculator is a tool provided by Microsoft Azure that allows users to estimate and understand the cost of Azure services before deployment. It enables users to explore various Azure products and services, configure different options and parameters, and generate cost estimates based on usage patterns and requirements.
@@ -8,12 +10,10 @@ In this walkthrough, we will use the Azure Pricing Calculator to generate a cost
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+In this lab, You will be able to complete the following tasks:
 
 + Task 1: Configure the pricing calculator
 + Task 2: Review the pricing estimate
-
-## Estimated timing: 10 minutes
 
 ## Architecture diagram
 
