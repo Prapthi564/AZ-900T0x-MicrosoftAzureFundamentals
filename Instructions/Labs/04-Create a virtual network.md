@@ -194,12 +194,15 @@ In this task, we will try to test whether the virtual machines can communicate (
     
      ![Screenshot of the pinged VM2 from VM.](../images/AZ900Lab4.png)
 
-<validation step="528acab3-c436-42e6-bb0b-172c0237f879" />
-
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+<validation step="528acab3-c436-42e6-bb0b-172c0237f879" />
+
+## Summary
+In this exercise, we created a virtual network and deployed two virtual machines within it. We then tested the connection between the virtual machines to ensure proper network configuration and communication. Throughout the exercise, we gained hands-on experience in setting up virtual networks and configuring network connectivity between virtual machines in a cloud environment.
 
 ### Review
 In this lab, you have completed:
