@@ -115,12 +115,15 @@ In this task, we will test our device using the Raspberry Pi Simulator.
 
    ![](./images/az-900-80.png)
 
-<validation step="c3f78c30-0c67-4b92-b8e7-9cf3c9df79a7" />
-
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+<validation step="c3f78c30-0c67-4b92-b8e7-9cf3c9df79a7" />
+
+## Summary
+In this exercise, we created an IoT hub and added an IoT device to it. We then tested the device using the Raspberry Pi Simulator to ensure it was functioning correctly. Throughout the exercise, we gained practical experience in setting up an IoT hub, registering devices, and simulating device interactions in an IoT environment.
 
 ### Review
 In this lab, you have completed:
