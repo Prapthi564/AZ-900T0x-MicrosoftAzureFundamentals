@@ -96,7 +96,11 @@ In this lab, you will complete the following tasks:
 
    >**Note**: Click for more information about [**creating an Azure support ticket**](https://azure.microsoft.com/en-us/support/create-ticket).
 
-### Review
+## Summary 
+
+In this lab, you explored Azure support plan options, created a technical support request, and practiced submitting a billing support request. This exercise provided an understanding of the support process in Azure, including monitoring requests and reviewing recommended solutions.
+
+## Review
 In this lab, you have completed:
 
 - View available support plan options and a technical support request
