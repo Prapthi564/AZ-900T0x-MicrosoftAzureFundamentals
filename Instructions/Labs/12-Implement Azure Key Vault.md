@@ -101,14 +101,17 @@ In this task, we will add a password to the key vault.
 
    ![](../images/lab12-image11.png)
    
-<validation step="b7285084-2658-4a78-a80b-cc7c97f8fa45" />
-
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-### Review
+<validation step="b7285084-2658-4a78-a80b-cc7c97f8fa45" />
+
+## Summary
+In this exercise, we created an Azure Key Vault and added a secret to it. We explored the process of securely storing sensitive information in the Key Vault and managing access to the secret. Throughout the exercise, we gained hands-on experience with Azure Key Vault for secret management and security best practices.
+
+## Review
 In this lab, you have completed:
 - Created an Azure Key Vault
 - Added a secret to the Key Vault
