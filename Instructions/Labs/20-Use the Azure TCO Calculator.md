@@ -117,7 +117,11 @@ In this task, we will review cost saving recommendations and download a report.
 
     >**Congratulations!** You have used the TCO Calculator to generate a cost comparison report for an on-premises environment.
 
-### Review
+## Summary
+
+In this lab, you used the Azure TCO Calculator to compare the costs of on-premises infrastructure versus Azure cloud services. You configured workload details, reviewed cost savings, and generated a downloadable report for cloud migration planning.
+
+## Review
 In this lab, you have completed:
 - Configure the TCO calculator
 - Review the results and save a copy
