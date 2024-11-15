@@ -1,5 +1,7 @@
 # Lab 13 - Secure network traffic
 
+### Estimated timing: 30 minutes
+
 ## Lab overview
 
 A Network Security Group (NSG) is a fundamental component of the network security architecture within Microsoft Azure. It acts as a basic, stateful, and centralized firewall for controlling inbound and outbound traffic to network interfaces (NIC), virtual machines (VM), and Azure Virtual Network (VNet) resources.
@@ -8,14 +10,12 @@ In this walkthrough, we will configure a network security group.
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+In this lab, You will be able to complete the following tasks:
 
 + Task 1: Create a Virtual machine
 + Task 2: Create a network security group
 + Task 3: Configure an inbound security port rule to allow RDP
 + Task 4: Configure an outbound security port rule to deny Internet access
-  
-## Estimated timing: 30 minutes
 
 ## Architecture diagram
 
