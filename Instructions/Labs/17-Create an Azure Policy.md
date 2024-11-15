@@ -89,12 +89,12 @@ In this task, we will test the Allowed location policy.
     
    **Note**: You will receive the error message under the Region setting stating that Policy enforcement and Value does not meet requirements on resource, including the **Allowed locations** policy name.
 
-   <validation step="83fa70c3-eb07-44ed-a342-adf0100189ab" />
-  
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - If you receive a success message, you can proceed to the next task.
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+<validation step="83fa70c3-eb07-44ed-a342-adf0100189ab" />
 
 ### Task 3: Delete the policy assignment
 
@@ -128,7 +128,10 @@ We will delete the policy assignment to ensure we are not blocked on any future 
     - *Cost Tracking*: You could have different subscriptions for different regional locations. The policy will ensure that all resources are deployed in the intended region to help with cost tracking. 
     - *Data Residency and Security compliance*: You could also have data residency requirements, create subscriptions per customer or specific workloads, and define that all resources must be deployed in a particular data center to ensure data and security compliance requirements.
 
-### Review
+## Summary
+In this exercise, we created a policy assignment and tested the "Allowed Location" policy to restrict resource deployments to specific regions. We then deleted the policy assignment to remove the restriction. Throughout the exercise, we gained practical experience in using Azure Policy to enforce location-based governance for resource deployments.
+
+## Review
 In this lab, you have completed:
 - Create a Policy assignment
 - Test Allowed location policy
