@@ -149,20 +149,25 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
 
 1. From the left navigation pane, under **Settings** select **Inbound security rules**.
 
-1. On the **Inbound security rules** tab, click **+ Add** and on the **Add inbound security rule** provide the below values to the respective settings and  Click **Add**. 
+1. On the **Inbound security rules (1)** tab, click **+ Add (2)**
+
+    ![](../images/az-900-137.png)    
+
+1. On the **Add inbound security rule** provide the below values to the respective settings and  Click **Add (10)**. 
 
     | Setting | Value |
     | -- | -- |
-    | Source | **Any**|
-    | Source port ranges | **\*** |
-    | Destination | **Any** |
-    | Service | **Custom** |
-    | Destination port ranges | **3389** |
-    | Protocol | **TCP** |
-    | Action | **Allow** |
-    | Priority | **300** |
-    | Name | **AllowRDP** |
+    | Source | **Any (1)**|
+    | Source port ranges | **\* (2)** |
+    | Destination | **Any (3)** |
+    | Service | **Custom (4)** |
+    | Destination port ranges | **3389 (5)** |
+    | Protocol | **TCP (6)** |
+    | Action | **Allow (7)** |
+    | Priority | **300 (8)** |
+    | Name | **AllowRDP (9)** |
   
+    ![](../images/az-900-138.png)    
 
 1. Wait for the rule to be provisioned and then try again to RDP into the virtual machine using downloaded rdp file. This time you should be successful. Remember the user is **azureuser** and the password is **Pa$$w0rd1234**.
 
@@ -182,24 +187,31 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
 1. In the Azure portal, navigate to the network security group, select **myNSGSecure**. 
 
-1. From the left navigation menu, under **Settings**, select **Outbound security rules**.
+1. From the left navigation menu, under **Settings**, select **Outbound security rules (1)**. Notice there is a rule, **AllowInternetOutbound (2)**. This is a default rule and cannot be removed. 
 
-1. Notice there is a rule, **AllowInternetOutbound**. This is a default rule and cannot be removed. 
+    ![](../images/az-900-139.png)    
 
-1. Select **+ Add**, on the **Add outbound security rule** configure a new outbound security rule with a higher priority that will deny internet traffic. Click **Add** after configuring the below settings. 
+1. Select **+ Add**, on the **Add outbound security rule.**
+
+    ![](../images/az-900-141.png)    
+
+1. Configure a new outbound security rule with a higher priority that will deny internet traffic. Click **Add (11)** after configuring the below settings. 
 
     | Setting | Value |
     | -- | -- |
-    | Source | **Any**|
-    | Source port ranges | **\*** |
-    | Destination | **Service Tag** |
-    | Destination service tag | **Internet** |
-    | Destination port ranges | **\*** |
-    | Protocol | **TCP** |
-    | Action | **Deny** |
-    | Priority | **4000** |
-    | Name | **DenyInternet** |
+    | Source | **Any (1)**|
+    | Source port ranges | **\* (2)** |
+    | Destination | **Service Tag (3)** |
+    | Destination service tag | **Internet (4)** |
+    | Service | **Custom (5)** |
+    | Destination port ranges | **\* (6)** |
+    | Protocol | **TCP (7)** |
+    | Action | **Deny (8)** |
+    | Priority | **4000 (9)** |
+    | Name | **DenyInternet (10)** |
    
+    ![](../images/az-900-140.png)      
+
     >**Note**: Once outbound rule is created please make sure to check Destination port ranges should be as **\*** if values are reverted kindly change it to **\*** and 
      click on **Save**.
 
