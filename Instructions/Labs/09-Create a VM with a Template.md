@@ -107,12 +107,15 @@ In this task, we will verify the virtual machine is deployed correctly.
 
    ![Screenshot of the Add filters page with Event type selected.](./images/az-900-94.png)
 
-<validation step="acb8db6a-300c-4a38-a149-41c7ba96055c" />
-
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+<validation step="acb8db6a-300c-4a38-a149-41c7ba96055c" />
+
+## Summary
+In this exercise, we explored the gallery to locate a template for deploying resources and verified the deployment of a virtual machine using the selected template. We also monitored the virtual machine to ensure it was deployed correctly and functioning as expected. Throughout the exercise, we gained practical experience in using deployment templates and monitoring cloud-based virtual machines.
     
 ### Review
 In this lab, you have completed:
