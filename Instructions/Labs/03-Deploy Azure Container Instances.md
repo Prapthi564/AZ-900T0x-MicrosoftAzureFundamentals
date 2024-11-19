@@ -11,8 +11,8 @@ In this walkthrough, we create, configure, and deploy a Docker container by usin
 ## Lab Objectives
 
 In this lab, you will be able to complete the following tasks:
-+ Task 1: Create a Container Instance
-+ Task 2: Verify deployment of the Container Instance
++ **Task 1:** Create a Container Instance
++ **Task 2:** Verify deployment of the Container Instance
 
 ## Architecture Diagram
 
