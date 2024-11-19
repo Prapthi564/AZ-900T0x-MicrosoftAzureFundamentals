@@ -1,38 +1,38 @@
-# Lab 04 - Create a Virtual network
+# Lab 04 - Create a Virtual Network
 
-### Estimated timing: 20 minutes
+### Estimated Timing: 20 Minutes
 
-## Lab overview
+## Lab Overview
 
-Azure Virtual Network (VNet) is a service offered by Microsoft Azure that allows you to create private, isolated networks in the Azure cloud. It enables you to securely connect Azure resources, such as virtual machines (VMs), to each other, to on-premises networks, and to the internet.
+Azure Virtual Network (VNet) is a service offered by Microsoft Azure that allows you to create private, isolated networks in the Azure cloud. It enables you to securely connect Azure resources, such as virtual machines (VMs), to each other, to on-premises networks, and the internet.
 
-In this walkthrough, we will create a virtual network, deploy two virtual machines onto that virtual network and then configure them to allow one virtual machine to ping the other within that virtual network.
+In this walkthrough, we will create a virtual network, deploy two virtual machines onto that virtual network, and then configure them to allow one virtual machine to ping the other within that virtual network.
 
-## Lab objectives
+## Lab Objectives
 
-In this lab, You will be able to complete the following tasks:
+In this lab, you will be able to complete the following tasks:
 
-+ Task 1: Create a virtual network
-+ Task 2: Create two virtual machines
-+ Task 3: Test the connection
++ Task 1: Create a Virtual Network
++ Task 2: Create two Virtual Machines
++ Task 3: Test the Connection
 
-## Architecture diagram
+## Architecture Diagram
 
 ![](../images/az900lab04.PNG) 
 
-### Task 1: Create a virtual network
+### Task 1: Create a Virtual Network
 
 In this task, we will create a virtual network. 
 
-1. On Azure Portal page, in **Search resources, services, and docs (G+/)** box at the top of the portal, enter **Virtual networks (1)**, and then select **Virtual networks (2)** under services.
+1. On the **Azure Portal** page, in the **Search Resources, Services, and Docs (G+/)** box at the top, enter **Virtual networks (1)**, and then select **Virtual networks (2)** under **Services**.
 
    ![](../images/lab4-image1.png)
    
-1. On **Virtual networks** page, click **+ Create**. 
+1. On the **Virtual networks** page, click on **+ Create**. 
 
-1. On the **Create virtual network** blade, fill in the following (leave the defaults for everything else):
+1. On the **Create virtual network** blade, fill in the following (leave the rest as defaults for everything else):
 
-      | Setting | Value | 
+      | Settings | Values | 
       | ---     | ---   |
       | Subscription | **Keep default subscription (1)**  |
       | Resource group |  **AZ-900-<inject key="DeploymentID" enableCopy="false"/> (2)** |
@@ -41,15 +41,15 @@ In this task, we will create a virtual network.
 
       ![](./images/az-900-27.png)
    
-1. On the **Create virtual network** blade, click **Next** twice to go to the IP Addresses tab and delete precreated IP address and click on **Add IPV4 address** to create a new address space.
+1. On the **Create virtual network** blade, click on **Next** twice to go to the **IP Addresses** tab and delete the pre-created IP address. Then click on **Add IPV4 address** to create a new address space.
 
     | Setting | Value | 
     | --- | --- |
     | Address space |**10.1.0.0/16**|
  
- 1. Click on **+ Add a subnet** and ensure if the following address is reflecting (Delete if any subnet exists already with the name default) if you have made any changed then click on **Add (4)**.
+ 1. Click on **+ Add a subnet** and ensure that the following address is reflecting (delete if any subnet exists already with the name default). If you have made any changes, then click on **Add (4)**.
   
-    | Setting | Value | 
+    | Settings | Values | 
     | --- | --- |
     | Name |**default (1)**|
     | Starting address | **10.1.0.0 (2)**|
@@ -57,29 +57,29 @@ In this task, we will create a virtual network.
   
     ![Screenshot of the "IP Addresses" step of Create virtual network blade with the default fields.](./images/az-900-25.png)
 
-    >**Note:** If you want to learn more about IPV4 address go through the following link:[IPV4](https://www.internold.com/lesson/fundamentals-of-ipv4-addressing-and-routing-detailed/)
+    >**Note:** If you want to learn more about IPV4 address go through the following link: [IPV4](https://www.internold.com/lesson/fundamentals-of-ipv4-addressing-and-routing-detailed/)
 
-1. Click the **Review + create** button. Ensure the validation passes.
+1. Click on the **Review + create** button. Ensure the validation passes.
 
    ![](./images/az-900-26.png)
 
-1. Click the **Create** button to deploy the virtual network. 
+1. Click on the **Create** button to deploy the virtual network. 
     
-### Task 2: Create two virtual machines
+### Task 2: Create Two Virtual Machines
 
 In this task, we will create two virtual machines in the virtual network. 
 
-1. On Azure Portal page, in Search resources, services, and docs (G+/) box at the top of the portal, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under services.
+1. On the **Azure Portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under **Services**.
 
    ![](../images/lab1-image1.png) 
 
-1. On the **Virtual machines** blade, click **+ Create (1)** and choose **Azure virtual machine (2)**.
+1. On the **Virtual machines** blade, click on **+ Create (1)** and choose **Azure Virtual Machine (2)**.
 
     ![](../images/lab1-image2.png) 
 
-1. On the **Basics** tab, fill in the following information (leave the defaults for everything else) then click on **Next: Disks (11)**
+1. On the **Basics** tab, fill in the following information (leave the rest as default), then click on **Next: Disks (11).**
 
-   | Setting | Value | 
+   | Settings | Values | 
    | --- | --- |
    | Subscription | **Use default supplied (1)**  |
    | Resource group |  **AZ-900-<inject key="DeploymentID" enableCopy="false"/> (2)** |
@@ -96,11 +96,11 @@ In this task, we will create two virtual machines in the virtual network.
 
    ![](./images/az-900-29.png)       
 
-1. Click **Next : Disks >** to switch to the **Disks** tab and in the **OS Disk type** select **Standard HDD** from the dropdown and leave everything else as default and click **Next : Networking >**. 
+1. Click on **Next : Disks >** to switch to the **Disks** tab, and in the **OS Disk type** select **Standard HDD** from the dropdown. Leave everything else as default and click on **Next : Networking >**. 
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/hdd.png)
 
-1. In **Networking** tab, make sure the virtual machine is placed in the **vnet1** virtual network. Review the default settings, but do not make any other changes. 
+1. In the **Networking** tab, make sure the virtual machine is placed in the **vnet1** virtual network. Review the default settings, but do not make any other changes. 
 
    | Setting | Value | 
    | --- | --- |
@@ -108,13 +108,13 @@ In this task, we will create two virtual machines in the virtual network.
 
    ![](../images/lab04-image7.png)
     
-1. Click **Review + create**. After the Validation passes, click **Create**. Deployment times can vary but it can generally take between three to six minutes to deploy.
+1. Click on **Review + create**. After the validation passes, click on **Create**. Deployment times can vary but it can generally take between three to six minutes to deploy.
 
-1. Monitor your deployment, but continue on to the next step. 
+1. Monitor your deployment, but continue to the next step. 
 
-1. Create a second virtual machine by repeating steps **1 to 5** above from the task 2. Make sure you use a different virtual machine name as given below, and also the virtual machine is within the same virtual network, and is using a new public IP address: 
+1. Create a second virtual machine by repeating steps **1 to 5** mentioned above from Task 2. Make sure you use a different virtual machine name as given below. Also, ensure that the virtual machine is within the same virtual network and is using a new public IP address: 
 
-    | Setting | Value |
+    | Settings | Values |
     | --- | --- |
     | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** |
     | Virtual machine name |  **vm2** |
@@ -123,11 +123,11 @@ In this task, we will create two virtual machines in the virtual network.
 
 1. Wait for both virtual machines to deploy. 
 
-### Task 3: Test the connection 
+### Task 3: Test the Connection 
 
-In this task, we will try to test whether the virtual machines can communicate (ping) each other. 
+In this task, we will try to test whether the virtual machines can communicate (ping) with each other. 
 
-1. Naviage to three horizontal line from the top left cornner **(1)**, then select **All resources (2)**.
+1. Navigate to three horizontal lines from the top left corner **(1)**, then select **All resources (2)**.
 
     ![](./images/az-900-30.png) 
 
@@ -138,31 +138,31 @@ In this task, we will try to test whether the virtual machines can communicate (
 
  1. Open its **Overview** blade, and make sure its **Status** is **Running**. You may need to **Refresh** the page.    
 
-1. On the virtual machine **Overview** blade, click the **Connect (1)** drop-down and choose the **Connect (2)** from the dropdown.
+1. On the virtual machine **Overview** blade, click on the **Connect (1)** drop-down and choose the **Connect (2)** option from the dropdown.
 
     ![](./images/az-900-36.png) 
    
-    >**Note**: The following directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store and on a Linux computer you can use an open source RDP client.
+    >**Note**: The following directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store, and on a Linux computer, you can use an open-source RDP client.
 
-1. Within the **Connect** page, click on **Download RDP File**.
+1. Within the **Connect** page, click on **Download RDP file**.
 
    ![Screenshot of the virtual machine properties with the Connect button highlighted. ](../images/downrdp.png)
 
-1. Once the file is downloaded,you will be directed with a warning, click on **Keep**.
+1. Once the file is downloaded, you will be directed with a warning to click on **Keep**.
 
-1. Open the downloaded RDP file and click **Connect** when prompted. 
+1. Open the downloaded RDP file and click on **Connect** when prompted. 
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted. ](./images/az-900-37.png)
 
-1. In the **Windows Security** window, select **More choices (1)** and then choose **Use a different account (2)**. Provide the username as `azureuser` **(3)** and the password `Pa$$w0rd1234` **(4)**. Then click **OK (5)** to connect.
+1. In the **Windows Security** window, select **More choices (1)** and then choose **Use a different account (2)**. Provide the **Username** as `azureuser` **(3)** and the **Password** `Pa$$w0rd1234` **(4)**. Then click on **OK (5)** to connect.
 
     ![Screenshot of the Windows security dialogue with use a different account selected and the username azure user entered and a password.](./images/az-900-38.png)
 
-1. You may receive a certificate warning during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully. Close the Windows Server and Dashboard windows that pop up. You should see a Blue Windows background. You are now in your virtual machine.
+1. You may receive a certificate warning during the sign-in process. Click on **Yes** to create the connection and connect to your deployed VM. You should be able to connect successfully. Close the Windows Server and Dashboard windows that pop up. You should see a blue Windows background. You are now in your virtual machine.
 
    ![](./images/az-900-61.png) 
 
-   >**Note:** Repeat step 1 to 6 for **vm2**.
+   >**Note:** Repeat step **1 to 6** for **vm2**.
 
 1. In *both* newly created virtual machines(`vm1,vm2`), connect via RDP and **disable both the public and private firewall**. Follow the steps below to complete the task.
 
@@ -182,7 +182,7 @@ In this task, we will try to test whether the virtual machines can communicate (
 
      ![image](../images/vnet01.png)   
 
-1. Open up a PowerShell command prompt on the Virtual machine(**vm1**), by clicking the **Start** button, type **PowerShell (1)**, right click on **Windows PowerShell (2)** then select **Run as administrator (3)**
+1. Open up a PowerShell command prompt on the virtual machine (**vm1**) by clicking the **Start** button, type **PowerShell (1)**, right-click on **Windows PowerShell (2)**, then select **Run as administrator (3).**
 
    ![](./images/az-900-35.png) 
 
@@ -194,10 +194,10 @@ In this task, we will try to test whether the virtual machines can communicate (
     
      ![Screenshot of the pinged VM2 from VM.](../images/AZ900Lab4.png)
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> **Congratulations** on completing the task! Now, it is time to validate it. Here are the steps:
+> - Click on the **Validate** button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help.
+> - If you need any assistance, please contact us at **labs-support@spektrasystems.com**. We are available 24/7 to help.
 
 <validation step="528acab3-c436-42e6-bb0b-172c0237f879" />
 
@@ -205,10 +205,10 @@ In this task, we will try to test whether the virtual machines can communicate (
 In this exercise, we created a virtual network and deployed two virtual machines within it. We then tested the connection between the virtual machines to ensure proper network configuration and communication. Throughout the exercise, we gained hands-on experience in setting up virtual networks and configuring network connectivity between virtual machines in a cloud environment.
 
 ## Review
-In this lab, you have completed:
-- Created a virtual network
-- Created two virtual machines
-- Tested the connection
+In this lab, you have:
+- Created a virtual network.
+- Created two virtual machines.
+- Tested the connection.
 
 ### Reference Links
 
