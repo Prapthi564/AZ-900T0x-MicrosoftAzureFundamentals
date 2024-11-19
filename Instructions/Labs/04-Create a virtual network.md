@@ -4,7 +4,7 @@
 
 ## Lab Overview
 
-Azure Virtual Network (VNet) is a service offered by Microsoft Azure that allows you to create private, isolated networks in the Azure cloud. It enables you to securely connect Azure resources, such as virtual machines (VMs), to each other, to on-premises networks, and the internet.
+Azure Virtual Network (VNet) is a service offered by Microsoft Azure that allows you to create private, isolated networks in the Azure cloud. It enables you to securely connect Azure resources, such as virtual machines (VMs), to each other, to on-premises networks, and to the internet.
 
 In this walkthrough, we will create a virtual network, deploy two virtual machines onto that virtual network, and then configure them to allow one virtual machine to ping the other within that virtual network.
 
@@ -47,7 +47,7 @@ In this task, we will create a virtual network.
     | --- | --- |
     | Address space |**10.1.0.0/16**|
  
- 1. Click on **+ Add a subnet** and ensure that the following address is reflecting (delete if any subnet exists already with the name default). If you have made any changes, then click on **Add (4)**.
+ 1. Click on **+ Add a subnet** and ensure that the following address is reflected (delete if any subnet exists already with the name default). If you have made any changes, then click on **Add (4)**.
   
     | Settings | Values | 
     | --- | --- |
@@ -96,7 +96,7 @@ In this task, we will create two virtual machines in the virtual network.
 
    ![](./images/az-900-29.png)       
 
-1. Click on **Next : Disks >** to switch to the **Disks** tab, and in the **OS Disk type** select **Standard HDD** from the dropdown. Leave everything else as default and click on **Next : Networking >**. 
+1. Click on **Next : Disks >** to switch to the **Disks** tab, and in the **OS Disk type**, select **Standard HDD** from the dropdown. Leave everything else as default and click on **Next : Networking >**. 
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/hdd.png)
 
@@ -108,7 +108,7 @@ In this task, we will create two virtual machines in the virtual network.
 
    ![](../images/lab04-image7.png)
     
-1. Click on **Review + create**. After the validation passes, click on **Create**. Deployment times can vary but it can generally take between three to six minutes to deploy.
+1. Click on **Review + create**. After the validation passes, click on **Create**. Deployment times can vary, but it can generally take between three to six minutes to deploy.
 
 1. Monitor your deployment, but continue to the next step. 
 
@@ -136,7 +136,7 @@ In this task, we will try to test whether the virtual machines can communicate (
     ![](./images/az-900-31.png) 
 
 
- 1. Open its **Overview** blade, and make sure its **Status** is **Running**. You may need to **Refresh** the page.    
+ 1. Open its **Overview** blade and make sure its **Status** is **Running**. You may need to **Refresh** the page.    
 
 1. On the virtual machine **Overview** blade, click on the **Connect (1)** drop-down and choose the **Connect (2)** option from the dropdown.
 
@@ -148,7 +148,7 @@ In this task, we will try to test whether the virtual machines can communicate (
 
    ![Screenshot of the virtual machine properties with the Connect button highlighted. ](../images/downrdp.png)
 
-1. Once the file is downloaded, you will be directed with a warning to click on **Keep**.
+1. Once the file is downloaded, you will be redirected with a warning to click on **Keep**.
 
 1. Open the downloaded RDP file and click on **Connect** when prompted. 
 
@@ -182,7 +182,7 @@ In this task, we will try to test whether the virtual machines can communicate (
 
      ![image](../images/vnet01.png)   
 
-1. Open up a PowerShell command prompt on the virtual machine (**vm1**) by clicking the **Start** button, type **PowerShell (1)**, right-click on **Windows PowerShell (2)**, then select **Run as administrator (3).**
+1. Open up a PowerShell command prompt on the virtual machine (**vm1**) by clicking the **Start** button. Type **PowerShell (1)**, right-click on **Windows PowerShell (2)**, and then select **Run as administrator (3).**
 
    ![](./images/az-900-35.png) 
 
