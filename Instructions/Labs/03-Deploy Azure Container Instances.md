@@ -46,15 +46,15 @@ In this task, we will create a new Container Instance for the web application.
 
 1. While you wait, you may be interested in viewing the [sample code behind this simple application](https://github.com/Azure-Samples/aci-helloworld). Browse the \app folder.
 
-1. You will be able to see the resource created in the PowerShell window.
+1. You will be able to see the resource created in the **PowerShell** window.
 
     ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](./images/az-900-17.png)
 
 ### Task 2: Verify Deployment of the Container Instance
 
-In this task, we will verify that the Container Instance is running. This we will ensure by checking if the welcome page is displayed.
+In this task, we will verify that the Container Instance is running. We will ensure this by checking if the welcome page is displayed.
 
-1. After the deployment is complete, navigate to the **AZ-900<inject key="DeploymentID" enableCopy="false" />** resource group and select the **mycontainer** container instance.
+1. After the deployment is complete, navigate to the **AZ-900<inject key="DeploymentID" enableCopy="false" />** resource group and select the **mycontainer** Container Instance.
 
    ![](./images/az-900-18.png)
 
@@ -62,7 +62,7 @@ In this task, we will verify that the Container Instance is running. This we wil
 
     ![](../images/lab3-image6.png)
 
-1. Locate and copy the **Fully Qualified Domain Name (FQDN)**.
+1. Locate and copy the **fully qualified domain name (FQDN)**.
 
     ![](../images/lab3-image4.png)
 
@@ -75,7 +75,7 @@ In this task, we will verify that the Container Instance is running. This we wil
    >**Note**: You could also use the container IP address in your browser.
    
 > **Congratulations** on completing the task! Now, it is time to validate it. Here are the steps:
-> - Click on the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - Click on the **Validate** button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at **labs-support@spektrasystems.com**. We are available 24/7 to help.
 
