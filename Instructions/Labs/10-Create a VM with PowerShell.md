@@ -4,7 +4,7 @@
 
 ## Lab Overview
 
-In this walkthrough, we will configure the Cloud Shell, use the Azure PowerShell module to create a resource group and virtual machine, and review Azure Advisor recommendations.
+In this walkthrough, we will configure the Cloud Shell, use the Azure PowerShell module to create a resource group and virtual machine and review Azure Advisor recommendations.
 
 ## Lab Objectives
 
@@ -172,11 +172,11 @@ In this task, we will review Azure Advisor recommendations for our virtual machi
 In this exercise, we configured the Cloud Shell and created a virtual machine. We then executed commands within the Cloud Shell to manage resources and reviewed Azure Advisor recommendations to optimize the virtual machine setup. Throughout the exercise, we gained hands-on experience with Cloud Shell for managing Azure resources and leveraging Azure Advisor for best practice recommendations.
 
 ## Review
-In this lab, you have completed:
-- Configured the Cloud Shell
-- Created a virtual machine
-- Executed commands in the Cloud Shell
-- Reviewed Azure Advisor Recommendations
+In this lab, you have:
+- Configured the Cloud Shell.
+- Created a virtual machine.
+- Executed commands in the Cloud Shell.
+- Reviewed Azure Advisor recommendations.
 
 ## Reference Link
 
