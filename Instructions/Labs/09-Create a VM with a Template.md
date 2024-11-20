@@ -10,8 +10,8 @@ In this walkthrough, we will deploy a virtual machine with a QuickStart template
 
 In this lab, you will be able to complete the following tasks:
 
-+ **Task 1:** Explore the gallery and locate a template
-+ **Task 2:** Verify and monitor your virtual machine deployment
++ **Task 1:** Explore the Gallery and Locate a Template
++ **Task 2:** Verify and Monitor your Virtual Machine Deployment
 
 ## Architecture Diagram
 
@@ -21,37 +21,37 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will browse the Azure QuickStart gallery and deploy a template that creates a virtual machine.
 
-1. In a new tab of the **Microsoft Edge**, access the [Azure Quickstart Templates gallery](https://azure.microsoft.com/resources/templates?azure-portal=true). In the gallery, you will find many popular and recently updated templates. These templates automate the deployment of Azure resources, including the installation of popular software packages.
+1. In a new tab of **Microsoft Edge**, access the [Azure Quickstart Templates gallery](https://azure.microsoft.com/resources/templates?azure-portal=true). In the gallery, you will find many popular and recently updated templates. These templates automate the deployment of Azure resources, including the installation of popular software packages.
 
-1. Browse through the many different types of templates that are available. Are there any templates that are of interest to you?
+1. Browse through the different types of templates that are available. Are there any templates that are of interest to you?
 
-1. Search for **Deploy a simple Windows VM with tags (1)** in the search bar then click **Search (2)** and then select it from the results **(3)**.
+1. Search for **Deploy a simple Windows VM with tags (1)** in the search bar, then click on **Search (2)**, and then select it from the results **(3)**.
 
     ![](./images/az-900-87.png)
 
-    >**Note**: The **Deploy to Azure** button enables you to deploy the template via the Azure portal. During such deployment, you will be prompted only for a small set of configuration parameters. 
+    >**Note**: The **Deploy to Azure** button enables you to deploy the template via the Azure Portal. During such deployment, you will be prompted only for a small set of configuration parameters. 
 
-1. Click the **Deploy to Azure** button. Your browser session will be automatically redirected to the [Azure portal](http://portal.azure.com/).
+1. Click on the **Deploy to Azure** button. Your browser session will be automatically redirected to the [Azure Portal](http://portal.azure.com/).
 
     ![](../images/l9.5.png)
 
-1. If prompted, sign in to the Azure with the **Username:** <inject key="AzureAdUserEmail"></inject> and **Password:** <inject key="AzureAdUserPassword"></inject>.
+1. If prompted, sign in to Azure with the **Username:** <inject key="AzureAdUserEmail"></inject> and **Password:** <inject key="AzureAdUserPassword"></inject>.
 
 1. Click **Edit template**. 
 
     ![](./images/az-900-88.png)
 
-1. The Resource Manager template format uses the JSON format. In the template go to line number **35** and change the default value of the OS version to `2019-datacenter-gensecond`
+1. The Resource Manager template format uses the JSON format. In the template, go to line number **35** and change the default value of the OS version to `2019-datacenter-gensecond`
 
    ![](../images/l9os.png)
    
-1. Next, go to line number **110** change the VM name to `myVMTemplate` **(1)** and save the changes made to the template file by clicking on **Save (2)**.
+1. Next, go to line number **110** and change the VM name to `myVMTemplate` **(1)**. Moving on, save the changes made to the template file by clicking on **Save (2)**.
 
    ![](./images/az-900-89.png)
 
-3. To review the parameters and variables click on **Edit parameters file**, review the contents and  click on **Save**.
+3. To review the parameters and variables, click on **Edit parameters file**, review the contents, and click on **Save**.
   
-1. Now configure the parameters required by the template. Leave the defaults for everything else and then click **Review + create (9)**.
+1. Now, configure the parameters required by the template. Leave the rest as defaults and then click on **Review + create (9)**.
 
     | Settings| Values|
     |----|----|
@@ -67,13 +67,13 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
    
     ![](./images/az-900-90.png)
 
-1. Click the **Create**.
+1. Click on the **Create** option.
 
 1. Monitor your deployment. Wait until your deployment is completed.
 
 ### Task 2: Verify and Monitor your Virtual Machine Deployment
 
-In this task, we will verify the virtual machine is deployed correctly. 
+In this task, we will verify if the virtual machine is deployed correctly. 
 
 1. On the **Azure Portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top of the portal, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under services.
 
@@ -83,13 +83,13 @@ In this task, we will verify the virtual machine is deployed correctly.
 
     ![Screenshot of the virtual machines page. The new VM is shown and running.](./images/az-900-91.png)
 
-1. Select **myVMTemplate** virtual machine and on the **Overview** pane scroll down to **monitoring** tab to view monitoring data.
+1. Select **myVMTemplate** virtual machine, and on the **Overview** pane, scroll down to the **monitoring** tab to view monitoring data.
 
     ![Screenshot of the virtual machines page. The new VM is shown and running.](../images/myvmtemplate1.png)
 
     >**Note**: The monitoring timeframe can be adjusted from one hour to 30 days.
 
-1. Review different charts that are provided including **CPU (average)**, **Network (total)**, and **Disk bytes (total)**. 
+1. Review different charts that are provided, including **CPU (average)**, **Network (total)**, and **Disk bytes (total)**. 
 
     ![Screenshot of the virtual machine monitoring charts.](../images/0903.png)
 
@@ -99,11 +99,11 @@ In this task, we will verify the virtual machine is deployed correctly.
 
 1. Return to the **Overview** blade.
 
-1. Click on the **Activity log** from the left navigation pane. Activity logs record such events as the creation or modification of resources. 
+1. Click on the **Activity log** option from the left navigation pane. Activity logs record the creation or modification of resources. 
 
     ![](./images/az-900-93.png)
 
-1. Click **Add filter** and experiment with searching for different event types and operations. 
+1. Click on **Add filter** and experiment with searching for different event types and operations. 
 
    ![Screenshot of the Add filters page with Event type selected.](./images/az-900-94.png)
 
