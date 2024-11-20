@@ -46,7 +46,7 @@ In this task, we will create a new storage account.
 
    ![](./images/az-900-45.png) 
 
-1. On the **Basics** tab of the **Create storage account** blade, fill in the following information. Leave the rest as default, then click on **Next (7)**.
+1. On the **Basics** tab of the **Create a storage account** blade, fill in the following information. Leave the rest as default, then click on **Next (7)**.
 
     | Settings | Values | 
     | --- | --- |
@@ -59,7 +59,7 @@ In this task, we will create a new storage account.
     
       ![Screenshot of the newly created storage account in the Azure portal .](../images/5-1.png)
 
-1. On the **Advanced (7)** tab of **Create a storage account**, choose **Hot (1)** for the **Access tier** setting under **Blob storage**, then click on **Review + create (2)**.
+1. On the **Advanced** tab of **Create a storage account**, choose **Hot (1)** for the **Access tier** setting under **Blob storage**, then click on **Review + create (2)**.
 
    ![](./images/az-900-46.png) 
 
@@ -67,7 +67,7 @@ In this task, we will create a new storage account.
 
    ![Screenshot of the newly created storage account in the Azure portal .](../images/5-2.png)
 
-1. From the **Home** page, search for and select **Storage accounts** and ensure your new storage account is listed.
+1. From the **Home** page, search for and select **storageaccount** and ensure your new storage account is listed.
 
     ![Screenshot of the newly created storage account in the Azure portal .](./images/az-900-60.png)
 
@@ -96,7 +96,7 @@ In this task, we will create a blob container and upload a blob file.
 
    ![](./images/az-900-49.png) 
 
-1. Click on **Browse to a file (1)**, then select **Test.txt (3)** that you had created in a previous task, located on the **desktop (2)**. Then select the file and click on **Open (4)**.
+1. Click on **Browse to a file (1)**, then select **Test.txt (3)** that you had created in a previous task, located on the **Desktop (2)**. Then select the file and click on **Open (4)**.
 
    ![](./images/az-900-50.png) 
   
@@ -124,7 +124,7 @@ In this task, we will create a blob container and upload a blob file.
 
 1. Explore some of the most common storage problems. Notice there are multiple troubleshooters.
 
-1. On the storage account blade, from the left navigation menu, scroll down to the **Monitoring (1)** section and click **Insights (2)**. Notice there is information on *Failures, Performance, Availability, and Capacity*.
+1. On the **storageaccount** blade, from the left navigation menu, scroll down to the **Monitoring (1)** section and click **Insights (2)**. Notice there is information on *Failures, Performance, Availability, and Capacity*.
 
     ![Screenshot of the storage account Insights page.](./images/az-900-58.png)
 
