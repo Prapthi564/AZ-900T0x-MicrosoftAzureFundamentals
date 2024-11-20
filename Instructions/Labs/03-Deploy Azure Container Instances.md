@@ -22,11 +22,11 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will create a new Container Instance for the web application.
 
-1. Open **Azure Cloud Shell** on **Azure Portal** by clicking on the icon in the top right of the same.
+1. Open **Azure Cloud Shell** on **Azure Portal** by clicking on the icon (as shown in the screenshot) in the top right of the same.
 
     ![Screenshot of Azure Portal Azure Cloud Shell icon.](./images/az-900-19.png)
 
-1. You might be prompted to choose the type of shell you want to use (*Bash* or *PowerShell*) if you open the **Cloud Shell**, for the first time. If so, select **PowerShell**.
+1. You might be prompted to choose the type of shell you want to use (*Bash* or *PowerShell*) if you open the **Cloud Shell**for the first time. If so, select **PowerShell**.
 
     ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](./images/az-900-20.png)
    
