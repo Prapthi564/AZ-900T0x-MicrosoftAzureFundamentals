@@ -55,17 +55,17 @@ In this task, we will configure Cloud Shell.
 
 ### Task 2: Create a Virtual Machine
 
-In this task, we will use PowerShell to create a resource group and a virtual machine.
+In this task, we will use PowerShell to create a Resource group and a virtual machine.
 
 1. Ensure **PowerShell** is selected in the upper-left drop-down menu of the Cloud Shell pane.
 
-1. In the PowerShell session, within the Cloud Shell pane, get the existing resource group.
+1. In the PowerShell session, within the Cloud Shell pane, get the existing Resource group.
 
     ```
     Get-AZResourceGroup
     ```
 
-1. Verify your resource group.
+1. Verify your Resource group.
 
     ```
     Get-AzResourceGroup | Format-Table
