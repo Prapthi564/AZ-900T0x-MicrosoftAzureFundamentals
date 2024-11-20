@@ -1,29 +1,29 @@
-# Lab 06 - Create a SQL database
+# Lab 06 - Create a SQL Database
 
-### Estimated timing: 20 minutes
+### Estimated Timing: 20 Minutes
 
-## Lab overview
+## Lab Overview
 
 A SQL database is a collection of tables that stores a specific set of structured data using a relational model. It is designed to efficiently organize and retrieve data using a language called Structured Query Language (SQL).
 
-In this walkthrough, we will create a SQL database in Azure and then query the data in that database.
+In this walkthrough, we will create an SQL database in Azure and then query the data in that database.
 
-## Lab objectives
+## Lab Objectives
 
-In this lab, You will be able to complete the following tasks:
+In this lab, you will be able to complete the following tasks:
 
-+ Task 1: Create the database
-+ Task 2: Test the database
++ **Task 1:** Create the Database
++ **Task 2:** Test the Database
 
-## Architecture diagram
+## Architecture Diagram
 
 ![](../images/az900lab06.PNG) 
 
-### Task 1: Create the database
+### Task 1: Create the Database
 
-In this task, we will create a SQL database based on the AdventureWorksLT sample database. 
+In this task, we will create an SQL database based on the AdventureWorksLT sample database. 
 
-1. On the Azure portal, from the **Search resources, services, and docs** blade, search for **SQL databases (1)** and select **SQL databases (2)**. 
+1. On the **Azure Portal**, within the **Search Resources, Services, and Docs** blade, search for **SQL databases (1)** and select **SQL databases (2)**. 
 
    ![](./images/az-900-63.png)
 
@@ -31,9 +31,9 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
 
    ![](./images/az-900-64.png)
    
-1. On the **Basics** tab, fill in this information and then click on **Next: Networking> (7)**.  
+1. On the **Basics** tab, fill in all the information provided and then click on **Next: Networking> (7)**.  
 
-    | Setting | Value | 
+    | Settings | Values | 
     | --- | --- |
     | Subscription | **Choose your subscription (1)** |
     | Resource group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/> (2)** |
@@ -43,9 +43,9 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
 
     ![](./images/az-900-66.png)
     
-1. Next to the **Server** drop down list, click **Create new**. Click **OK (7)** when finished. **(4)**       
+1. Next to the **Server** drop-down list, click on **Create new**. Select **OK (7)** when finished. **(4)**       
 
-    | Setting | Value | 
+    | Settings | Values | 
     | --- | --- |
     | Server name | **sqlserver<inject key="DeploymentID" enableCopy="false"/> (1)** (must be unique) |
     | Location | **(US) East US (2)** |
@@ -56,9 +56,9 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
 
     ![](./images/az-900-65.png)    
 
-1. On the **Networking** tab and configure the following settings (leave others with their defaults) and then click on **Next: Security> (4)**
+1. On the **Networking** tab, configure the following settings (leave others with their defaults) and then click on **Next: Security> (4)**
 
-    | Setting | Value | 
+    | Settings | Values | 
     | --- | --- |
     | Connectivity method | **Public endpoint (1)** |    
     | Allow Azure services and resources to access this server | **Yes (2)** |
@@ -66,13 +66,13 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
 
     ![](./images/az-900-67.png)        
 
-1. On the **Security** tab. Verfy the below Setting and then click on **Next: Additional settings >**
+1. On the **Security** tab, verify the below **Setting** and then click on **Next: Additional settings >**
  
     | Setting | Value | 
     | --- | --- |
     | Enable Microsoft Defender for SQL| **Not now** |
 
-1. On the **Additional settings** tab, provide the below information. We will be using the **AdventureWorksLT** sample database, if pop-up comes, click on **OK (2)** and then click on **Review + create (3)**.
+1. On the **Additional settings** tab, insert the information available below. We will be using the **AdventureWorksLT** **sample (1)** database. If a pop-up comes up, click on **OK (2)** and then click on **Review + create (3)**.
 
     | Setting | Value | 
     | --- | --- |
@@ -80,45 +80,45 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
 
     ![](./images/az-900-68.png)        
 
-1. Review the configurations and then click **Create** to deploy and provision the resource group, server, and database. Deployment may take approximately 2 to 5 minutes.
+1. Review the configurations and then click on **Create** to deploy and provision the resource group, server, and database. Deployment may take approximately 2 to 5 minutes.
 
    ![](./images/az-900-69.png)
 
-1. Wait for the deployment to get succeeded.
+1. Wait for the deployment to succeed.
 
-### Task 2: Test the database
+### Task 2: Test the Database
 
 In this task, we will configure the SQL server and run a SQL query. 
 
-1. From the **Search resources, services, and docs** blade, search and select **SQL databases** and ensure your new database was created. You may need to **Refresh** the page.
+1. From the **Search Resources, Services, and Docs** blade, search and select **SQL databases** and ensure your new database was created. You may need to **Refresh** the page.
 
     ![Screenshot of the SQL database and server that have just been deployed.](./images/az-900-70.png)
 
-1. Click the **db1** entry representing the SQL database you created, and then click **Query editor (preview)** from the left navigation pane.
+1. Click on the **db1** entry representing the SQL database you had created, and then click on **Query editor (preview)** from the left navigation pane.
 
    ![](./images/az-900-71.png)
 
-1. Login as **sqluser (1)** with the password `Pa$$w0rd1234` **(2)** and then click on **OK (3)**.
+1. Log in as **sqluser (1)** with the **Password** `Pa$$w0rd1234` **(2)** and then click on **OK (3)**.
 
    ![](./images/az-900-72.png)
 
-1. If you are able to login proceed with **Step 7**.
+1. If you are able to log in, proceed with **Step 7**.
 
-1. If you are not able to login, follow the below steps: 
+1. If you are not able to log in, follow the steps below: 
 
     ![Screenshot of the Query Editor login page with IP address error.](../images/0503.png)
     
-    - From the **db1** blade, click on **Overview (1)** and then select **Set server firewall (2)** from the top menu bar.
+    - Within the **db1** blade, click on **Overview (1)** and then select **Set server firewall (2)** from the top menu bar.
 
       ![](./images/az-900-73.png)    
 
-    - Scroll down to the Firewall rules section and click on **+ Add your client IPv4 address (1)**. Be sure to **Save (2)** your changes. 
+    - Scroll down to the **Firewall rules** section and click on **+ Add your client IPv4 address (1)**. Be sure to **Save (2)** your changes. 
 
       ![Screenshot of the SQL server firewall settings page with the new IP rule highlighted.](./images/az-900-74.png)
 
-1. Return to your SQL database and the **Query Editor (Preview)** login page. Try to login again as `sqluser` with the password `Pa$$w0rd1234`. Click on **OK**. This time you should succeed. Note that it may take a couple of minutes for the new firewall rule to be deployed. 
+1. Return to your SQL database and the **Query Editor (Preview)** login page. Try to log in again as an `sqluser` with the **Password** `Pa$$w0rd1234`. Click on **OK**. This time, you should succeed. Note that it may take a couple of minutes for the new firewall rule to be deployed. 
 
-1. Once you log in successfully the query pane appears, enter the following query into the editor pane **(1)** and then click **Run (2)**.
+1. Once you log in successfully, the query pane appears. Enter the following query into the editor pane **(1)** and then click on **Run (2)**.
 
     ```
     SELECT TOP 20 pc.Name as CategoryName, p.name as ProductName
@@ -135,24 +135,24 @@ In this task, we will configure the SQL server and run a SQL query.
 
     ![Screenshot of the database Query Editor pane with the SQL code having been run successfully and the output visible in the results pane.](./images/az-900-76.png)
 
-1. Close the query editor, and select **OK** on the **portal.azure.com** says.
+1. Close the query editor and select **OK** on the **portal.azure.com**.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - Click on the **Validate** button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help.
+> - If you need any assistance, please contact us at **labs-support@spektrasystems.com**. We are available 24/7 to help.
 
 <validation step="3f6d725f-f26f-461d-a922-9f871108d2f1" />
 
 ## Summary
-In this exercise, we created a database and tested its functionality to ensure it was set up correctly. We explored the process of database creation, followed by verifying its performance and accessibility. Throughout the exercise, we gained hands-on experience in setting up and testing databases in the cloud environment.
+In this exercise, we have created a database and tested its functionality to ensure it was set up correctly. We explored the process of database creation, followed by verifying its performance and accessibility. Throughout the exercise, we gained hands-on experience in setting up and testing databases in the cloud environment.
 
 ## Review
-In this lab, you have completed:
-- Created the database
-- Tested the database
+In this lab, you have:
+- Created the database.
+- Tested the database.
 
-## Reference link
+## Reference Link
 
 - https://learn.microsoft.com/en-us/sql/relational-databases/databases/create-a-database?view=sql-server-ver16
   
