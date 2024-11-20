@@ -1,21 +1,21 @@
 # Lab 10 - Create a VM with PowerShell 
 
-### Estimated timing: 15 minutes
+### Estimated Timing: 15 Minutes
 
-## Lab overview
+## Lab Overview
 
-In this walkthrough, we will configure the Cloud Shell, use Azure PowerShell module to create a resource group and virtual machine, and review Azure Advisor recommendations.
+In this walkthrough, we will configure the Cloud Shell, use the Azure PowerShell module to create a resource group and virtual machine, and review Azure Advisor recommendations.
 
-## Lab objectives
+## Lab Objectives
 
-In this lab, You will be able to complete the following tasks:
+In this lab, you will be able to complete the following tasks:
 
-+ Task 1: Configure the Cloud Shell
-+ Task 2: Create a virtual machine
-+ Task 3: Execute commands in the Cloud Shell
-+ Task 4: Review Azure Advisor Recommendations
++ **Task 1:** Configure the Cloud Shell
++ **Task 2:** Create a Virtual Machine
++ **Task 3:** Execute Commands in the Cloud Shell
++ **Task 4:** Review Azure Advisor Recommendations
 
-## Architecture diagram
+## Architecture Diagram
 
 ![](../images/az900lab10.JPG)
 
@@ -23,25 +23,25 @@ In this lab, You will be able to complete the following tasks:
 
 In this task, we will configure Cloud Shell.
 
-1. From the Azure portal, open the **Azure Cloud Shell** by clicking on the icon in the top right of the Azure Portal.
+1. On the **Azure Portal**, open **Azure Cloud Shell** by clicking on the icon (as shown in the screenshot) in the top right.
 
     >**Note:** If you have already used it before, you can proceed to Task 2.
 
     ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/AZ-900-1001.png)
 
-1. If you're launching Cloud Shell for the first time, you may be prompted to choose the type of shell you want to use (*Bash* or *PowerShell*). If so, select **Powershell**.
+1. If you're launching Cloud Shell for the first time, you may be prompted to choose the type of shell you want to use (*Bash* or *PowerShell*). If so, select **PowerShell**.
 
     ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](./images/az-900-20.png)
 
-1. On the Getting started, select **Mount storage account (1)** and select your subscription **(2)** under storage account subscription. Click on **Apply (3)**.
+1. On the **Getting started** page, select **Mount storage account (1)** and select your subscription under **Storage account subscription (2)**. Click on **Apply (3)**.
 
    ![](./images/az-900-105.png)
 
-1. On the Mount storage account tab, select **I want to create a storage account (1)** and then click on **Next (2)**.
+1. On the **Mount storage account** tab, select **I want to create a storage account (1)** and then click on **Next (2)**.
 
    ![](./images/az-900-106.png)
 
-1. On the create storage account tab, provide the details and select **Create (6)**
+1. On the **Create storage account** tab, provide the following details and select **Create (6)**
 
     | Settings | Values |
     |  -- | -- |
@@ -53,13 +53,13 @@ In this task, we will configure Cloud Shell.
 
     ![](./images/az-900-107.png)    
 
-### Task 2: Create a virtual machine
+### Task 2: Create a Virtual Machine
 
 In this task, we will use PowerShell to create a resource group and a virtual machine.
 
 1. Ensure **PowerShell** is selected in the upper-left drop-down menu of the Cloud Shell pane.
 
-1. In the PowerShell session, within the Cloud Shell pane, get existing resource group.
+1. In the PowerShell session, within the Cloud Shell pane, get the existing resource group.
 
     ```
     Get-AZResourceGroup
@@ -72,7 +72,7 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
     ```
     ![](./images/az-900-108.png)    
 
-1. Create a virtual machine. When prompted provide the user as `azureuser` and the password: `Pa$$w0rd1234`. <br>This will be configured as the local Administrator account on that virtual machines. Ensure that you include the tick (`) characters at the end of each line except for the last one (there should not be any tick characters if you type entire command on a single line).
+1. Create a virtual machine. When prompted, provide the user as `azureuser` and the password: `Pa$$w0rd1234`. <br>This will be configured as the local administrator account on that virtual machine. Ensure that you include the tick (`) characters at the end of each line except for the last one (there should not be any tick characters if you type the entire command on a single line).
 
     ```
      New-AzVm `
@@ -89,49 +89,49 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
 
     ![](./images/az-900-96.png)    
 
-    >**Note**: Wait for VM to deploy before closing PowerShell
+    >**Note**: Wait for the VM to deploy before closing the PowerShell.
 
 1. Close the PowerShell session Cloud Shell pane.
 
-1. In the Azure portal, search for **Virtual machines** and verify the **myVMPS** is running. This may take a few minutes.
+1. In the **Azure Portal**, search for **Virtual machines** and verify if the **myVMPS** is running. This may take a few minutes.
 
     ![Screenshot of the virtual machines page with myVMPS in a running state.](./images/az-900-97.png)
 
 1. Access the new virtual machine and review the Overview and Networking settings to verify your information was correctly deployed.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - Click on the **Validate** button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help.
 
 <validation step="bd6b6ab3-0b26-40e3-bddc-74cd861e563c" />
 
->**Note**: You can try validating the task after 3-5 minutes, if validations are failing.
+>**Note**: You can try validating the task after 3-5 minutes if validations are failing.
 
-### Task 3: Execute commands in the Cloud Shell
+### Task 3: Execute Commands in the Cloud Shell
 
 In this task, we will practice executing PowerShell commands from the Cloud Shell.
 
-1. From the Azure portal, open the **Azure Cloud Shell** by clicking on the icon in the top right of the Azure Portal.
+1. From the **Azure Portal**, open **Azure Cloud Shell** by clicking on the icon in the top right.
 
 1. Ensure **PowerShell** is selected in the upper-left drop-down menu of the Cloud Shell pane.
 
-1. Retrieve information about your virtual machine including name, resource group, location, and status. Notice the PowerState is **running**.
+1. Retrieve information about your virtual machine, including name, resource group, location, and status. Notice if the PowerState is **running**.
 
     ```
     Get-AzVM -name myVMPS -status | Format-Table -autosize
     ```
     ![](./images/az-900-98.png)    
 
-1. Stop the virtual machine. When prompted confirm (Yes) to the action.
+1. Stop the virtual machine. When prompted, confirm (Yes) to the action.
     ```
     Stop-AzVM -ResourceGroupName AZ-900-<inject key="DeploymentID" enableCopy="false"/> -Name myVMPS
     ```
-1. For **This cmdlet will stop the specified virtual machine. Do you want to continue?** enter **Y**.
+1. For **This cmdlet will stop the specified virtual machine. Do you want to continue?** Enter **Y**.
 
    ![](./images/az-900-99.png)
 
-1. Verify your virtual machine state. The PowerState should now be **deallocated**. You can also verify the virtual machine status in the portal.
+1. Verify your virtual machine's state. The PowerState should now be **deallocated**. You can also verify the virtual machine's status in the portal.
 
     ```
     Get-AzVM -name myVMPS -status | Format-Table -autosize
@@ -140,23 +140,23 @@ In this task, we will practice executing PowerShell commands from the Cloud Shel
 
 ### Task 4: Review Azure Advisor Recommendations
 
-> **Note:** This same task is also performed in hands-on-lab for **Create a VM with Azure CLI lab**.
+> **Note:** This same task is also performed within hands-on-lab for **Create a VM with Azure CLI lab**.
 
 In this task, we will review Azure Advisor recommendations for our virtual machine.
 
-1. From the **Search resources,services and Docs** blade, search for **Advisor (1)** and select **Advisor (2)** from the services.
+1. On the **Search Resources, Services, and Docs** blade, search for **Advisor (1)** and select **Advisor (2)** under **Services**.
 
    ![](./images/az-900-101.png)
 
-1. On the **Advisor** blade, select **Overview**. Notice recommendations are grouped by **Reliability, Security, Performance and Cost**.
+1. On the **Advisor** blade, select **Overview**. Notice recommendations are grouped by **Reliability, Security, Performance, and Cost**.
 
     ![Screenshot of the Advisor Overview page. ](./images/az-900-102.png)
 
-    >**Note:** Depending on your resources, your recommendations will be different and you might get the notification "You are following all of our performance recommendations".
+    >**Note:** Depending on your resources, your recommendations will be different, and you might get the notification "**You are following all of our performance recommendations**."
 
-1. Select **All recommendations** under **Recommendations** from the left navigation pane and take time to view each recommendation and suggested actions.
+1. Select **All recommendations** under **Recommendations** from the left navigation pane. Take time to view each recommendation and suggested actions.
 
-    >**Note:** Depending on your resources, your recommendations will be different and you might get the notification "You are following all of our performance recommendations".
+    >**Note:** Depending on your resources, your recommendations will be different, and you might get the notification "**You are following all of our performance recommendations**."
 
     ![Screenshot of the Advisor All recommendations page. ](../images/l10.3.png)
 
@@ -164,7 +164,7 @@ In this task, we will review Azure Advisor recommendations for our virtual machi
 
     ![Screenshot of the Advisor All recommendations page. ](./images/az-900-103.png)
 
-1. Notice that from the **Alerts** in the left navigation pane, you can create alerts.
+1. Notice that from the **Alerts (Preview)** option in the left navigation pane, you can create alerts.
 
    ![](./images/az-900-104.png)
 
@@ -178,7 +178,7 @@ In this lab, you have completed:
 - Executed commands in the Cloud Shell
 - Reviewed Azure Advisor Recommendations
 
-## Reference link
+## Reference Link
 
 - https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-powershell
 
