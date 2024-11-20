@@ -42,11 +42,11 @@ In this lab, you will be able to complete the following tasks:
 
    ![screenshot of the downloading the word file.](../images/l21a.png) 
 
-1. Then again, type or search for the **Azure Active Directory B2C** service. Now notice the **Monthly Uptime Percentages** and **Service Credits**.
+1. Then again, type or search for the **Azure Active Directory B2C** service. Now, notice the **Monthly Uptime Percentages** and **Service Credits**.
 
-1. Type or search for **Application Gateway** and click on the **Application Gateway** search result. Now notice the **Monthly Uptime Percentages** and **Service Credits**.
+1. Type or search for **Application Gateway** and click on the **Application Gateway** search result. Now, notice the **Monthly Uptime Percentages** and **Service Credits**.
 
-1. The Azure SQL database uses premium tiers but is not configured for zone redundant deployments. Locate the **Azure SQL Database** and notice the **Monthly Uptime Percentages** and **Service Credits**.
+1. The Azure SQL database uses premium tiers but is not configured for zone-redundant deployments. Locate the **Azure SQL Database** and notice the **Monthly Uptime Percentages** and **Service Credits**.
 
     >**Note**: There are different uptime values for different configurations and deployments of Azure SQL Database. It is important you are clear on your required uptime values when planning and costing your deployment and configuration. Small changes in uptime can have an impact on service costs as well as potentially increase complexity in configuration. Some other services that may be of interest on the Azure SLA summary web page would include **Virtual Machines**, **Storage Accounts**, and **Cosmos DB**.
 
