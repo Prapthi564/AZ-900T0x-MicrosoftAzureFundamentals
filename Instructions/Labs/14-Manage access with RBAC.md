@@ -23,7 +23,7 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will assign the virtual machine contributor role. 
 
-1. On the **Azure Portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Resource groups (1)**, and then select **Resource groups (2)** under **Services**.
+1. On the **Azure portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Resource groups (1)**, and then select **Resource groups (2)** under **Services**.
 
    ![image](../images/lab14-image1.png)
 
@@ -44,7 +44,7 @@ In this task, we will assign the virtual machine contributor role.
     ![image](../images/lab14-image5.png)
    
 
-1. On the **Members** tab, make sure to select **Assign access to: the user, group, or service principal (1)**. Next, click on **+ Select members (2)** to open a popup window. In the search bar within the popup, enter your Azure account name (Username: **<inject key="AzureAdUserEmail"></inject>) (3)**, and then click on **select (4)**.
+1. On the **Members** tab, make sure to select **Assign access to: the user, group, or service principal (1)**. Next, click on **+ Select members (2)** to open a pop-up window. In the search bar within the pop-up, enter your Azure account name (Username:**<inject key="AzureAdUserEmail"></inject>) (3)**, and then click on **select (4)**.
 
     ![image](../images/lab14-image6.png)
 
