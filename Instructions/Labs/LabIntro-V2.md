@@ -55,7 +55,7 @@ The objective of the AZ-900: Microsoft Azure Fundamentals lab is to provide part
 In this lab, we have the following preconfigured:
 
 - A virtual machine has been provisioned with all the necessary resources to support the tasks in this lab. 
-- You will be provided with access to a pre-configured Microsoft user account, which comes with an active Azure subscription. 
+- You will be provided with access to a preconfigured Microsoft user account, which comes with an active Azure subscription. 
 - The lab environment includes pre-established resource groups, simplifying the organization and management of related Azure resources.
 
 ## Architecture
