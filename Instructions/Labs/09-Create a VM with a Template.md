@@ -37,7 +37,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 1. If prompted, sign in to Azure with the **Username:** <inject key="AzureAdUserEmail"></inject> and **Password:** <inject key="AzureAdUserPassword"></inject>.
 
-1. Click **Edit template**. 
+1. Click on **Edit template**. 
 
     ![](./images/az-900-88.png)
 
@@ -75,7 +75,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 In this task, we will verify if the virtual machine is deployed correctly. 
 
-1. On the **Azure Portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top of the portal, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under services.
+1. On the **Azure Portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top of the portal, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under **Services**.
 
    ![](../images/lab1-image1.png) 
 
@@ -93,7 +93,7 @@ In this task, we will verify if the virtual machine is deployed correctly.
 
     ![Screenshot of the virtual machine monitoring charts.](../images/0903.png)
 
-1. Click on any chart. Note that you can **Add metrics (1)** and change the **chart type (2)**.
+1. Click on any **chart**. Note that you can **add metrics (1)** and change the **chart type (2)**.
 
     ![](./images/az-900-92.png)
 
@@ -107,7 +107,7 @@ In this task, we will verify if the virtual machine is deployed correctly.
 
    ![Screenshot of the Add filters page with Event type selected.](./images/az-900-94.png)
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> **Congratulations** on completing the task! Now, it is time to validate it. Here are the steps:
 > - Click on the **Validate** button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at **labs-support@spektrasystems.com**. We are available 24/7 to help.
