@@ -6,7 +6,7 @@
 
 Azure Container Instances enables exposing your container groups directly to the internet with an IP address and a fully qualified domain name (FQDN). When you create a container instance, you can specify a custom DNS name label so your application is reachable. Azure Container Instances offers the fastest and simplest way to run a container in Azure, without having to manage any virtual machines and without having to adopt a higher-level service.
 
-In this walkthrough, we create, configure, and deploy a Docker container by using Azure Container Instances (ACI) in the Azure Portal. The container is a Welcome to ACI web application that displays a static HTML page.
+In this walkthrough, we create, configure, and deploy a Docker container by using Azure Container Instances (ACI) in the Azure portal. The container is a Welcome to ACI web application that displays a static HTML page.
 
 ## Lab Objectives
 
@@ -22,7 +22,7 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will create a new Container Instance for the web application.
 
-1. Open **Azure Cloud Shell** on **Azure Portal** by clicking on the icon (as shown in the screenshot) in the top right of the same.
+1. Open **Azure Cloud Shell** on **Azure portal** by clicking on the icon (as shown in the screenshot) in the top right of the same.
 
     ![Screenshot of Azure Portal Azure Cloud Shell icon.](./images/az-900-19.png)
 
