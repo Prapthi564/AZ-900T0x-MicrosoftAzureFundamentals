@@ -6,7 +6,7 @@
 
 An Azure virtual machine (VM) is a computing resource provided by Microsoft Azure. It allows users to create and use virtualized computing instances in the cloud. Azure Virtual Machines enable users to run applications, host websites, and perform various computing tasks without needing to purchase and maintain physical hardware.
 
-In this walkthrough, we will create a virtual machine in the Azure Portal, connect to the virtual machine, install the web server role, and test.
+In this walkthrough, we will create a virtual machine in the Azure portal, connect to the virtual machine, install the web server role, and test.
 
 ## Lab Objectives
 
@@ -26,7 +26,7 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual machine. 
 
-1. On the **Azure Portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under **Services**.
+1. On the **Azure portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under **Services**.
 
    ![](../images/lab1-image1.png) 
 
@@ -179,7 +179,7 @@ In this task, you will install the web server role on the server and host a basi
     ```
     ![](../images/root.png)
 
-1. Now, back in the **Azure Portal**, navigate back to the **Overview** blade of **myVM** and use the **Copy to clipboard** button to copy the **public IP address** of **myVm**.
+1. Now, back in the **Azure portal**, navigate back to the **Overview** blade of **myVM** and use the **Copy to clipboard** button to copy the **public IP address** of **myVm**.
 
     ![](../images/az-900-13.png)
 
