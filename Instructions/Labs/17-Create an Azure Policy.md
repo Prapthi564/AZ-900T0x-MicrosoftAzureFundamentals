@@ -24,7 +24,7 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will configure the allowed location policy and assign it to our subscription. 
 
-1. On the **Azure Portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Policy (1)** and then select **Policy (2)** under **Services**.
+1. On the **Azure portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Policy (1)** and then select **Policy (2)** under **Services**.
 
    ![](../images/lab17-image1.png)
   
@@ -58,7 +58,7 @@ In this task, we will configure the allowed location policy and assign it to our
     
 1.  Click on  **Create**.
 
-1. The **Allowed locations** policy assignment is now listed on the **Policy - Assignments** pane and it is now in place, enforcing the policy at the scope level we specified (subscription level).
+1. The **Allowed locations** policy assignment is now listed on the **Policy - Assignments** pane, and it is now in place, enforcing the policy at the scope level we specified (subscription level).
 
    ![](../images/lab17-image9.png)
 
@@ -68,7 +68,7 @@ In this task, we will configure the allowed location policy and assign it to our
 
 In this task, we will test the allowed location policy. 
 
-1. On the **Azure Portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Storage accounts (1)**, and then select **Storage accounts (2)** under **Services**.
+1. On the **Azure portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Storage accounts (1)**, and then select **Storage accounts (2)** under **Services**.
 
    ![](../images/lab15-image6.png)
    
@@ -101,7 +101,7 @@ In this task, we will remove the allowed location policy assignment and test.
 
 We will delete the policy assignment to ensure we are not blocked on any future work we wish to do.
 
-1. On the **Azure Portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Policy (1)** and then select **Policy (2)** under **Services**.
+1. On the **Azure portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Policy (1)** and then select **Policy (2)** under **Services**.
 
      ![](../images/lab17-image1.png)
 
