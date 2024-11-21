@@ -23,7 +23,7 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will create a Function App.
 
-1. On the **Azure Portal** page, in the **Search Resources, Services, and Docs (G+/)** box at the top of the portal, enter **Function App (1)** and then select **Function App (2)** under services.
+1. On the **Azure Portal** page, in the **Search Resources, Services, and Docs (G+/)** box at the top, enter **Function App (1)** and then select **Function App (2)** under services.
 
     ![](../images/lab8-image1.png)
       
@@ -93,7 +93,7 @@ In this task, we will use the Webhook + API function to display a message when t
 
      ![](../images/fun6.png)
    
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> **Congratulations** on completing the task! Now, it is time to validate it. Here are the steps:
 > - Click on the **Validate** button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at **labs-support@spektrasystems.com.** We are available 24/7 to help.
