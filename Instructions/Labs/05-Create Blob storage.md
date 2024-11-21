@@ -22,7 +22,7 @@ In this lab, you will be able to complete the following tasks:
 
 ### Prerequisites
 
-1. In the **Lab-VM**, search for **Notepad (1)** in the Start menu, then launch **Notepad (2)**. Finally, input a random text within the Notepad application.
+1. In the **Lab-VM**, search for **Notepad (1)** in the **Start menu**, then launch **Notepad (2)**. Finally, input a random text within the **Notepad application**.
 
    ![](../images/az-900-54.png) 
 
@@ -88,7 +88,7 @@ In this task, we will create a blob container and upload a blob file.
 
    ![](./images/az-900-47.png)    
   
-1. Click on the **container1** container.
+1. Click on the **container1** option.
 
    ![](./images/az-900-48.png) 
 
@@ -112,7 +112,7 @@ In this task, we will create a blob container and upload a blob file.
 
    >**Note:** In the event that the access level for the storage account is configured as public, accessing the contents of the storage account can be done through a URL. To gain a deeper understanding of Storage Account access levels, please go through the following link:[Access Levels](https://learn.microsoft.com/en-us/azure/storage/blobs/anonymous-read-access-configure?tabs=portal)
 
-1. As you have time, from the storage accounts blade, review the options for **Files, Tables, and Queues**.
+1. As you have time, from the storage accounts blade, review the options for **File shares, Tables, and Queues**.
 
    ![](./images/az-900-53.png) 
 
@@ -124,7 +124,7 @@ In this task, we will create a blob container and upload a blob file.
 
 1. Explore some of the most common storage problems. Notice there are multiple troubleshooters.
 
-1. On the **storageaccount** blade, from the left navigation menu, scroll down to the **Monitoring (1)** section and click **Insights (2)**. Notice there is information on *Failures, Performance, Availability, and Capacity*.
+1. On the **storageaccount** blade, from the left navigation menu, scroll down to the **Monitoring (1)** section and click on **Insights (2)**. Notice there is information on *Failures, Performance, Availability, and Capacity*.
 
     ![Screenshot of the storage account Insights page.](./images/az-900-58.png)
 
