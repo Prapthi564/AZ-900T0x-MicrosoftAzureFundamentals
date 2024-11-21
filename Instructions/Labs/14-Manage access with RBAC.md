@@ -23,7 +23,7 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will assign the virtual machine contributor role. 
 
-1. On the **Azure portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Resource groups (1)**, and then select **Resource groups (2)** under **Services**.
+1. On the **Azure portal**, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Resource groups (1)**, and then select **Resource groups (2)** under **Services**.
 
    ![image](../images/lab14-image1.png)
 
