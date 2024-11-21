@@ -23,7 +23,7 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will create an SQL database based on the AdventureWorksLT sample database. 
 
-1. On the **Azure Portal**, within the **Search Resources, Services, and Docs** blade, search for **SQL databases (1)** and select **SQL databases (2)**. 
+1. On the **Azure Portal** page, within the **Search Resources, Services, and Docs** search bar, search for **SQL databases (1)** and select **SQL databases (2)**. 
 
    ![](./images/az-900-63.png)
 
@@ -43,7 +43,7 @@ In this task, we will create an SQL database based on the AdventureWorksLT sampl
 
     ![](./images/az-900-66.png)
     
-1. Next to the **Server** drop-down list, click on **Create new**. Select **OK (7)** when finished. **(4)**       
+1. Next to the **Server** drop-down list, click on **Create new**. Select **OK (7)** when finished.       
 
     | Settings | Values | 
     | --- | --- |
@@ -66,15 +66,15 @@ In this task, we will create an SQL database based on the AdventureWorksLT sampl
 
     ![](./images/az-900-67.png)        
 
-1. On the **Security** tab, verify the below **Setting** and then click on **Next: Additional settings >**
+1. On the **Security** tab, verify the below **Settings** and then click on **Next: Additional settings >**
  
-    | Setting | Value | 
+    | Settings | Values | 
     | --- | --- |
     | Enable Microsoft Defender for SQL| **Not now** |
 
 1. On the **Additional settings** tab, insert the information available below. We will be using the **AdventureWorksLT** **sample (1)** database. If a pop-up comes up, click on **OK (2)** and then click on **Review + create (3)**.
 
-    | Setting | Value | 
+    | Settings | Values | 
     | --- | --- |
     | Use existing data | **Sample (1)** |
 
@@ -90,7 +90,7 @@ In this task, we will create an SQL database based on the AdventureWorksLT sampl
 
 In this task, we will configure the SQL server and run a SQL query. 
 
-1. From the **Search Resources, Services, and Docs** blade, search and select **SQL databases** and ensure your new database was created. You may need to **Refresh** the page.
+1. From the **Search Resources, Services, and Docs** box, search and select **SQL databases** and ensure your new database was created. You may need to **refresh** the page.
 
     ![Screenshot of the SQL database and server that have just been deployed.](./images/az-900-70.png)
 
@@ -137,7 +137,7 @@ In this task, we will configure the SQL server and run a SQL query.
 
 1. Close the query editor and select **OK** on the **portal.azure.com**.
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> **Congratulations** on completing the task! Now, it is time to validate it. Here are the steps:
 > - Click on the **Validate** button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at **labs-support@spektrasystems.com**. We are available 24/7 to help.
