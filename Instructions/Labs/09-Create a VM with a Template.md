@@ -29,7 +29,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
     ![](./images/az-900-87.png)
 
-    >**Note**: The **Deploy to Azure** button enables you to deploy the template via the Azure Portal. During such deployment, you will be prompted only for a small set of configuration parameters. 
+    >**Note**: The **Deploy to Azure** button enables you to deploy the template via the Azure portal. During such deployment, you will be prompted only for a small set of configuration parameters. 
 
 1. Click on the **Deploy to Azure** button. Your browser session will be automatically redirected to the [Azure Portal](http://portal.azure.com/).
 
@@ -75,7 +75,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 In this task, we will verify if the virtual machine is deployed correctly. 
 
-1. On the **Azure Portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top of the portal, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under **Services**.
+1. On the **Azure portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under **Services**.
 
    ![](../images/lab1-image1.png) 
 
