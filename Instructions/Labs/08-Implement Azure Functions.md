@@ -23,7 +23,7 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will create a Function App.
 
-1. On the **Azure Portal** page, in the **Search Resources, Services, and Docs (G+/)** box at the top, enter **Function App (1)** and then select **Function App (2)** under services.
+1. On the **Azure portal** page, in the **Search Resources, Services, and Docs (G+/)** box at the top, enter **Function App (1)** and then select **Function App (2)** under services.
 
     ![](../images/lab8-image1.png)
       
