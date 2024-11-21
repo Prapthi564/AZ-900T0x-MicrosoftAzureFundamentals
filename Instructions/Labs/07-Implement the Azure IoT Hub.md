@@ -32,7 +32,7 @@ In this lab, you will be able to complete the following tasks:
 
 ### Task 1: Create an IoT Hub
 
-In this task, we will create an IoT hub. 
+In this task, we will create an IoT Hub. 
 
 1. On the **Azure Portal** page, in the **Search Resources, Services and Docs (G+/)** box at the top of the portal, enter **IoT Hub (1)** and then select **IoT Hub (2)** under services.
 
@@ -77,7 +77,7 @@ In this task, we will add an IoT device to the IoT Hub.
 
    ![](../images/lab7-image5.png)
   
-1. If you do not see your new device, **Refresh** the IoT devices page.
+1. If you do not see your new device, **refresh** the IoT devices page.
 
    ![](../images/lab7-image6.png)
 
@@ -115,7 +115,7 @@ In this task, we will test our device using the Raspberry Pi Simulator.
 
    ![](./images/az-900-80.png)
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> **Congratulations** on completing the task! Now, it is time to validate it. Here are the steps:
 > - Click on the **Validate** button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at **labs-support@spektrasystems.com**. We are available 24/7 to help.
@@ -123,11 +123,11 @@ In this task, we will test our device using the Raspberry Pi Simulator.
 <validation step="c3f78c30-0c67-4b92-b8e7-9cf3c9df79a7" />
 
 ## Summary
-In this exercise, we created an IoT hub and added an IoT device to it. We then tested the device using the Raspberry Pi Simulator to ensure it was functioning correctly. Throughout the exercise, we gained practical experience in setting up an IoT hub, registering devices, and simulating device interactions in an IoT environment.
+In this exercise, we created an IoT Hub and added an IoT device to it. We then tested the device using the Raspberry Pi Simulator to ensure it was functioning correctly. Throughout the exercise, we gained practical experience in setting up an IoT Hub, registering devices, and simulating device interactions in an IoT environment.
 
 ## Review
 In this lab, you have:
-- Created an IoT hub.
+- Created an IoT Hub.
 - Added an IoT device.
 - Tested the device using the Raspberry Pi Simulator.
 
