@@ -12,9 +12,9 @@ In this walkthrough, we will create a virtual network, deploy two virtual machin
 
 In this lab, you will be able to complete the following tasks:
 
-+ Task 1: Create a Virtual Network
-+ Task 2: Create two Virtual Machines
-+ Task 3: Test the Connection
++ **Task 1:** Create a Virtual Network
++ **Task 2:** Create two Virtual Machines
++ **Task 3:** Test the Connection
 
 ## Architecture Diagram
 
@@ -30,7 +30,7 @@ In this task, we will create a virtual network.
    
 1. On the **Virtual networks** page, click on **+ Create**. 
 
-1. On the **Create virtual network** blade, fill in the following (leave the rest as defaults for everything else):
+1. On the **Create virtual network** blade, fill in the following (leave the rest as default):
 
       | Settings | Values | 
       | ---     | ---   |
@@ -43,7 +43,7 @@ In this task, we will create a virtual network.
    
 1. On the **Create virtual network** blade, click on **Next** twice to go to the **IP Addresses** tab and delete the pre-created IP address. Then click on **Add IPV4 address** to create a new address space.
 
-    | Setting | Value | 
+    | Settings | Values | 
     | --- | --- |
     | Address space |**10.1.0.0/16**|
  
@@ -102,7 +102,7 @@ In this task, we will create two virtual machines in the virtual network.
 
 1. In the **Networking** tab, make sure the virtual machine is placed in the **vnet1** virtual network. Review the default settings, but do not make any other changes. 
 
-   | Setting | Value | 
+   | Settings | Values | 
    | --- | --- |
    | Virtual network | **vnet1** |
 
@@ -164,9 +164,9 @@ In this task, we will try to test whether the virtual machines can communicate (
 
    >**Note:** Repeat step **1 to 6** for **vm2**.
 
-1. In *both* newly created virtual machines(`vm1,vm2`), connect via RDP and **disable both the public and private firewall**. Follow the steps below to complete the task.
+1. In *both* newly created virtual machines (`vm1,vm2`), connect via RDP and **disable both public and private firewalls**. Follow the steps below to complete the task.
 
-   - Click on **Start menu (1)** then select **Settings (2)**.   
+   - Click on the **Start menu (1)** and then select **Settings (2)**.   
 
      ![image](./images/az-900-32.png)   
    
@@ -178,11 +178,11 @@ In this task, we will try to test whether the virtual machines can communicate (
 
      ![image](./images/az-900-34.png) 
 
-   - Then **disable both the public and private firewall**.
+   - Then **disable both public and private firewalls**.
 
      ![image](../images/vnet01.png)   
 
-1. Open up a PowerShell command prompt on the virtual machine (**vm1**) by clicking the **Start** button. Type **PowerShell (1)**, right-click on **Windows PowerShell (2)**, and then select **Run as administrator (3).**
+1. Open up a PowerShell command prompt on the virtual machine (**vm1**) by clicking on the **Start** button. Type **PowerShell (1)**, right-click on **Windows PowerShell (2)**, and then select **Run as administrator (3).**
 
    ![](./images/az-900-35.png) 
 
