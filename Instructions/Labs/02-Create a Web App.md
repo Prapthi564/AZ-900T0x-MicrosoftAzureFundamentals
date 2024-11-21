@@ -29,9 +29,9 @@ In this task, you will create an Azure App Service Web App.
 
    ![](../images/az-900-12.png) 
 
-1. Within the **Basics** tab from the **Create Web App** blade, specify the following and click on **Next : Database > (9)**.
+1. Within the **Basics** tab of the **Create Web App** blade, specify the following and click on **Next : Database > (9)**.
  
-    | Setting | Value |
+    | Settings | Values |
     | -- | -- |
     | Subscription | **Accept default subscription (1)** |
     | Resource Group | **AZ-900-<inject key="DeploymentID" enableCopy="false"/>** **(2)** |
@@ -47,11 +47,11 @@ In this task, you will create an Azure App Service Web App.
 
     ![](../images/az-900-16.png)
 
-1. On the **Database** tab, leave everything as default, and click on **Next: Container >**.
+1. On the **Database** tab, leave everything as default and click on **Next: Container >**.
 
 1. Within the **Container** tab, specify the following to configure the container information. The startup command is optional and not needed in this exercise. Next, click on **Review + create (4)**.
 
-    | Setting | Value |
+    | Settings | Values |
     | -- | -- |
     | Image Source | **Docker Hub or other registries (1)** |
     | Options | **Single container (2)** |
@@ -85,7 +85,7 @@ In this task, we will test the web app.
     ![](images/az-900-40.png)
 
 > **Congratulations** on completing the task! Now, it is time to validate it. Here are the steps:
-> - Click on the validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - Click on the **Validate** button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at **labs-support@spektrasystems.com**. We are available 24/7 to help.
 
