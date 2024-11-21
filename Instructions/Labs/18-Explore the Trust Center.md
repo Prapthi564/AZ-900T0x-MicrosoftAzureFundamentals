@@ -39,7 +39,7 @@ In this lab, you will be able to complete the following tasks:
 
    ![](../images/sc-900-11-4.png)
 
-1. Note the description at the top of the page and available applicable documents. Select the **ellipsis (...) (1)** under **More Options** and then select **Save to Library (2)**. A window will pop up asking if you want to subscribe to this document.  Select **Yes**. A window will pop up for notification settings. Note the different settings and click on **Daily**. Finally, select **Save**.
+1. Note the description at the top of the page and available applicable documents. Select the **ellipsis (...) (1)** under **More Options** and then select **Save to Library (2)**. A window will pop-up asking if you want to subscribe to this document.  Select **Yes**. A window will pop-up for notification settings. Note the different settings and click on **Daily**. Finally, select **Save**.
 
    ![](../images/sc-900-lab11-5-6.png)
    
