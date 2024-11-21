@@ -78,7 +78,7 @@ In this task, we will add infrastructure information to the calculator.
 
 1. In the **Networking** pane, add bandwidth and click **Next (2)**.
 
-    | Setting | Value |
+    | Settings | Values |
     | -- | -- |
     | Outbound bandwidth | 15 TB (1)|
 
@@ -86,7 +86,7 @@ In this task, we will add infrastructure information to the calculator.
 
 1. Explore the options and make any adjustments that you require. 
 
-    | Setting | Value |
+    | Settings | Values |
     | -- | -- |
     | Currency | **Euro zone** |
     
