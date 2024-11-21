@@ -25,7 +25,7 @@ In this lab, you will be able to complete the following tasks:
 
 ### Task 1: Create an Azure Key Vault
 
-1. On the **Azure portal** page, in the **Search Resources, Services, and Docs (G+/)** box at the top, enter **Key vaults (1)** and then select **Key vaults (2)** under **Services**.
+1. On the **Azure portal**, in the **Search Resources, Services, and Docs (G+/)** box at the top, enter **Key vaults (1)** and then select **Key vaults (2)** under **Services**.
 
    ![](./images/az-900-115.png)
   
