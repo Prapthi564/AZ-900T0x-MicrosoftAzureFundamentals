@@ -20,7 +20,7 @@ In this lab, you will be able to complete the following tasks:
 
 ### Task 1: View Available Support Plan Options and a Technical Support Request
 
-1. On the **Azure Portal** page, in the  **Search Resources, Services and Docs** blade, search for and select **Help + support**. Moving on, select **Support plans** from the left navigation pane under **Support**.
+1. On the **Azure portal** page, in the  **Search Resources, Services and Docs** box, search for and select **Help + support**. Moving on, select **Support plans** from the left navigation pane under **Support**.
 
    ![](../images/suuport.png)
 
@@ -28,19 +28,19 @@ In this lab, you will be able to complete the following tasks:
 
 1. Go to the **Overview** option from the left navigation pane and click on **+ Create a support request**. The ticket is created based on the values you specify. 
 
-1. Under **Describe your issue,** enter **VM performance,** then click on **Go.**
+1. Under **Describe your issue,** enter **VM performance (1),** then click on **Go (2).**
 
     ![](../images/lab04-image13.png)
    
-1. Under **Which service are you having issue with?** Select **Virtual machine running Windows** and click on **Next**.
+1. Under **Which service are you having issue with?** Select **Virtual Machine running Windows (1)** and click on **Next (2)**.
 
      ![](../images/lab04-image14.png)
    
-1. Next, select **Subscription** and any **virtual machine** and click on **Next**.
+1. Next, select **Subscription (1)** and any **virtual machine** and click on **Next (2)**.
 
     ![](../images/lab04-image15.png)
 
-1. Select **None of the above** and select **Problem type** : **VM performance,** then **Problem subtype : Disk Caching,** and click on **Next**.
+1. Select **None of the above (1)** and select **Problem type** : **VM performance (2),** then **Problem subtype : Disk Caching (3),** and click on **Next**.
 
    ![](../images/lab04-image16.png)
 
