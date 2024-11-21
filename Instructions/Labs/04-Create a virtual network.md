@@ -24,7 +24,7 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will create a virtual network. 
 
-1. On the **Azure Portal** page, in the **Search Resources, Services, and Docs (G+/)** box at the top, enter **Virtual networks (1)**, and then select **Virtual networks (2)** under **Services**.
+1. On the **Azure portal** page, in the **Search Resources, Services, and Docs (G+/)** box at the top, enter **Virtual networks (1)**, and then select **Virtual networks (2)** under **Services**.
 
    ![](../images/lab4-image1.png)
    
@@ -69,7 +69,7 @@ In this task, we will create a virtual network.
 
 In this task, we will create two virtual machines in the virtual network. 
 
-1. On the **Azure Portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under **Services**.
+1. On the **Azure portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under **Services**.
 
    ![](../images/lab1-image1.png) 
 
