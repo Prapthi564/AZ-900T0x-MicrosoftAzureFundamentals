@@ -25,7 +25,7 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will configure the **Require a tag on resources** policy and assign it to our subscription. 
 
-1. On the **Azure portal** page, within the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Policy (1)** and then select **Policy (2)** under **Services**.
+1. On the **Azure portal**, within the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Policy (1)** and then select **Policy (2)** under **Services**.
 
     ![](../images/lab17-image1.png)
 
@@ -54,7 +54,7 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
 In this task, we will create storage accounts to test the required tagging. 
 
-1. On the **Azure portal** page, within the **Search Resources, Services, and Docs** box, search for and select **storageaccounts**. Then click on **+ Create**.
+1. On the **Azure portal**, within the **Search Resources, Services, and Docs** box, search for and select **storageaccounts**. Then click on **+ Create**.
 
 1. On the **Basics** tab of the **Create a storage account** blade, fill in the following information. Leave the rest as default.
 
@@ -87,7 +87,7 @@ In this task, we will create storage accounts to test the required tagging.
 
 ### Task 3: View all Resources with a Specific Tag
 
-1. On the **Azure portal** page, within the **Search Resources, Services, and Docs** box, search for and select **Tags**.
+1. On the **Azure portal**, within the **Search Resources, Services, and Docs** box, search for and select **Tags**.
 
 1. Note all tags and their values. Click on the **Company : Contoso** key/value pair. This will display a blade showing the newly created storage account as long as you have included the tag during its deployment. 
 
@@ -108,7 +108,7 @@ In this task, we will create storage accounts to test the required tagging.
 
 In this task, we will remove the **Require a tag and its value on resources** policy so it does not affect our future work. 
 
-1. On the **Azure portal** page, within the **Search Resources, Services, and Docs** box, search for and select **Policy**.
+1. On the **Azure portal**, within the **Search Resources, Services, and Docs** box, search for and select **Policy**.
 
 1. In the **Require a tag and its value on resources** policy entry, scroll to the right and click on the **ellipsis** button. Select **Delete assignment**.
 
