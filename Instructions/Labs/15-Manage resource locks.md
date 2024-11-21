@@ -29,7 +29,7 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will verify the existing resource group for this exercise. 
 
-1. On the **Azure Portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Resource groups (1)**, and then select **Resource groups (2)** under **Services**.
+1. On the **Azure portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Resource groups (1)**, and then select **Resource groups (2)** under **Services**.
 
    ![image](../images/lab14-image1.png)
 
@@ -39,7 +39,7 @@ In this task, we will verify the existing resource group for this exercise.
 
 In this task, we will add a resource lock to the resource group and test deleting the resource group. 
 
-1. In the **Azure Portal** page, navigate to the existing resource group **AZ-900-<inject key="DeploymentID" enableCopy="false"/>**.
+1. In the **Azure portal** page, navigate to the existing resource group **AZ-900-<inject key="DeploymentID" enableCopy="false"/>**.
 
 1. You can apply a lock to a subscription, resource group, or individual resource to prevent accidental deletion or modification of critical resources. 
 
@@ -71,7 +71,7 @@ In this task, we will add a resource lock to the resource group and test deletin
 
 In this task, we will test if the resource lock protects a storage account in the resource group. 
 
-1. On the **Azure Portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Storage accounts (1)**, and then select **Storage accounts (2)** under **Services**.
+1. On the **Azure portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Storage accounts (1)**, and then select **Storage accounts (2)** under **Services**.
 
     ![](../images/lab15-image6.png)
   
