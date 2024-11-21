@@ -38,7 +38,7 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will create a new storage account. 
 
-1. On the **Azure portal** page, in the **Azure services** search box, search for **Storage accounts (1)** and select **Storage accounts (2)**.
+1. On the **Azure portal**, in the **Azure services** search box, search for **Storage accounts (1)** and select **Storage accounts (2)**.
 
    ![](./images/az-900-44.png) 
 
