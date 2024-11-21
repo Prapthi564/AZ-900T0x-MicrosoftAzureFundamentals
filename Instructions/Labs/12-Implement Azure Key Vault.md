@@ -6,9 +6,9 @@
 
 Azure Key Vault is a cloud service for securely storing and accessing secrets. A secret is anything that you want to tightly control access to, such as API keys, passwords, certificates, or cryptographic keys. 
 
-Secrets: Provides secure storage of secrets, such as passwords and database connection strings.
+**Secrets**: Provides secure storage of secrets, such as passwords and database connection strings.
 
-Certificates: Supports certificates, which are built on top of keys and secrets and add an automated renewal feature. Keep in mind when a certificate is created, an addressable key and secret are also created with the same name.
+**Certificates**: Supports certificates, which are built on top of keys and secrets and add an automated renewal feature. Keep in mind when a certificate is created, an addressable key and secret are also created with the same name.
 
 In this walkthrough, we will create an Azure Key Vault and then create a password secret within that Key Vault, providing a securely stored, centrally managed password for use with applications.
 
@@ -25,7 +25,7 @@ In this lab, you will be able to complete the following tasks:
 
 ### Task 1: Create an Azure Key Vault
 
-1. On the **Azure Portal** home page, in the **Search Resources, Services, and Docs (G+/)** box at the top, enter **Key vaults (1)** and then select **Key vaults (2)** under **Services**.
+1. On the **Azure portal** page, in the **Search Resources, Services, and Docs (G+/)** box at the top, enter **Key vaults (1)** and then select **Key vaults (2)** under **Services**.
 
    ![](./images/az-900-115.png)
   
