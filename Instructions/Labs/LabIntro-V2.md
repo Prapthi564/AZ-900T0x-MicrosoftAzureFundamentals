@@ -1,6 +1,6 @@
 # AZ-900: Microsoft Azure Fundamentals
 
-### Overall Estimated Duration: 8 hours
+### Overall Estimated Duration: 8 Hours
 
 ## Overview
  
@@ -10,19 +10,19 @@ The AZ-900: Microsoft Azure Fundamentals lab is an introductory, hands-on worksh
 
 The objective of the AZ-900: Microsoft Azure Fundamentals lab is to provide participants with a foundational understanding of cloud concepts and Microsoft Azure services. By the end of the workshop, attendees will have practical experience in using key Azure services, including virtual machines, storage, networking, and databases, while gaining insights into Azure’s pricing, governance, and security features. This hands-on experience is designed to empower participants to leverage Azure for building, managing, and deploying cloud applications and services, enabling them to make informed decisions and drive innovation within their organizations.
 
-- **Create a virtual machine in the portal:** Enable users to efficiently create and connect to virtual machines in the cloud, streamlining the setup of web hosting environments. Empower teams to host and manage basic websites with ease, directly on their new cloud VM.
+- **Create a Virtual Machine in the Portal:** Enable users to efficiently create and connect to virtual machines in the cloud, streamlining the setup of web hosting environments. Empower teams to host and manage basic websites with ease directly on their new cloud VM.
 
 - **Create a Web App:** Guide users to create and test a cloud-based web app, ensuring they can deploy and verify its functionality. This equips them with core skills in cloud-based web deployment and testing.
 
 - **Deploy Azure Container Instances:** Enable users to create and verify a container instance deployment in the cloud, providing foundational skills in containerized application setup and deployment validation.
 
-- **Create blob storage:** Enable users to create and manage cloud storage accounts, simplifying data storage and access. Empower teams to work with blob storage and monitor account performance for optimal data management and security.
+- **Create a Blob Storage:** Enable users to create and manage cloud storage accounts, simplifying data storage and access. Empower teams to work with blob storage and monitor account performance for optimal data management and security.
 
-- **Create a SQL database:** Enable users to efficiently create and configure databases, streamlining data storage and management. Empower teams to test database functionality, ensuring proper setup and performance for reliable data operations.
+- **Create an SQL Database:** Enable users to efficiently create and configure databases, streamlining data storage and management. Empower teams to test database functionality, ensuring proper setup and performance for reliable data operations.
 
 - **Implement an Azure IoT Hub:** Allow users to set up and configure an IoT hub, ensuring smooth device connectivity. Enable teams to add IoT devices and test their performance using the Raspberry Pi Simulator for effective real-time device management and troubleshooting.
 
-- **Implement Azure Functions:** Empower users to create and configure a Function app for serverless computing, allowing teams to develop and test HTTP-triggered functions for optimal execution and responsive handling.
+- **Implement Azure Functions:** Empower users to create and configure a function app for serverless computing, allowing teams to develop and test HTTP-triggered functions for optimal execution and responsive handling.
 
 - **Create a VM with a Template:** Allow users to explore the template gallery and find the relevant deployment templates. Enable teams to verify and monitor virtual machine deployments, ensuring successful provisioning and peak performance.
 
@@ -32,19 +32,19 @@ The objective of the AZ-900: Microsoft Azure Fundamentals lab is to provide part
 
 - **Implement Azure Key Vault:** Allow users to create an Azure Key Vault for securely storing sensitive information. Enable teams to add and manage secrets within the Key Vault, ensuring both data security and easy accessibility.
 
-- **Secure network traffic:** Allow users to create virtual machines and configure network security groups for controlled access. Enable teams to define inbound RDP rules and outbound security rules to manage network traffic and limit internet access.
+- **Secure Network Traffic:** Allow users to create virtual machines and configure network security groups for controlled access. Enable teams to define inbound RDP rules and outbound security rules to manage network traffic and limit internet access.
 
-- **Manage access with RBAC:** Enable users to view and assign roles, streamlining access management. Empower teams to monitor role assignments and efficiently remove roles to maintain security and compliance.
+- **Manage Access with RBAC:** Enable users to view and assign roles, streamlining access management. Empower teams to monitor role assignments and efficiently remove roles to maintain security and compliance.
 
-- **Manage resource locks:** Allow users to verify and manage resource groups, ensuring they are properly protected and controlled. Enable teams to add resource locks, test deletion actions, and remove locks as needed, striking a balance between safeguarding resources and maintaining operational flexibility.
+- **Manage Resource Locks:** Allow users to verify and manage resource groups, ensuring they are properly protected and controlled. Enable teams to add resource locks, test deletion actions, and remove locks as needed, striking a balance between safeguarding resources and maintaining operational flexibility.
 
-- **Implement resource tagging:** Empower users to create policy assignments for enforcing compliance and managing resource tagging. Provide teams with the ability to create storage accounts, view tagged resources, and delete policy assignments to ensure governance while maintaining flexibility.
+- **Implement Resource Tagging:** Empower users to create policy assignments for enforcing compliance and managing resource tagging. Provide teams with the ability to create storage accounts, view tagged resources, and delete policy assignments to ensure governance while maintaining flexibility.
 
 - **Create an Azure Policy:** Enable users to create policy assignments to enforce governance rules. Empower teams to test the Allowed Location policy and delete the assignment to ensure compliance and flexibility in resource management.
 
 - **Explore Microsoft Compliance Offerings:** Enable users to access Microsoft Compliance Offerings for managing compliance requirements. Empower teams to utilize the Service Trust Portal (STP) for detailed insights into security, privacy, and compliance controls.
 
-- **Use the Pricing Calculator:** Enable users to configure the TCO calculator to estimate total cost of ownership for cloud resources. Empower teams to review the results and save a copy for future reference and cost analysis.
+- **Use the Pricing Calculator:** Enable users to configure the TCO calculator to estimate the total cost of ownership for cloud resources. Empower teams to review the results and save a copy for future reference and cost analysis.
 
 - **Calculate Composite SLAs:** Enable users to determine the SLA uptime percentage values for their application to ensure service reliability. Empower teams to calculate the Application Composite SLA percentage uptime for accurate performance tracking and service level assessment.
 
@@ -54,14 +54,14 @@ The objective of the AZ-900: Microsoft Azure Fundamentals lab is to provide part
 
 In this lab, we have the following preconfigured:
 
-- A Virtual Machine has been provisioned with all the necessary resources to support the tasks in this lab. 
-- You'll be provided with access to a pre-configured Microsoft user account, which comes with an active Azure subscription. 
-- The lab environment includes pre-established Resource Groups, simplifying the organization and management of related Azure resources.
+- A virtual machine has been provisioned with all the necessary resources to support the tasks in this lab. 
+- You will be provided with access to a pre-configured Microsoft user account, which comes with an active Azure subscription. 
+- The lab environment includes pre-established resource groups, simplifying the organization and management of related Azure resources.
 
-## Architechture
+## Architecture
 The architecture integrates various Azure services to manage and deploy resources efficiently. Key components include **Azure Virtual Machines** for computing, **Azure Storage Accounts** for data management, **Azure Key Vault** for security, and **Azure Resource Groups** for organization. **Azure CLI** and **Cloud Shell** are used for command-line management, while **Azure Policy** enforces compliance, ensuring a seamless cloud environment for resource orchestration, security, and cost management.
 
-## Architechture Diagram
+## Architecture Diagram
 
 ![Azure Synapse Analytics Lab Exercises](../images/archdia.png "Solution architecture")
 
@@ -87,9 +87,9 @@ The architecture for this lab involves the following key components:
  
 Welcome to your AZ-900: Microsoft Azure Fundamentals workshop! We've prepared a seamless environment for you to explore and learn about foundational knowledge of cloud concepts in general and Microsoft Azure in particular. Let's begin by making the most of this experience:
  
-## Accessing Your Lab Environment
+## Accessing your Lab Environment
  
-Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
+Once you are ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
  
   ![Access Your VM and Lab Guide](../images/labguide.png)
 
@@ -97,7 +97,7 @@ Once you're ready to dive in, your virtual machine and lab guide will be right a
  
 Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
  
-## Exploring Your Lab Resources
+## Exploring your Lab Resources
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
  
@@ -105,11 +105,11 @@ To get a better understanding of your lab resources and credentials, navigate to
  
 ## Utilizing the Split Window Feature
  
-For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
+For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
  
   ![Use the Split Window Feature](../images/spl.png)
  
-## Managing Your Virtual Machine
+## Managing your Virtual Machine
  
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
@@ -117,26 +117,26 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
 ## **Lab Duration Extension**
 
-1. To extend the duration of the lab, kindly click the **Hourglass** icon in the top right corner of the lab environment. 
+1. To extend the duration of the lab, kindly click on the **Hourglass** icon in the top right corner of the lab environment. 
 
     ![Manage Your Virtual Machine](../images/gext.png)
 
     >**Note:** You will get the **Hourglass** icon when 10 minutes are remaining in the lab.
 
-2. Click **OK** to extend your lab duration.
+2. Click on **OK** to extend your lab duration.
  
    ![Manage Your Virtual Machine](../images/gext2.png)
 
-3. If you have not extended the duration prior to when the lab is about to end, a pop-up will appear, giving you the option to extend. Click **OK** to proceed.
+3. If you have not extended the duration prior to when the lab is about to end, a pop-up will appear, giving you the option to extend. Click on **OK** to proceed.
 
-## Let's Get Started with Azure Portal
+## Let's Get Started with the Azure Portal
  
 1. On your virtual machine, click on the Azure Portal icon as shown below:
  
    ![Launch Azure Portal](../images/sc900-image(1).png)
 
  
-2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
+2. You will see the **Sign in to continue to Microsoft Azure** tab. Here, enter your credentials:
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
@@ -148,9 +148,9 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
       ![Enter Your Password](../images/sc900-image-2.png)
  
-4. If you get a pop-up stating **Action Required** click on **Ask Later**.
+4. If you get a pop-up stating **Action Required,** click on **Ask Later**.
 
-5. If prompted to stay signed in, you can click "No."
+5. If prompted to stay signed in, you can click on **"No."**
  
 6. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Cancel** to skip the tour.
  
@@ -159,7 +159,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
 The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
 
-Learner Support Contacts:
+**Learner Support Contacts:**
 - Email Support: cloudlabs-support@spektrasystems.com
 - Live Chat Support: https://cloudlabs.ai/labs-support
 
