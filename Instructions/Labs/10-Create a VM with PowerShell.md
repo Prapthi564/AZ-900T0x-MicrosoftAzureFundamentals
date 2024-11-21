@@ -23,7 +23,7 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will configure Cloud Shell.
 
-1. On the **Azure Portal**, open **Azure Cloud Shell** by clicking on the icon (as shown in the screenshot) in the top right.
+1. On the **Azure portal**, open **Azure Cloud Shell** by clicking on the icon (as shown in the screenshot) in the top right.
 
     >**Note:** If you have already used it before, you can proceed to Task 2.
 
@@ -93,7 +93,7 @@ In this task, we will use PowerShell to create a Resource group and a virtual ma
 
 1. Close the PowerShell session Cloud Shell pane.
 
-1. In the **Azure Portal**, search for **Virtual machines** and verify if the **myVMPS** is running. This may take a few minutes.
+1. On the **Azure portal**, search for **Virtual machines** and verify if the **myVMPS** is running. This may take a few minutes.
 
     ![Screenshot of the virtual machines page with myVMPS in a running state.](./images/az-900-97.png)
 
@@ -112,7 +112,7 @@ In this task, we will use PowerShell to create a Resource group and a virtual ma
 
 In this task, we will practice executing PowerShell commands from the Cloud Shell.
 
-1. From the **Azure Portal**, open **Azure Cloud Shell** by clicking on the icon in the top right.
+1. From the **Azure portal**, open **Azure Cloud Shell** by clicking on the icon in the top right.
 
 1. Ensure **PowerShell** is selected in the upper-left drop-down menu of the Cloud Shell pane.
 
