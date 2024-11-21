@@ -89,22 +89,22 @@ In this task, we will estimate the cost of a sample infrastructure by using the 
 
     | Region | Tier | Size | 
     | ------ | ---- | ---- |
-    | North Europe | Basic | Small |
+    | North Europe | Basic | Small **(1)**|
     | | |
 
     | Instances | Hours |
     | ------- | ------- |
-    | 1 | 365 |
+    | 1 | 365 **(2)**|
     | | |
 
     | Data processed |
     | -------------- |
-    | 50 GB |
+    | 50 GB **(3)**|
     | | |
 
     | Outbound Data Transfer |
     | ----------------------------- |
-    | 50 GB |
+    | 50 GB **(4)**|
     | | |
 
    ![Screenshot of the application gateway configuration area within the Azure pricing calculator estimate webpage.](../images/l19tr.png)
