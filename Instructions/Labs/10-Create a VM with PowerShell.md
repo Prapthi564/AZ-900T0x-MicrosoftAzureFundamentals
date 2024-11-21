@@ -37,11 +37,11 @@ In this task, we will configure Cloud Shell.
 
    ![](./images/az-900-105.png)
 
-1. On the **Mount storage account** tab, select **I want to create a storage account (1)** and then click on **Next (2)**.
+1. On the **Mount storage account** page, select **I want to create a storage account (1)** and then click on **Next (2)**.
 
    ![](./images/az-900-106.png)
 
-1. On the **Create storage account** tab, provide the following details and select **Create (6)**
+1. On the **Create storage account** page, provide the following details and select **Create (6).**
 
     | Settings | Values |
     |  -- | -- |
@@ -99,7 +99,7 @@ In this task, we will use PowerShell to create a Resource group and a virtual ma
 
 1. Access the new virtual machine and review the Overview and Networking settings to verify your information was correctly deployed.
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> **Congratulations** on completing the task! Now, it is time to validate it. Here are the steps:
 > - Click on the **Validate** button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help.
@@ -123,7 +123,7 @@ In this task, we will practice executing PowerShell commands from the Cloud Shel
     ```
     ![](./images/az-900-98.png)    
 
-1. Stop the virtual machine. When prompted, confirm (Yes) to the action.
+1. Stop the virtual machine. When prompted, confirm '**Yes**' to the action.
     ```
     Stop-AzVM -ResourceGroupName AZ-900-<inject key="DeploymentID" enableCopy="false"/> -Name myVMPS
     ```
@@ -154,17 +154,17 @@ In this task, we will review Azure Advisor recommendations for our virtual machi
 
     >**Note:** Depending on your resources, your recommendations will be different, and you might get the notification "**You are following all of our performance recommendations**."
 
-1. Select **All recommendations** under **Recommendations** from the left navigation pane. Take time to view each recommendation and suggested actions.
+1. Select **All recommendations** under **Recommendations** from the left navigation pane. Take time to view each recommendation and suggested action.
 
     >**Note:** Depending on your resources, your recommendations will be different, and you might get the notification "**You are following all of our performance recommendations**."
 
     ![Screenshot of the Advisor All recommendations page. ](../images/l10.3.png)
 
-1. Notice that from the **Security** option under **Recommendations** in the left navigation pane, you can download the recommendations as a **CSV or PDF file**.
+1. Note that from the **Security** option under **Recommendations** in the left navigation pane, you can download the recommendations as a **CSV or PDF file**.
 
     ![Screenshot of the Advisor All recommendations page. ](./images/az-900-103.png)
 
-1. Notice that from the **Alerts (Preview)** option in the left navigation pane, you can create alerts.
+1. Note that from the **Alerts (Preview)** option in the left navigation pane, you can create alerts.
 
    ![](./images/az-900-104.png)
 
