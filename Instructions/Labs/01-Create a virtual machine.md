@@ -12,9 +12,9 @@ In this walkthrough, we will create a virtual machine in the Azure Portal, conne
 
 In this lab, you will be able to complete the following tasks:
 
-+ **Task 1:** Create a virtual machine
-+ **Task 2:** Connect to the virtual machine
-+ **Task 3:** Host a basic website on your new cloud VM
++ **Task 1:** Create a Virtual Machine
++ **Task 2:** Connect to the Virtual Machine
++ **Task 3:** Host a Basic Website on your New Cloud VM
 
 ## Architecture Diagram
 
@@ -61,7 +61,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
 
 1. Within the **Networking** tab, look for the **Select inbound ports** option:
 
-    | Setting | Value |
+    | Settings | Values |
     | -- | -- |
     | Select inbound ports | **HTTP (80), RDP (3389)**|
 
@@ -71,9 +71,9 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
 
 1. Click on **Next : Management >** to switch to the **Management** tab and leave everything as default.
 
-1. Click on **Next : Monitoring >** to switch to the **Monitoring** tab, select the following setting:
+1. Click on **Next : Monitoring >** to switch to the **Monitoring** tab and select the following settings:
 
-    | Setting | Value |
+    | Settings | Values |
     | -- | -- |
     | Boot diagnostics | **Disable**|
 
@@ -145,7 +145,7 @@ In this task, you will install the web server role on the server and host a basi
 
     ![server pool](../images/az-900-8.png)
 
-1. Click on **Next >** until you reach the **Confirm installation selections** page, and make sure that the **Restart the destination server automatically if required (1)** is checked. Then click on **Install (2)**.
+1. Click on **Next >** until you reach the **Confirm installation selections** page, and make sure that the **Restart the destination server automatically if required (1)** option is checked. Then click on **Install (2)**.
 
     ![Restart the destination check box](../images/az-900-9.png)
 
@@ -155,11 +155,11 @@ In this task, you will install the web server role on the server and host a basi
 
     ![](../images/az900-t3_s9.png)
 
-1. In the **Internet Information Services (IIS)** **Manager** window, locate your server’s **Default Web Site** in the **Connections** tree.
+1. On the **Internet Information Services (IIS)** **Manager** window, locate your server’s **Default Web Site** within the **Connections** tree.
 
     ![](../images/az-900-10.png)
 
-1. Now, click on **Basic Settings** in the **Actions** menu. In the new pop-up dialog box, locate the **Physical Path** and click **Ok**. This is where you will put your website HTML file.
+1. Now, click on **Basic Settings** in the **Actions** menu. In the new pop-up dialog box, locate the **Physical Path** and click on **OK**. This is where you will put your website HTML file.
 
     ![](../images/az900-t3_s12.png)
 
@@ -188,7 +188,7 @@ In this task, you will install the web server role on the server and host a basi
     ![](../images/az-900-14.png)
 
 > **Congratulations** on completing the task! Now, it is time to validate it. Here are the steps:
-> - Hit the **Validate** button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - Click on the **Validate** button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 > - If not, carefully read through the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at **labs-support@spektrasystems.com**. We are available 24/7 to help.
 
