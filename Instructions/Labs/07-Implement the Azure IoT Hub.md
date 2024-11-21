@@ -16,7 +16,7 @@ Azure IoT Edge is made up of three components:
 
  - A cloud-based interface enables you to remotely monitor and manage IoT Edge devices.
 
-In this walkthrough, we will configure a new Azure IoT Hub in Azure Portal and then authenticate a connection to an IoT device using the online Raspberry Pi device simulator. Sensor data and messages are passed from the Raspberry Pi Simulator to your Azure IoT Hub, and you will be able to view relevant metrics related to the messaging activity in the Azure Portal.
+In this walkthrough, we will configure a new Azure IoT Hub in the Azure portal and then authenticate a connection to an IoT device using the online Raspberry Pi device simulator. Sensor data and messages are passed from the Raspberry Pi Simulator to your Azure IoT Hub, and you will be able to view relevant metrics related to the messaging activity in the Azure portal.
 
 ## Lab Objectives
 
@@ -34,7 +34,7 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will create an IoT Hub. 
 
-1. On the **Azure Portal** page, in the **Search Resources, Services and Docs (G+/)** box at the top of the portal, enter **IoT Hub (1)** and then select **IoT Hub (2)** under services.
+1. On the **Azure portal** page, in the **Search Resources, Services and Docs (G+/)** box at the top, enter **IoT Hub (1)** and then select **IoT Hub (2)** under services.
 
    ![](./images/az-900-77.png)
   
@@ -95,7 +95,7 @@ In this task, we will test our device using the Raspberry Pi Simulator.
 
     ![](../images/lab7-image8.png)
 
-1. In the code area, on the right side, locate the line with 'const connectionString =.' Replace **[Your IoT Hub device connection string]**  with the connection string you copied from the **Azure Portal**. Note that the connection string includes the **Device ID** and **Shared Access Key** entries.
+1. In the code area, on the right side, locate the line with 'const connectionString =.' Replace **[Your IoT Hub device connection string]**  with the connection string you copied from the **Azure portal**. Note that the connection string includes the **Device ID** and **Shared Access Key** entries.
 
 	![](../images/lab7-image9.png)
 
@@ -109,7 +109,7 @@ In this task, we will test our device using the Raspberry Pi Simulator.
 
 1. Click on **Stop** to stop sending data.
 
-1. Return to the Azure Portal and your IoT Hub.
+1. Return to the Azure portal and your IoT Hub.
 
 1. Switch to the IoT Hub **Overview** blade and scroll down to the **IoT Hub Usage** information. Notice the chart, and you can select **Show data for last** to see the data based on days.
 
