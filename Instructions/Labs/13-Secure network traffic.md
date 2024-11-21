@@ -25,7 +25,7 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will create a Windows Server 2019 Datacenter virtual machine. 
 
-1. On the **Azure portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under **Services**.
+1. On the **Azure portal**, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under **Services**.
 
    ![](../images/lab1-image1.png) 
 
@@ -127,7 +127,7 @@ In this task, we will create a network security group and associate it with the 
 
 In this task, we will allow RDP traffic to the virtual machine by configuring an inbound security port rule. 
 
-1. In the **Azure portal** page, navigate to the **SimpleWinVM** virtual machine. 
+1. On the **Azure portal**, navigate to the **SimpleWinVM** virtual machine. 
 
 1. On the **Overview** pane, click on the **Connect (1)** drop-down and then select **Connect (2).**
 
@@ -185,7 +185,7 @@ In this task, we will create an NSG outbound port rule that will deny Internet a
 
 1. Minimize the RDP session to navigate back to the **Azure portal**.
 
-1. In the **Azure portal**, navigate to the network security group and select **myNSGSecure**. 
+1. On the **Azure portal**, navigate to the network security group and select **myNSGSecure**. 
 
 1. From the left navigation menu, under **Settings**, select **Outbound security rules (1)**. Notice there is a rule, **AllowInternetOutbound (2)**. This is a default rule and cannot be removed. 
 
