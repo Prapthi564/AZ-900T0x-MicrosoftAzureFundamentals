@@ -55,7 +55,7 @@ In this task, we will create a new storage account.
     | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false" /> (3)** |
     | Region | **<inject key="Region" enableCopy="false"/> (4)**  |
     | Performance | **Standard (5)** |
-    | Redundancy | **Locally redundant storage (LRS)(6)** |
+    | Redundancy | **Locally redundant storage (LRS) (6)** |
     
       ![Screenshot of the newly created storage account in the Azure portal .](../images/5-1.png)
 
@@ -110,7 +110,7 @@ In this task, we will create a blob container and upload a blob file.
 
    ![](./images/az-900-62.png) 
 
-   >**Note:** In the event that the access level for the storage account is configured as public, accessing the contents of the storage account can be done through a URL. To gain a deeper understanding of Storage Account access levels, please go through the following link:[Access Levels](https://learn.microsoft.com/en-us/azure/storage/blobs/anonymous-read-access-configure?tabs=portal)
+   >**Note:** In the event that the access level for the storage account is configured as public, accessing the contents of the storage account can be done through a URL. To gain a deeper understanding of Storage Account access levels, please go through the following link: [Access Levels](https://learn.microsoft.com/en-us/azure/storage/blobs/anonymous-read-access-configure?tabs=portal)
 
 1. As you have time, from the storage accounts blade, review the options for **File shares, Tables, and Queues**.
 
