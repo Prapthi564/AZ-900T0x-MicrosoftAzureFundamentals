@@ -75,7 +75,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 In this task, we will verify if the virtual machine is deployed correctly. 
 
-1. On the **Azure portal** page, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under **Services**.
+1. On the **Azure portal**, in the **Search Resources, Services, and Docs** (G+/) box at the top, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under **Services**.
 
    ![](../images/lab1-image1.png) 
 
