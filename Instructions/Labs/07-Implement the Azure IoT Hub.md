@@ -34,7 +34,7 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will create an IoT Hub. 
 
-1. On the **Azure portal** page, in the **Search Resources, Services and Docs (G+/)** box at the top, enter **IoT Hub (1)** and then select **IoT Hub (2)** under services.
+1. On the **Azure portal**, in the **Search Resources, Services and Docs (G+/)** box at the top, enter **IoT Hub (1)** and then select **IoT Hub (2)** under services.
 
    ![](./images/az-900-77.png)
   
