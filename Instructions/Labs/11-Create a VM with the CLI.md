@@ -22,7 +22,7 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will use Azure CLI to create a resource group and a virtual machine.  
 
-1. In the **Azure portal**, open the **Azure Cloud Shell** by clicking on the icon (as shown in the screenshot) in the top right.
+1. On the **Azure portal**, open the **Azure Cloud Shell** by clicking on the icon (as shown in the screenshot) in the top right.
 
     ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/AZ-900-1101.png)
 
@@ -66,7 +66,7 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
 
 1. When the command finishes running, in the Cloud Shell pane, close the Cloud Shell pane.
 
-1. In the **Azure portal**, search for **Virtual machines** and verify that **myVMCLI1** is running.
+1. On the **Azure portal**, search for **Virtual machines** and verify that **myVMCLI1** is running.
 
     ![Screenshot of the virtual machines page with myVMPS in a running state.](./images/az-900-111.png)
 
