@@ -22,7 +22,7 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will use Azure CLI to create a resource group and a virtual machine.  
 
-1. In the **Azure Portal**, open the **Azure Cloud Shell** by clicking on the icon (as shown in the screenshot) in the top right.
+1. In the **Azure portal**, open the **Azure Cloud Shell** by clicking on the icon (as shown in the screenshot) in the top right.
 
     ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/AZ-900-1101.png)
 
@@ -66,7 +66,7 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
 
 1. When the command finishes running, in the Cloud Shell pane, close the Cloud Shell pane.
 
-1. In the Azure portal, search for **Virtual machines** and verify that **myVMCLI1** is running.
+1. In the **Azure portal**, search for **Virtual machines** and verify that **myVMCLI1** is running.
 
     ![Screenshot of the virtual machines page with myVMPS in a running state.](./images/az-900-111.png)
 
@@ -74,7 +74,7 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
 
 In this task, we will practice executing CLI commands from the Cloud Shell. 
 
-1. From the Azure portal, open the **Azure Cloud Shell** by clicking on the icon in the top right of the Azure Portal.
+1. From the **Azure portal**, open **Azure Cloud Shell** by clicking on the icon in the top right.
 
 1. Ensure **Bash** is selected in the upper-left menu of the Cloud Shell pane.
 
@@ -107,7 +107,7 @@ In this task, we will review Azure Advisor recommendations.
 
 >**Note:** If you have completed the previous lab (Create a VM with PowerShell), then you have already performed this task. 
 
-1. From the **Search Resources, Services, and Docs** blade, search for **Advisor (1)** and select **Advisor (2)** from the services.
+1. In the **Search Resources, Services, and Docs** search box, search for **Advisor (1)** and select **Advisor (2)** under **Services**.
 
    ![](./images/az-900-101.png)
 
@@ -131,7 +131,7 @@ In this task, we will review Azure Advisor recommendations.
 
    ![](./images/az-900-104.png)
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> **Congratulations** on completing the task! Now, it is time to validate it. Here are the steps:
 > - Click on the **Validate** button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at **labs-support@spektrasystems.com**. We are available 24/7 to help.
