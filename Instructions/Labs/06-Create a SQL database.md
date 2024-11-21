@@ -23,7 +23,7 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will create an SQL database based on the AdventureWorksLT sample database. 
 
-1. On the **Azure Portal** page, within the **Search Resources, Services, and Docs** search bar, search for **SQL databases (1)** and select **SQL databases (2)**. 
+1. On the **Azure portal** page, in the **Search Resources, Services, and Docs** search box, search for **SQL databases (1)** and select **SQL databases (2)**. 
 
    ![](./images/az-900-63.png)
 
