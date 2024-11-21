@@ -20,7 +20,7 @@ In this lab, you will be able to complete the following tasks:
 
 ### Task 1: View Available Support Plan Options and a Technical Support Request
 
-1. On the **Azure portal** page, in the  **Search Resources, Services and Docs** box, search for and select **Help + support**. Moving on, select **Support plans** from the left navigation pane under **Support**.
+1. On the **Azure portal**, in the  **Search Resources, Services and Docs** box, search for and select **Help + support**. Moving on, select **Support plans** from the left navigation pane under **Support**.
 
    ![](../images/suuport.png)
 
