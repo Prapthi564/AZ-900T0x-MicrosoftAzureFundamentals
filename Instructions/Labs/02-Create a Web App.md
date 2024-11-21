@@ -21,7 +21,7 @@ In this lab, you will be able to complete the following tasks:
 ### Task 1: Create a Web App
 In this task, you will create an Azure App Service Web App.
 
-1. On the **Azure portal** page, in the **Search** **Resources, Services, and Docs** (G+/) box at the top, enter **App Service (1)**, and then select **App Services (2)** under **Services**.
+1. On the **Azure portal**, in the **Search** **Resources, Services, and Docs** (G+/) box at the top, enter **App Service (1)**, and then select **App Services (2)** under **Services**.
 
    ![](../images/az-900-11.png) 
 
