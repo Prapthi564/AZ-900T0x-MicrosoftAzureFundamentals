@@ -116,7 +116,7 @@ In this task, we will try to test whether the virtual machines can communicate (
 
 1. On the virtual machine **Overview** blade, click the **Connect** button and choose the **Connect** from the dropdown.
 
-    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/conrdp.png)
+    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/connect-vm1.png)
 
     >**Note**: The following directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store and on a Linux computer you can use an open source RDP client.
 
@@ -134,7 +134,7 @@ In this task, we will try to test whether the virtual machines can communicate (
 
    >**Note**: Repeat step 1 to 6 for **vm2**.
 
-1. In **both** newly created virtual machines(vm1,vm2), connect via RDP and **disable both the public and private firewall** by opening the Start menu > Settings > Network & Internet > Windows Firewall.
+1. In **both** newly created virtual machines(vm1,vm2), connect via RDP and **disable both the public and private firewall** by opening the **Start menu > Settings > Network & Internet > Windows Firewall**.
 
    ![image](../images/vnet01.png)
 
