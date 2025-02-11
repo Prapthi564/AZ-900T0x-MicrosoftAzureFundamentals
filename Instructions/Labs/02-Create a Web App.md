@@ -75,7 +75,7 @@ In this task, we will test the web app.
 
 1. Copy the URL and paste it into a new browser tab to observe the page.
 
-    ![](images/pax8-image59.png)
+    ![](images/linux-webapp.png)
 
 1. Switch back to the **Overview** blade of your web app and select **Monitoring** tab note that it includes several charts. If you repeat step 4 a few times, you should be able to see corresponding telemetry being displayed in the charts. This includes number of requests and average response time.
 
