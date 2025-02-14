@@ -24,13 +24,20 @@ In this lab, you will complete the following tasks:
 
 1. In the **Lab-VM**, launch **Notepad** by searching for it in the Start menu, then input a random text within the **Notepad** application.
 
+    ![](../images/L5-preq1.png)
+
 1. Next, access the menu bar at the top and select **File > Save as**. Navigate to the Desktop directory, name the file as **Test**, and save the file to the desktop.
+
+    ![](../images/L5-preq2.1.png)
+    ![](../images/save-test-file.png)
 
 ### Task 1: Create a storage account
 
 In this task, we will create a new storage account. 
 
 1. 1. On Azure Portal page, in **Search resources, services, and docs (G+/) box** at the top of the portal, enter **Storage accounts**, and then select **Storage accounts** under services, and then click **+ Create**. 
+
+    ![](../images/T1S1-1402.png)
 
 1. On the **Basics** tab of the **Create storage account** blade, fill in the following information.Leave the defaults for everything else, then click on **Next**.
 
@@ -43,7 +50,11 @@ In this task, we will create a new storage account.
     | Performance | **Standard** |
     | Redundancy | **Locally redundant storage (LRS)** |
 
+    ![](../images/T1S2-1402.png)
+
 1. On the **Advanced** tab of the **Create a storage account**, choose **Hot** for **Access tier** setting under **Blob storage**.
+
+    ![](../images/T1S3-1402.png)
 
 1. Click **Review + create** to review your storage account settings and allow Azure to validate the configuration. 
 
@@ -57,14 +68,18 @@ In this task, we will create a new storage account.
 
 In this task, we will create a Blob container and upload a blob file. 
 
-1. Click on the **storageaccount<inject key="DeploymentID" enableCopy="false" />** (newly created storage account), from the left navigation pane under **Data storage** section, and then click **Containers** under Data storage.
+1. Click on the **storageaccount<inject key="DeploymentID" enableCopy="false" />** (newly created storage account), from the left navigation pane under **Data storage** section, and then click **Containers (1)** under Data storage.
 
-1. Click **+ Container** and complete the information. Use the Information icons to learn more. When done click **Create**.
+    ![](../images/T2S1-1402.png)
+
+1. Click **+ Container (2)** and complete the information. Use the Information icons to learn more. When done click **Create**.
 
    | Setting | Value |
    | ---- | ---- |
    | Name | **container1**|
    | Anonymous access level| **Private (no anonymous access)** |
+
+    ![](../images/T2S2-1402.png)
     
     ![Screenshot of the newly created blob container in the storage account in the Azure portal.](../images/AZ-9000502.png)
 
