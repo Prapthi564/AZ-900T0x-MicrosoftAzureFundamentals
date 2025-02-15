@@ -169,7 +169,7 @@ In this task, we will create an NSG outbound port rule that will deny Internet a
     | Destination | **Service Tag** |
     | Destination service tag | **Internet** |
     | Destination port ranges | **\*** |
-    | Protocol | **Any** |
+    | Protocol | **TCP** |
     | Action | **Deny** |
     | Priority | **4000** |
     | Name | **DenyInternet** |
