@@ -69,25 +69,36 @@ Please make sure to use the CTRL+SHIFT+V or CTRL+V keys when pasting commands in
    ![Launch Azure Portal](../images/sc900-image(1).png)
 
  
-2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
+1. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
        ![Enter Your Username](../images/sc900-image-1.png)
  
-3. Next, provide your password:
+1. Next, provide your password:
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
       ![Enter Your Password](../images/sc900-image-2.png)
  
-4. If you get a pop-up stating **Action Required** click on **Ask Later**.
+## Steps to Proceed with MFA Setup if "Ask Later" Option is Not Visible
 
-5. If prompted to stay signed in, you can click "No."
+1. At the **"More information required"** prompt, select **Next**.
+1. On the **"Keep your account secure"** page, select **Next** twice.
+1. **Note:** If you don’t have the Microsoft Authenticator app installed on your mobile device:
+   - Open **Google Play Store** (Android) or **App Store** (iOS).
+   - Search for **Microsoft Authenticator** and tap **Install**.
+   - Open the **Microsoft Authenticator** app, select **Add account**, then choose **Work or school account**.
+1. A **QR code** will be displayed on your computer screen.
+1. In the Authenticator app, select **Scan a QR code** and scan the code displayed on your screen.
+1. After scanning, click **Next** to proceed.
+1. On your phone, enter the number shown on your computer screen in the Authenticator app and select **Next**.
+       
+1. If prompted to stay signed in, you can click "No."
  
-6. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Cancel** to skip the tour.
+1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Maybe Later" to skip the tour.
  
-7. Please review the **Note** sections in the lab guide for enhanced comprehension and improved lab performance.
+1. Please review the **Note** sections in the lab guide for enhanced comprehension and improved lab performance.
 
 ## Support Contact
 The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
